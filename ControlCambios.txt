@@ -1,9 +1,20 @@
 
 Intregrantes:
 
-	-> D: David Manos
+	-> M: David Manso
 	-> I: Inés Varon
 	-> O: Oscar Martín	
 	-> D: Daniel Sirgo
+_________________________________________________________________________
+
+----> Semana 2 14/02/2023:
+
+-O: Investigación acerca de cursos que puedan enseñar como diseñas el sistema de IA, 
+anotación de alguna tarea más en la Planificación - 30min.
+
+-D,I,O,M: Comienzo de planificación.
 
 
+----> Semana 1 07/02/2023 y 09/02/2023:
+
+-D,I,O,M: Introdcucción al proyecto.
