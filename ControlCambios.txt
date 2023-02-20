@@ -7,6 +7,12 @@ Intregrantes:
 	-> D: Daniel Sirgo
 _________________________________________________________________________
 
+----> Semana 2 20/02/2023:
+
+-O: Investigación y montaje de redes - 1h
+
+_________________________________________________________________________
+
 ----> Semana 2 18/02/2023:
 
 -O: Investigación y montaje de redes - 3h
@@ -32,6 +38,7 @@ anotación de alguna tarea más en la Planificación - 30min.
 
 -D,I,O,M: Comienzo de planificación - 2h.
 
+_________________________________________________________________________
 
 ----> Semana 1 07/02/2023 y 09/02/2023:
 
