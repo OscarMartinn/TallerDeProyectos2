@@ -7,9 +7,18 @@ Intregrantes:
 	-> D: Daniel Sirgo
 _________________________________________________________________________
 
+----> Semana 3 25/02/2023:
+
+-O: Etiquetado de imagenes para entrenar en YOLO - 2h
+
+----> Semana 3 23/02/2023:
+
+-D,I,O,M: Seminario planificación proyecto - 2h.
+
 ----> Semana 3 21/02/2023:
 
 -O: Investigación y montaje de redes - 1h
+-D,I,O,M: Seminario planificación proyecto - 2h.
 
 ----> Semana 3 20/02/2023:
 
