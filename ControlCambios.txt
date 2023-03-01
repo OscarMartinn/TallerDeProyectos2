@@ -10,7 +10,9 @@ _________________________________________________________________________
 
 ----> Semana 4 28/02/2023:
 
--D,M,O: Planificación del proyecto y comenzar a trabajar.
+-O: Estudio de creción de datasets - 1h.
+
+-D,M,O: Planificación del proyecto y comenzar a trabajar - 2h.
 _________________________________________________________________________
 
 ----> Semana 3 25/02/2023:
