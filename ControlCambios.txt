@@ -8,6 +8,12 @@ Intregrantes:
 
 _________________________________________________________________________
 
+----> Semana 4 02/03/2023:
+
+-D: Configuración SDR  - 2h.
+
+-M,O: Descripción de pasos a seguir poara la puesta en marcha de la IA - 2h.
+
 ----> Semana 4 28/02/2023:
 
 -O: Estudio de creción de datasets - 1h.
