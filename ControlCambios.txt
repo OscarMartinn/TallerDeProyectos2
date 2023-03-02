@@ -10,6 +10,8 @@ _________________________________________________________________________
 
 ----> Semana 4 02/03/2023:
 
+-O: Creación de dataset y adecuación para entrenamiento - 1h15min.
+
 -D: Configuración SDR  - 2h.
 
 -M,O: Descripción de pasos a seguir poara la puesta en marcha de la IA - 2h.
