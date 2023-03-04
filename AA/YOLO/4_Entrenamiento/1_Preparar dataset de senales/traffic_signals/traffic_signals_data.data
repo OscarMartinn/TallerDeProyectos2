@@ -1,5 +1,0 @@
-classes = 4
-train = /Users/oscarmartincasares/IA/4_Entrenamiento/traffic_signals/train.txt
-valid = /Users/oscarmartincasares/IA/4_Entrenamiento/traffic_signals/test.txt
-names = /Users/oscarmartincasares/IA/4_Entrenamiento/traffic_signals/classes.names
-backup = backup

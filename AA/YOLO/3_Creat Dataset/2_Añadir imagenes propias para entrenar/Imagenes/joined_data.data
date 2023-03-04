@@ -1,5 +1,0 @@
-classes = 17
-train = /Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/train.txt
-valid = /Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/test.txt
-names = /Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/classes.names
-backup = backup

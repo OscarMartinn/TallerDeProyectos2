@@ -1,0 +1,8 @@
+Para transformar el video en frames necesitamos tener instalado ffmpeg.
+
+En MAC se hace mediante Homebrew, para ello:
+	- brew install ffmpeg
+
+En el directorio en el que se encuentra el video:
+
+- ffmpeg -i nombre_video.mp4 -vf fps=4 nombre_imagen-%d.jpeg

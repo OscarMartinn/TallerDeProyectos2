@@ -1,0 +1,5 @@
+classes = 16
+train = /Users/oscarmartincasares/Desktop/Curso/VideoToFrame/train.txt
+valid = /Users/oscarmartincasares/Desktop/Curso/VideoToFrame/test.txt
+names = /Users/oscarmartincasares/Desktop/Curso/VideoToFrame/classes.names
+backup = backup
