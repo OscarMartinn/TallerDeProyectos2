@@ -1,0 +1,5 @@
+/Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/e036a21d595d7131.jpg
+/Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/forest-road-8.jpeg
+/Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/34aa7469a7a70a1b.jpg
+/Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/forest-road-10.jpeg
+/Users/oscarmartincasares/IA/3_Creat Dataset/2_Añadir imagenes propias para entrenar/Imagenes/forest-road-4.jpeg

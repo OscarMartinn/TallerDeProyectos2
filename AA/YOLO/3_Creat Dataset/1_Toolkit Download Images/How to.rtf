@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25480\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 PAra descargar im\'e1genes ya etiquetadas de diferentes clases, en este caso de Coches y Autobuses, son para entrenamiento y quiero que me agrupe las m\'faltiples cases en 1 solo directorio. Solamente quiero que me descargue 8 im\'e1genes\
+\
+python3 main.py downloader --classes Car Bus --type_csv train --multiclasses 1 --limit 8\
+\
+Si quisieramos visualizar las im\'e1genes que hemos descargado y cc\'f3mo est\'e1n etiquetadas:\
+\
+python3 main.py visualizer\
+\
+\
+\
+Para transformar nuestro dataset al formato YOLO, en primer lugar, obtenermos la ruta a los ficheros csv descargados y a las im\'e1genes mediante el script dedicado.\
+\
+Ejemplo:\
+\
+(entornoIA) oscarmartincasares@MacBook-Pro-de-Oscar csv_folder % python getting-full-path.py \
+/Users/oscarmartincasares/IA/Creat Dataset/Toolkit Download Images/OIDv4_ToolKit/OID/csv_folder\
+(entornoIA) oscarmartincasares@MacBook-Pro-de-Oscar csv_folder % cd ..\
+(entornoIA) oscarmartincasares@MacBook-Pro-de-Oscar OID %  cd Dataset/train/Car_Bus \
+(entornoIA) oscarmartincasares@MacBook-Pro-de-Oscar Car_Bus % python getting-full-path.py\
+/Users/oscarmartincasares/IA/Creat Dataset/Toolkit Download Images/OIDv4_ToolKit/OID/Dataset/train/Car_Bus\
+\
+\
+Copiamos dichas rutas en el fichero converting-annotations.py, el cual tras su ejecuci\'f3n crear\'e1 los ficheros .txt correspondientes para cada imagen.\
+Adem\'e1s en dicho script specificaremos cu\'e1les son las clases de las cuales hemos descargado el dataset.\
+labels = ['Car', 'Bus']\
+\
+Entonces tras la ejecuci\'f3n del script nos crear\'e1 los ficheros .txt en el directorio donde se encuentran las im\'e1genes descargadas.\
+A trav\'e9s de la herramienta de etiquetado labelImg abriendo el directorio podemos comprobar si se ha realizado correctamente}

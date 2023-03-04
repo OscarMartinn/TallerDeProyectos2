@@ -1,0 +1,37 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2708
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28300\viewh14560\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 En primer lugar en la carpeta \'91Imagenes\'92 hemos introducido las im\'e1genes descargadas como dataset y aquellas propias que queremos introducit para entrenar tambien, que en este caso ser\'e1n las que utilizamos a modo de ejemplo para aprender a etiquetar de la moto y el coche. \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 \
+RECALCAR QUE EST\'c1 PREPARADO PARA TRABAJAR CON IM\'c1GENES .JPG O .JPEG\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 En la mismca carpteta copiamos el fichero de get_path.py, tambi\'e9n lo hacemos en las carpetas en las que se encuentran los ficheros .txt donde se indican los bounding boxes de cada grupo de im\'e1genes.\
+Luego tendremos tres rutas diferentes:\
+\
+- Ruta a la im\'e1genes conjuntas:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\fs22 \cf2 \CocoaLigature0 /Users/oscarmartincasares/IA/3_Creat Dataset/2_A\'f1adir imagenes propias para entrenar/Imagenes\
+\
+- Ruta a los ficheros txt de las im\'e1genes descargdas:\
+/Users/oscarmartincasares/IA/3_Creat Dataset/1_Toolkit Download Images/OIDv4_ToolKit/OID/Dataset/train/Car_Bus\
+\
+- Ruta a los ficheros txt de las joined images o imagenes de nuestra propia cosecha:\
+/Users/oscarmartincasares/IA/2_Etiquetado/VideoToFrame\
+\
+\
+Pasamos a ejecutar el fichero \'91joined-train-and-test-txt-files.py\'92 para crear los nuevos ficheros de entrenamiento. De todas estas imagenes utilizaremos un 85% para entrenar y un 15% para validaci\'f3n. Con este fichero obtendremos todas las rutas a cada una de las im\'e1genes que asumimos como dataset y autom\'e1ticamente las dividir\'e1 en los ficheros de entrenamiento y validaci\'f3n. Crear\'e1 train.txt y test.txt dentro de la carpeta donde se encuentran.\
+\
+\
+A continuaci\'f3n pasamos a crear los ficheros de configuraci\'f3n .data y .name mediante el fichero \'91joined-files-data-and-name.py\'92, en el cu\'e1l cambiamos las tres rutas anteriores.\
+\
+Destacar que en el fichero joined_data.data la definici\'f3n de backup especifica en qu\'e9 directorio se guardar\'e1n los pesos entrenados.}
