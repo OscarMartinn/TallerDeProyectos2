@@ -10,6 +10,8 @@ _________________________________________________________________________
 
 ----> Semana 4 02/03/2023:
 
+-O: Preparar dataset de señales de tráfico para entrenar - 1h30min.
+
 -O: Creación de dataset y adecuación para entrenamiento - 1h15min.
 
 -D: Configuración SDR  - 2h.
