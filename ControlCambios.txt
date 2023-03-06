@@ -8,6 +8,12 @@ Intregrantes:
 
 _________________________________________________________________________
 
+----> Semana 5 06/03/2023:
+
+-O: Instalación de Darknet para entrenar la red - 1h
+
+_________________________________________________________________________
+
 ----> Semana 4 02/03/2023:
 
 -O: Preparar dataset de señales de tráfico para entrenar - 1h30min.
