@@ -8,7 +8,13 @@ Intregrantes:
 
 _________________________________________________________________________
 
-----> Semana 5 06/03/2023:
+----> Semana 5 09/03/2023:
+
+-O: Darknet está instalado y queda ponerlo en marcha para poder funcionar con los pesos de las señales - 2h
+- M: Planificación del proyecto - 2h
+-I,D: Terminar de instalar software blade, preparar ficheros de configuración y documentación - 2 h
+
+----> Semana 5 07/03/2023:
 
 -O,M: Instalación de Darknet para entrenar la red - 2h
 -I,D: Solventar problema con la Blade y descargar/instalar srsRAN - 2 h
