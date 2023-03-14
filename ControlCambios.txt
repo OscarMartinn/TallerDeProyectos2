@@ -8,6 +8,11 @@ Intregrantes:
 
 
 _________________________________________________________________________
+----> Semana 6 14/03/2023:
+
+-O: Puesta en marcha de las medidas de rendimiento - 2h
+-M: Iniciación a desarrollo de IA e informe TEC - 2h
+-I,D: Solucionar problemas de ficheros de configuración - 2h
 
 ----> Semana 6 13/03/2023:
 
