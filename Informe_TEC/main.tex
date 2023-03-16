@@ -7,6 +7,8 @@
 \usepackage{float}
 \usepackage{graphicx}
 \usepackage{caption}
+\captionsetup[table]{name=Tabla}
+
 \usepackage{subcaption}
 \usepackage{listings}
 \usepackage{gensymb}
@@ -67,21 +69,27 @@ Inés Varona Peña, David Manso Fernández, Óscar Martín Casares y Daniel Sirg
 \maketitle
 \tableofcontents
 \listoffigures
-\listoftables
+%\listoftables
 
-\chapter{Contexto y motivación}
+\chapter{Memoria del proyecto}
+\section{Contexto y motivación}
 \input{Text/Contexto_Y_Motivacion.tex}
 
-\chapter{Objetivos}
+\section{Objetivos}
 
-\chapter{Metodología del proyecto}
+\section{Metodología del proyecto}
 \input{Text/Metodologia/Metodologia_del_Proyecto.tex}
 
-\chapter{Arquitectura}
-\chapter{Infraestructura de la red}
-\chapter{Identificación de imágenes}
-\chapter{Valoración económica}
-\chapter{Conclusiones y líneas futuras}
+\section{Arquitectura}
+\section{Infraestructura de la red}
+\input{Text/Infraestructura/Infraestructura.tex}
+\section{Identificación de imágenes}
+\chapter{Normativa}
+
+\chapter{Informe técnico de empresa}
+\section{Valoración económica}
+\section{Conclusiones y líneas futuras}
+
 \chapter{Referencias}
 
 \end{document}
