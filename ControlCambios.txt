@@ -9,9 +9,10 @@ Intregrantes:
 
 _________________________________________________________________________
 ----> Semana 6 16/03/2023:
-- I: Estudio ficheros de configuración. Configuración SIM - 4h
+- I: Estudio LTE - 2h
+- I: Estudio ficheros de configuración. Configuración SIM - 2h
 - M: Informe TEC - 2h
--O: Puesta en marcha de las medidas de rendimiento - 2h
+- O: Puesta en marcha de las medidas de rendimiento - 2h
 
 ----> Semana 6 15/03/2023:
 - I: Estudio ficheros de configuración. Informe sobre tecnología 4G - 4h 
