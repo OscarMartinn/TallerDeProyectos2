@@ -12,6 +12,7 @@ _________________________________________________________________________
 ----> Semana 6 18/03/2023:
 
 - O: Medidas de rendimiento IA - 2h 
+- I: Puesta en marcha de la SIM, ficheros de configuración - 3h 
 
 ----> Semana 6 16/03/2023:
 
