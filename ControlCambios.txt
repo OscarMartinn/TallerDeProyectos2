@@ -2,16 +2,37 @@
 Intregrantes:
 
 	-> M: David Manso
-	-> I: Inés Varon
+	-> I: Inés Varona
 	-> O: Oscar Martín	
 	-> D: Daniel Sirgo
 
+_________________________________________________________________________
+
+----> Semana 7 21/03/2023:
+
+- I,D: Levantar red 4G, solucionar problema ancho de banda - 2h
+- O: Detección con señales del laboratorio - 2h
+
+----> Semana 7 21/03/2023:
+
+- I,D: Estudio ficheros de configuración. Configuración SIM - 2h
+- M: Informe TEC - 2h
+- O: Puesta en marcha de las medidas de rendimiento - 2h
+- O: Automatización de generación de ficheros para generar métricas - 1h30min 
 
 _________________________________________________________________________
+
+----> Semana 6 17/03/2023:
+
+- I: Puesta en marcha de la SIM, ficheros de configuración - 1h 
 
 ----> Semana 6 18/03/2023:
 
 - O: Medidas de rendimiento IA - 2h 
+- I: Puesta en marcha de la SIM, ficheros de configuración - 3h 
+
+----> Semana 6 17/03/2023:
+
 - I: Puesta en marcha de la SIM, ficheros de configuración - 3h 
 
 ----> Semana 6 16/03/2023:
