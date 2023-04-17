@@ -7,6 +7,10 @@ Intregrantes:
 	-> D: Daniel Sirgo
 
 _________________________________________________________________________
+----> Semana 9 17/04/2023:
+
+- I,D: Estudio servidores MQTT y Cloud - 2h
+- M: Estudio servidores MQTT y Cloud. Actualización planificacion - 2h
 
 ----> Semana 7 21/03/2023:
 
