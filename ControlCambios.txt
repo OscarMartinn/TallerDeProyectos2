@@ -1,5 +1,5 @@
 
-Intregrantes:
+Integrantes:
 
 	-> M: David Manso
 	-> I: Inés Varona
@@ -7,11 +7,15 @@ Intregrantes:
 	-> D: Daniel Sirgo
 
 _________________________________________________________________________
+----> Semana 9 18/04/2023:
+
+- I,D, M: Conexión servidor mosquitto y comprobación funcionamiento general de infraestructura - 2h
+
 ----> Semana 9 17/04/2023:
 
 - I,D: Estudio servidores MQTT y Cloud - 2h
 - M: Estudio servidores MQTT y Cloud. Actualización planificacion - 2h
-
+_________________________________________________________________________
 ----> Semana 7 21/03/2023:
 
 - I,D: Levantar red 4G, solucionar problema ancho de banda - 2h
