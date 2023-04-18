@@ -10,7 +10,7 @@ _________________________________________________________________________
 ----> Semana 9 18/04/2023:
 
 - I,D, M: Conexión servidor mosquitto y comprobación funcionamiento general de infraestructura - 2h
-
+- M: Edición de documentación de planificación de proyecto e informe - 1,5h
 ----> Semana 9 17/04/2023:
 
 - I,D: Estudio servidores MQTT y Cloud - 2h
