@@ -1,0 +1,49 @@
+INFORME CREACION RED 4G
+
+Descargamos la última versión de ubuntu, 22.04 LTS.
+A través de UNetbootin grabamos la iso en un pincho e instalamos Linux en el ordenador.
+Con el manual de GitHub realizamos la instalación de los drivers de la blade.
+https://github.com/Nuand/bladeRF/wiki/Getting-Started:-Linux
+
+sudo add-apt -repository ppa:nuandllc/bladerf
+sudo apt-get update
+sudo apt-get install bladerf
+
+Tuvimos un problema con la Blade y la cambiamos por una nueva.
+
+Instalamos srsran siguiendo el manual de github, instalamos las librerías boost y liboost.
+https://docs.srsran.com/projects/4g/en/latest/general/source/1_installation.html
+https://docs.srsran.com/projects/4g/en/latest/usermanuals/source/srsepc/source/2_epc_getstarted.html
+
+git clone https://github.com/srsRAN/srsRAN_4G.git
+cd srsRAN_4G
+mkdir build
+cd build
+cmake ../
+make
+make test
+
+sudo make install
+srsran_4g_install_configs.sh user
+
+Modificamos los ficheros de configuración, que se encuentran en la ruta root/.config/srsran/ epc.conf, enb.conf y user_db.csv.
+
+en enb.conf se cambian los valores de mcc y mnc que están disponibles en la SIM el MCC y MNC que utilizamos en nuestro caso es 901-70 para que se corresponda con el IMSI de las SIM.También cambiamos el dl_earfcn (esto se ha calculado en una página web:  y para el ancho de banda n_prb=50 teniendo en cuenta que: Número de Bloques de Recursos Físicos (PRB, Physical Resource Blocks). Proporcional al ancho de banda utilizado, siendo un PRB equivalente a 0,2MHz. Los valores permitidos son 6=1.4MHz, 15=3MHz, 25=5MHz, 50=10MHz, 75=15MHz y 100=20MHz. 
+
+en epc.conf también se cambian los valores de mcc y mnc A LOS MISMOS y añadimos los nombres de la red con: 
+
+full_net_name= NOMBRE
+short_net_name= NOMBRE
+
+en user_db.cvs hay que crear un usuario nuevo:
+
+nombre, mil (Auth), IMSI (aparece en las hojas de las sims), KEY (aparece en las hojas de las sims), opc, OPC(aparece en las hojas de las sims), 9000, sqn (se pone automáticamente, pero pon números, por ejemplo todo a 0),7 (QCI), dynamic (IP_alloc)
+
+Para crear la red y que funcione hay que seguir los siguientes pasos:
+srepc_if_masq.sh enp0s25
+srsepc epc.conf
+srsenb enb.conf
+
+Una vez que obtuvimos la conexión a internet con nuestra red 4G nos bajamos los ficheros python de control del coche para crear el servidor cloud 
+e instalamos el servidor MQTT mosquitto.
+ 
