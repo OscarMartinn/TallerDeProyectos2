@@ -1,13 +1,14 @@
 \documentclass[10pt,a4paper,titlepage]{report}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish,es-tabla]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{abstract}
 \usepackage{caption}
-\captionsetup[table]{name=Tabla}
+%\captionsetup[table]{name=Tabla}
 
 \usepackage{subcaption}
 \usepackage{listings}
@@ -68,32 +69,41 @@ Inés Varona Peña, David Manso Fernández, Óscar Martín Casares y Daniel Sirg
 \maketitle
 \tableofcontents
 \listoffigures
-%\listoftables
+\listoftables
 
-\chapter{Resumen}
+\chapter{Introducción}
+\input{Text/Introduccion/Introduccion.tex}
+%\input{Text/Resumen.tex}
+
 \chapter{Planteamiento inicial}
-\input{Text/Contexto_Y_Motivacion.tex}
+	\input{Text/PlanteamientoInicial/PlanteamientoInicial.tex}
 
 \chapter{Solución}
+	\section{Metodología del proyecto}
+		\input{Text/Solucion/Sol_Metodologia.tex}
+	
+	\section{Infraestructura}
+		\input{Text/Solucion/Sol_Infraestructura.tex}
+		
+	\section{Detección de señales de tráfico}
+		\input{Text/Solucion/Sol_Deteccion.tex}
+
 \chapter{Normativa}
+
 \chapter{Costes}
 
-\chapter{Anexo I}
-\chapter{Anexo II}
-\chapter{Anexo III}
-\section{Objetivos}
+\chapter{Anexo I: Infraestructura 4G}
+	\section{Software}	
+	\section{Componentes}
+	\section{Infraestructura de la red}
+		\input{Text/AnexoI/Infraestructura.tex}
+	
+\chapter{Anexo II: Detección de señales de tráfico}
+	\section{Modelos de IA}	
+	\section{Identificación de imágenes}
+	
+\chapter{Anexo III: Normativa}
 
-\section{Metodología del proyecto}
-\input{Text/Metodologia/Metodologia_del_Proyecto.tex}
-
-\section{Arquitectura}
-\section{Infraestructura de la red}
-\input{Text/Infraestructura/Infraestructura.tex}
-\section{Identificación de imágenes}
-\chapter{Normativa}
-
-\chapter{Informe técnico de empresa}
-\section{Valoración económica}
 \section{Conclusiones y líneas futuras}
 
 \chapter{Referencias}
