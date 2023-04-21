@@ -7,13 +7,13 @@
 \contentsline {section}{\numberline {3.3}Detección de señales de tráfico}{6}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Normativa}{7}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Costes}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Anexo I: Infraestructura 4G}{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software}{9}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Componentes}{9}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Infraestructura de la red}{9}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Anexo II: Detección de señales de tráfico}{10}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Modelos de IA}{10}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Identificación de imágenes}{10}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Anexo III: Normativa}{11}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Conclusiones y líneas futuras}{11}{section.8.1}%
-\contentsline {chapter}{\numberline {9}Referencias}{12}{chapter.9}%
+\contentsline {chapter}{\numberline {6}Conclusiones}{9}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Anexo I: Infraestructura 4G}{10}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software}{10}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Componentes}{10}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Infraestructura de la red}{10}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Anexo II: Detección de señales de tráfico}{11}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Modelos de IA}{11}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Identificación de imágenes}{11}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Anexo III: Normativa}{12}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Referencias}{13}{chapter.10}%

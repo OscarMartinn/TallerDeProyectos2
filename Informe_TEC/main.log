@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.2)  19 APR 2023 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.2)  20 APR 2023 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -651,9 +651,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 ]
 Cap\'{\i }tulo 2.
-(./Text/PlanteamientoInicial/PlanteamientoInicial.tex) [5
+(./Text/PlanteamientoInicial/PlanteamientoInicial.tex
+<Imagenes/PlanteamientoInicial/carreteraMAPS.pdf, id=132, 1272.8714pt x 847.223
+2pt>
+File: Imagenes/PlanteamientoInicial/carreteraMAPS.pdf Graphic file (type pdf)
+<use Imagenes/PlanteamientoInicial/carreteraMAPS.pdf>
+Package pdftex.def Info: Imagenes/PlanteamientoInicial/carreteraMAPS.pdf  used 
+on input line 5.
+(pdftex.def)             Requested size: 483.69687pt x 321.94817pt.
+) [5
 
-]
+ <./Imagenes/PlanteamientoInicial/carreteraMAPS.pdf>]
 Cap\'{\i }tulo 3.
 (./Text/Solucion/Sol_Metodologia.tex) (./Text/Solucion/Sol_Infraestructura.tex)
 (./Text/Solucion/Sol_Deteccion.tex) [6
@@ -668,11 +676,11 @@ Cap\'{\i }tulo 5.
 
 ]
 Cap\'{\i }tulo 6.
-(./Text/Infraestructura/Infraestructura.tex) [9
+[9
 
 ]
 Cap\'{\i }tulo 7.
-[10
+(./Text/AnexoI/Infraestructura.tex) [10
 
 ]
 Cap\'{\i }tulo 8.
@@ -682,18 +690,22 @@ Cap\'{\i }tulo 8.
 Cap\'{\i }tulo 9.
 [12
 
+]
+Cap\'{\i }tulo 10.
+[13
+
 ] (./main.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6E6A8312E40D69632238AA57E15BD5DE;2687.
+(rerunfilecheck)             Checksum: 021C44DC568281DE5064AE1DC8A3CD83;2580.
  ) 
 Here is how much of TeX's memory you used:
- 14592 strings out of 478994
- 216802 string characters out of 5858184
+ 14609 strings out of 478994
+ 217241 string characters out of 5858184
  731385 words of memory out of 5000000
- 31803 multiletter control sequences out of 15000+600000
+ 31816 multiletter control sequences out of 15000+600000
  412812 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,7n,74p,891b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -701,10 +713,10 @@ Here is how much of TeX's memory you used:
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (13 pages, 107373 bytes).
+Output written on main.pdf (14 pages, 1690172 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
