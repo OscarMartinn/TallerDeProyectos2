@@ -8,6 +8,14 @@ Integrantes:
 
 _________________________________________________________________________
 
+----> Semana 10 24/04/2023:
+
+- I,D: Arreglar problemas coche - 2h
+- O: Manual de IA - 2h
+- M: Arreglar problemas coche y manual - 2h
+
+_________________________________________________________________________
+
 ----> Semana 9 21/04/2023:
 
 - I,D: Copfigurar nueva SIM y arreglar problemas coche - 2h
