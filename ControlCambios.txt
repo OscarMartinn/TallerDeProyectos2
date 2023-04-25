@@ -10,8 +10,9 @@ _________________________________________________________________________
 
 ----> Semana 10 25/04/2023:
 
-- I,D,M: Arreglar modem USB y conectar al coche - 2h
-- O: Manual de IA - 2h
+- I: Legislación - 2h
+- I,D,M: Arreglar modem USB y conectar al coche - 3h
+- O: Manual de IA - 3h15min
 
 ----> Semana 10 24/04/2023:
 
