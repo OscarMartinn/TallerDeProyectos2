@@ -10,6 +10,12 @@ _________________________________________________________________________
 
 ----> Semana 10 27/04/2023:
 
+- I,D: Rendimiento de la red - 2h
+- O: Rendimiento final de la IA y preparar Git nuevo - 2h
+- M: Informe técnico - 2h
+
+----> Semana 10 27/04/2023:
+
 - I,D,M: Conexión con el coche, pruebas de campo, grabación de videos - 4h
 - O: Manual de IA - 4h
 
