@@ -1,0 +1,42 @@
+En el presente documento se explicará cómo hacer uso de las diferentes herramientas que se han utilizado a lo largo del desarrollo del sistema inteligente de detección de señales. Destacar que el desarrollo ha sido llevado a cabo en un ordenador con sistema operativo \textit{MAC OS/Linux}, es decir, en caso de trabajar con un ordenador \textit{Windows} habrá que prestar especial al código. Tendrás que modificar las líneas en las que se hace referencia a directorios o ficheros, ya que se hace de forma diferente en dichos sistemas operativos, en \textit{MAC OS/Linux} se hace con \textbf{‘/’} y en \textit{Windows} con \textbf{‘\textbackslash ’}. Asimismo, los directorios están referenciados respecto a nuestro ordenador personal, por lo que habrá que adecuarlos al tuyo propio.\\
+
+Para hacer uso del sistema, debemos descargarnos el proyecto de nuestro repositorio de \textit{GitHub}, suponiendo que tenemos la herramienta de línea de comandos de \textit{git} instalada, podemos hacer:\\
+
+\begin{lstlisting}
+git clone https://github.com/OscarMartinn/TallerDeProyectos2.git
+\end{lstlisting}
+
+En primer lugar, para poder trabajar con todo proyecto debemos crear nuestro propio entorno virtual en el cual instalaremos todas las librerías necesarias para ejecutar el código. 
+
+\begin{lstlisting}
+python3 -m venv 'nombre_entorno'
+\end{lstlisting}
+
+Una vez creado el entorno debemos activarlo, por ejemplo, en un ordenador \textbf{MAC}:
+
+\begin{lstlisting}
+source nombre_entorno/bin/activate
+\end{lstlisting}
+
+Todas las librerías necesarias junto con sus versiones concretas se han guardado en el fichero \textit{requirements.txt}, por ello instalaremos automáticamente cada una de ellas:
+
+\begin{lstlisting}
+pip install -r requirements.txt
+\end{lstlisting}
+
+Tras realizar todos los pasos anteriores ya nos encontramos en disposición de ejecutar todos los algoritmos.\\
+Desglosaremos el proyecto en tres partes distintas:
+\begin{enumerate}
+\item Detección y seguimiento de señales
+\item Herramienta de etiquetado
+\item Medición del rendimiento
+\item Creación automática de datasets.
+\end{enumerate}
+
+\subsection{Detección y seguimiento de señales}	
+	\input{Text/AnexoI_Manual/AA/deteccion.tex}
+
+\subsection{Herramienta de etiquetado}
+	\input{Text/AnexoI_Manual/AA/etiquetado.tex}
+	
+\subsection{Identificación de imágenes}

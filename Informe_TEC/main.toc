@@ -8,10 +8,12 @@
 \contentsline {chapter}{\numberline {4}Costes}{7}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Rendimiento: Validación del servicio}{8}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Anexo I: Manual del desarrollador}{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software}{9}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Componentes}{9}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Infraestructura de la red}{9}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Modelos de IA}{9}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Identificación de imágenes}{9}{section.6.5}%
-\contentsline {chapter}{\numberline {7}Anexo II: Planificación}{10}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Referencias}{11}{chapter.8}%
+\contentsline {section}{\numberline {6.1}Infraestructura de la red}{9}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Software}{9}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Componentes}{9}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Despliegue IA}{9}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detección y seguimiento de señales}{10}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Herramienta de etiquetado}{12}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Identificación de imágenes}{13}{subsection.6.2.3}%
+\contentsline {chapter}{\numberline {7}Anexo II: Planificación}{14}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Referencias}{15}{chapter.8}%
