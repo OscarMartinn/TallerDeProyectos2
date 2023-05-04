@@ -18,3 +18,43 @@ Se puede trabajar con una imagen individual o con un conjunto de ellas, a travé
 	\caption{Etiquetado de una señal}
 	\label{etique1}
 \end{figure}
+
+Debemos asegurarnos de que el formato en el que se va a producir el etiquetado debe ser únicamente \textbf{YOLO} (ver figura \ref{etique2}. Pulsando sobre el icono mostrado podremos ir intercambiando entre diferentes formatos, ya que esta herramienta es compatible con varios.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/AA/etiquetado2.pdf}
+	\caption{Selección del modelo}
+	\label{etique2}
+\end{figure}
+
+Y mediante la opción \textit{Create RectBox} podremos crear los cuadros delimitadores o \textit{bounding boxes} indicando de qué tipo de señal se trata. Ver en la figura \ref{etique3}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/AA/etiquetado3.pdf}
+	\caption{Cuadros delimitadores}
+	\label{etique3}
+\end{figure}
+
+Al guardar la imagen se nos creará un fichero en formato \textbf{TXT} que contendrá la información de etiquetado (Figura \ref{etique4}) en el directorio que contenga la imagen en cuestión, con idéntico formato \textbf{YOLO} a como se nos mostraba en detección con la opción \textit{medirRendimientoRed} a \textbf{True}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/AA/etiquetado4.pdf}
+	\caption{Fichero con la información de etiquetado}
+	\label{etique4}
+\end{figure}
+
+Además, creemos de puede ser de utilidad una herramienta que convierta un video a \textit{frames}, para poder etiquetarlos de manera manual para entrenar o cualquier otra aplicación. Esta herramienta se llama \textbf{ffmpeg} \url{https://ffmpeg.org} y se puede instalar de manera muy sencilla mediante el comando: 
+
+\begin{lstlisting}
+pip3 install ffmpeg 
+\end{lstlisting}
+
+Simplemente desde línea de comandos podremos utilizarla, indicando cuál es el video que queremos dividir, en cuántos \textit{frames} queremos dividirlo y cómo queremos que se llamen cada una de las imágenes. 
+
+\begin{lstlisting}
+ffmpeg -i nombre_video.mp4 -vf fps=4 nombre_imagen-%d.jpeg
+\end{lstlisting}
