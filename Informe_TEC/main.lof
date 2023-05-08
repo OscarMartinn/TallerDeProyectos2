@@ -1,18 +1,20 @@
 \babel@toc {spanish}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa de la autovía A-62\relax }}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mapa de la autovía A-62 y las torres de comunicación existentes \relax }}{5}{figure.caption.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Detección de una señal\relax }}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Detección de una señal real capturada por nosotros\relax }}{11}{figure.caption.6}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Detección de una señal captada por la cámara\relax }}{11}{figure.caption.7}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Ejemplo de rendimiento con $medirRendimientoRed \ =\ True$\relax }}{12}{figure.caption.8}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Etiquetado de una señal\relax }}{13}{figure.caption.9}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Selección del modelo\relax }}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Cuadros delimitadores\relax }}{14}{figure.caption.11}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Fichero con la información de etiquetado\relax }}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Detección de una señal\relax }}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Detección de una señal real capturada por nosotros\relax }}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Detección de una señal captada por la cámara\relax }}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Ejemplo de rendimiento con $medirRendimientoRed \ =\ True$\relax }}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Etiquetado de una señal\relax }}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Selección del modelo\relax }}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Cuadros delimitadores\relax }}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Fichero con la información de etiquetado\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Medida de rendimiento\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Dataset descargado con los ficheros TXT\relax }}{18}{figure.caption.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

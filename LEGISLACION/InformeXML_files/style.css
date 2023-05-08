@@ -1,0 +1,251 @@
+﻿html {
+        background: url(fondo_azul.png) no-repeat center center fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+}
+
+body   
+{
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.5em;
+}
+
+h2
+{
+    font-size: 1.3em;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page
+{
+    background-color: #fff;
+    margin: 20px auto 20px auto;
+	width: 960px;
+    border: 1px solid #496077;
+	box-shadow: 4px 4px 5px #333;   
+}
+
+.header
+{
+    background-image: url(fondo-escultura.png);
+	background-position:50% 100%;
+	background-repeat:no-repeat no-repeat;	
+	padding:2em 2em;
+	position:relative;
+	margin: 0 auto;
+	width: 960px;    
+}
+
+.main
+{
+    clear: both;
+    margin: 0px 30px 30px 20px;
+    min-height: 420px;
+}
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+p 
+{
+    margin: 0px;
+}
+
+label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.title
+{
+	text-align: center; 
+	padding: 20px; 
+	width: 100%;
+    font-size: 1.2em;
+	font-weight: bold;
+}
+
+.datosRed
+{
+    font-size: 0.9em;
+	font-weight: 600;
+	float: right;
+    padding-right: 4em;
+}
+
+.datosTecnico
+{
+    float: left;
+}
+
+.datosVisado
+{
+    float: right;    
+}
+
+.datosDeclaracion
+{
+    float: right; 
+	width: 40%;
+	padding-top: 20px;
+}
+
+.seccion
+{
+    clear: both;
+    padding-top: 30px;
+    float: inline-block;
+}
+
+.titulo_seccion
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 2px;
+    color: #696969;
+}
+
+.contenido_seccion, .contenido_seccion_mini
+{
+    margin-left: 10px;
+    padding: 8px 8px 8px 8px;
+    background-color: #eee;
+    border: 1px solid #496077;
+}
+
+.contenido_seccion table
+{
+    table-layout: fixed; 
+	width: 100%;
+}
+
+.contenido_seccion_mini
+{
+	width: 50%;
+}
+
+.contenido_seccion_mini table
+{
+    table-layout: fixed; 
+}
+
+.contenido_seccion td
+{
+    word-wrap: break-word;
+	vertical-align: top;
+	text-align: left;
+}
+
+.subseccion
+{
+	clear: both;
+    padding-top: 10px;
+    float: inline-block;
+}
+
+.titulo_subseccion
+{
+    font-size: 1.0em;
+    font-weight: bold;
+    padding: 2px;
+    color: #696969;
+}
+
+.contenido_subseccion
+{
+    margin-left: 15px;
+    padding: 3px 3px 3px 3px;
+}
+
+.par
+{
+	background-color: #FFF;
+}
+
+.impar
+{
+	background-color: #EEE;
+}
+
+.titulo_tabla td
+{
+    background-color: #888;
+    color: #FFF;
+    border: 1px solid #496077;
+    font-size: 1.1em;
+	vertical-align: middle;
+}

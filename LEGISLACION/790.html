@@ -1,0 +1,646 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	Pago tasas telecomunicaciones
+</title><meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta http-equiv="Content-Language" content="sp" /><meta content="Global" name="distribution" /><link href="css/cssSetsi.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" language="javascript" src="scripts/js790.js"></script>
+		<script type="text/javascript" language="javascript">
+		    function FormaPago(valor) {
+		        if (valor == 0) {
+		            document.forms[0].txtDCIBAN.value = "";
+		            document.forms[0].txtCodigoPais.value = "";
+		            document.forms[0].txtEntidad.value = "";
+		            document.forms[0].txtOficina.value = "";
+		            document.forms[0].txtDC.value = "";
+		            document.forms[0].txtCuenta.value = "";
+		            document.forms[0].txtDCIBAN.disabled = true;
+		            document.forms[0].txtCodigoPais.disabled = true;
+		            document.forms[0].txtEntidad.disabled = true;
+		            document.forms[0].txtOficina.disabled = true;
+		            document.forms[0].txtDC.disabled = true;
+		            document.forms[0].txtCuenta.disabled = true;
+		            document.forms[0].txtPago.value = "EFE";
+		        }
+		        else {
+		            document.forms[0].txtDCIBAN.disabled = false;
+		            document.forms[0].txtCodigoPais.disabled = false;
+		            document.forms[0].txtEntidad.disabled = false;
+		            document.forms[0].txtOficina.disabled = false;
+		            document.forms[0].txtDC.disabled = false;
+		            document.forms[0].txtCuenta.disabled = false;
+		            document.forms[0].txtPago.value = "CUE";
+		        }
+		    }
+		    function Cambiar(obj){
+                var texo = obj.value;
+
+                obj.value = texo.toUpperCase();
+		    }
+
+		    function MensajeCargarSolicitudAntigua() {
+		        var resultado;
+		        if (confirm('Usted tiene una solicitud pagada en la pasarela de pago de la Agencia Tributaria que no ha sido firmada y, por tanto, no se ha procesado. ¿Desea acceder a esta solicitud para firmarla y completar el procesado de la misma?')) {
+                    resultado = 1
+		        }
+		        else {
+                    resultado = 0
+		        }
+		        __doPostBack('', resultado)
+
+		    }
+		    function MensajeAviso(mensaje) {
+		      
+		        alert(mensaje);
+		           
+		        __doPostBack('btnEnviar', 'datosUsuarioValidados');
+
+		    }
+
+		    function __doPostBack(eventTarget,eventArgument) {
+		        document.frm790conCert.__EVENTTARGET.value = eventTarget;
+		        document.frm790conCert.__EVENTARGUMENT.value = eventArgument
+		        document.frm790conCert.submit();
+              
+		    }
+		</script>
+		<style type="text/css">
+        .objBarra {
+               scrollbar-3dlight-color:#0772a5; 
+               scrollbar-arrow-color: #ffffff;
+               scrollbar-darkshadow-color:#000000;
+               scrollbar-face-color: #9fcfff;
+               scrollbar-shadow-color: #000000;
+              }
+        </style>
+
+</head>
+	<body onload="divideTasas(document.frm790conCert)"
+		 class="objBarra">
+		<form method="post" action="./FrmSolicitud.aspx?Acceso=SC" id="frm790conCert" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTEwODczMzY5OQ9kFgICAw9kFg4CHg8WAh4IZGlzYWJsZWRkZAIgDxYCHwBkZAIyDxAPFgYeDkRhdGFWYWx1ZUZpZWxkBQZDT0RQUk8eDURhdGFUZXh0RmllbGQFBU5QUk9WHgtfIURhdGFCb3VuZGdkEBU1GltTRUxFQ0NJT05FIFVOQSBQUk9WSU5DSUFdCEFMQkFDRVRFEEFMSUNBTlRFL0FMQUNBTlQIQUxNRVLDjUEMQVJBQkEvw4FMQVZBCEFTVFVSSUFTBsOBVklMQQdCQURBSk9aCUJBUkNFTE9OQQdCSVpLQUlBBkJVUkdPUwhDw4FDRVJFUwZDw4FESVoJQ0FOVEFCUklBFENBU1RFTEzDk04vQ0FTVEVMTMOTBUNFVVRBC0NJVURBRCBSRUFMCEPDk1JET0JBC0NPUlXDkUEgKEEpBkNVRU5DQQhHSVBVWktPQQZHSVJPTkEHR1JBTkFEQQtHVUFEQUxBSkFSQQZIVUVMVkEGSFVFU0NBDUlMTEVTIEJBTEVBUlMFSkHDiU4FTEXDk04GTExFSURBBExVR08GTUFEUklEB03DgUxBR0EHTUVMSUxMQQZNVVJDSUEHTkFWQVJSQQdPVVJFTlNFCFBBTEVOQ0lBDFBBTE1BUyAoTEFTKQpQT05URVZFRFJBClJJT0pBIChMQSkJU0FMQU1BTkNBFlNBTlRBIENSVVogREUgVEVORVJJRkUHU0VHT1ZJQQdTRVZJTExBBVNPUklBCVRBUlJBR09OQQZURVJVRUwGVE9MRURPElZBTEVOQ0lBL1ZBTMOITkNJQQpWQUxMQURPTElEBlpBTU9SQQhaQVJBR09aQRU1Ai0xAjAyAjAzAjA0AjAxAjMzAjA1AjA2AjA4AjQ4AjA5AjEwAjExAjM5AjEyAjUxAjEzAjE0AjE1AjE2AjIwAjE3AjE4AjE5AjIxAjIyAjA3AjIzAjI0AjI1AjI3AjI4AjI5AjUyAjMwAjMxAjMyAjM0AjM1AjM2AjI2AjM3AjM4AjQwAjQxAjQyAjQzAjQ0AjQ1AjQ2AjQ3AjQ5AjUwFCsDNWdnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZGQCSA8PFgIeB1Zpc2libGVoZGQCSg8PFgIfBGdkZAJODw8WAh4EVGV4dAU7TWluaXN0ZXJpbyBkZSBBc3VudG9zIEVjb27Ds21pY29zIHkgVHJhbnNmb3JtYWNpw7NuIERpZ2l0YWxkZAJQDw8WAh8FBXBEaXJlY2Npw7NuIEdlbmVyYWwgZGUgVGVsZWNvbXVuaWNhY2lvbmVzIHkgT3JkZW5hY2nDs24gZGUgbG9zIFNlcnZpY2lvcyBkZSBDb211bmljYWNpw7NuIEF1ZGlvdmlzdWFsIChFMDQ3OTYyMDcpZGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFA3JkMgUDcmQxLs0OOiZ+lMpo5AeWpbRjvEENPxdwn2Soovax2b+wxOY=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frm790conCert'];
+if (!theForm) {
+    theForm = document.frm790conCert;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/TasasTELCO_Nueva/WebResource.axd?d=A6A6YGqZxGrlg4IHq0-NuKOsvK6G5pybV6RA2XH8A3x3TRUkbV8dx3D0AXP2kRuKVlFKsdtrHRPG6Suk3HF-jtZ_S7U6Y2Lo5qT6b0zJi8k1&amp;t=637109960440000000" type="text/javascript"></script>
+
+
+<script src="/TasasTELCO_Nueva/ScriptResource.axd?d=2vByr8dYagamkRrQGQNenuxQo27ohiHC7bIpFzNUND1tsz2FqV0Llr06nCD06jMiG-TZywOwVpc-9Jk4x1ZrUkeY0WRp790zZ8s7B1C5jcbey7wsnmCsPtEPIl6iGIz3m945xhQWHI7cc8S9aM5kew2&amp;t=ffffffffe4ec58b9" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('Error al cargar el marco de trabajo de cliente ASP.NET Ajax.');
+//]]>
+</script>
+
+<script src="/TasasTELCO_Nueva/ScriptResource.axd?d=cQCddFwmBTkWk4-eZUuNF9BehttK5YYNteaD238XEYLPcX40i12W8vxltiNFlq8B5Sh8gq9Y9L43OtL0RmHuKoTQygdzezKuZS9x1vfs_RTJdDkn_g7t44dxHTlAWHA-CXabMrDqza9hoHLCJ2FuTw2&amp;t=ffffffffe4ec58b9" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="794ED9AB" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManagerasta1', 'frm790conCert', [], [], [], 90, '');
+//]]>
+</script>
+
+			<!-- --><span style="DISPLAY: none">
+			<textarea name="txtImportesTasa" rows="2" cols="20" id="txtImportesTasa">
+43.80|43.80|345.65|363.42|90.67|70.53|114.36|23.67|107.72|356.30|0,00|</textarea><textarea name="txtCodigosTasa" rows="2" cols="20" id="txtCodigosTasa">
+27|03|05|16|21|04|17|07|01|06|OT|</textarea><textarea name="txtDescripcionesTasa" rows="2" cols="20" id="txtDescripcionesTasa">
+Por la expedici&#243;n de certificaciones registrales|Por la expedici&#243;n de certificaciones de presentaci&#243;n a la administraci&#243;n de las telecomunicaciones del proyecto t&#233;cnico de infraestructuras comunes de telecomunicaciones, el acta de replanteo, el bolet&#237;n de instalaci&#243;n y el protocolo de pruebas y, en su caso, el certificado de fin de obra y sus anexos|Por la expedici&#243;n de certificaciones de cumplimiento de especificaciones t&#233;cnicas de equipos de telecomunicaci&#243;n|Por cada acto de inspecci&#243;n previa o comprobaci&#243;n t&#233;cnica efectuado|Por la presentaci&#243;n de cada certificaci&#243;n expedida por t&#233;cnico competente sustitutiva del acto de inspecci&#243;n previa|Por la tramitaci&#243;n de concesi&#243;n demanial o autorizaci&#243;n para el uso privativo o de autorizaci&#243;n general para el uso especial del dominio p&#250;blico radioel&#233;ctrico|Por la tramitaci&#243;n de la autorizaci&#243;n individual para el uso especial del dominio p&#250;blico radioel&#233;ctrico|Por la presentaci&#243;n a los ex&#225;menes de capacitaci&#243;n para operar estaciones de radioaficionado|Por inscripci&#243;n en el registro de empresas instaladoras de telecomunicaci&#243;n|Por la solicitud y emisi&#243;n del dictamen t&#233;cnico de evaluaci&#243;n de la conformidad de equipos de telecomunicaci&#243;n|REGULARIZACION del importe por cambio del importe de la tasa en la Ley de Presupuestos Generales del  Estado|</textarea><input name="txtTasaSel" type="text" id="txtTasaSel" style="width:64px;" /><input name="txtTipo" type="text" id="txtTipo" style="width:56px;" /><input name="txtProvincia" type="text" id="txtProvincia" style="width:56px;" /><input name="txtCodTasa" type="text" id="txtCodTasa" style="width:56px;" /><input name="txtDescTasa" type="text" id="txtDescTasa" style="width:56px;" /><input name="txtNumTasas" type="text" id="txtNumTasas" style="width:56px;" /><input name="txtRadioCheckedReloaded" type="text" id="txtRadioCheckedReloaded" style="width:56px;" /><input name="txtNumTasasCheckedreloaded" type="text" id="txtNumTasasCheckedreloaded" style="width:56px;" /><input name="txtImporteReloaded" type="text" id="txtImporteReloaded" style="width:56px;" />
+			<input name="txtTasaSeleccionada" type="text" id="txtTasaSeleccionada" />
+            <input name="txtPago" type="text" id="txtPago" style="width:64px;" />
+			</span>
+			<table class="principal">
+				<tr>
+					<td class="CeldaLateral" rowSpan="4"></td>
+					<td class="CeldaSuperior"></td>
+					<td class="CeldaLateral" rowSpan="4"></td>
+				</tr>
+				<TR>
+					<TD class="CeldaMedia">
+						<table class="contenedor" cellSpacing="0" bgColor="#afe1af">
+							<tr align="center">
+								<td id="escudo" rowSpan="4"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td width="300" height="38"><span class="txtTitulo1">CENTRO GESTOR</span></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td width="270"><span class="txtTitulo2">TASA</span><span class="txtTitulo3">&nbsp;de 
+										telecomunicaciones</span></td>
+								<td class="CeldaEspaciadora"></td>
+								<td align="center"><span class="txtTitulo3">Modelo</span></td>
+							</tr>
+							<tr>
+								<td class="CeldaEspaciadora"></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td width="300" bgColor="#ffffff" height="23"><span class="txtTitulo3">Secretaría de Estado de Telecomunicaciones</span></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td width="270"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td align="center" rowSpan="3"><span style="FONT-WEIGHT: bold; FONT-SIZE: 40px; FONT-FAMILY: Verdana, Tahoma, Sans-Serif">790</span></td>
+							</tr>
+							<tr height="10">
+								<td class="CeldaEspaciadora"></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td width="300" bgColor="#ffffff" height="23"><span class="txtTitulo3">e Infraestructuras Digitales</span></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td width="270"></td>
+								<td class="CeldaEspaciadora"></td>
+							</tr>
+							<tr>
+								<td class="CeldaEspaciadora"></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td width="300" bgColor="#ffffff" height="23"><span class="txtTitulo3"></span></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td align="center" width="270"><span class="txtTitulo2">CÓDIGO&nbsp;&nbsp;</span><IMG src="images/041.gif" align="absMiddle" alt=""></td>
+								<td class="CeldaEspaciadora"></td>
+							</tr>
+							<tr align="center">
+								<td bgColor="#ffffff"><SPAN class="TextoMenorCentroNegrita">C.I.F. S2800568D</SPAN></td>
+								<td class="CeldaEspaciadora"></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td width="300" height="5"></td>
+								<td class="CeldaAjusteVerde"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td width="270"></td>
+								<td class="CeldaEspaciadora"></td>
+								<td></td>
+							</tr>
+						</table>
+						<table class="contenedor">
+							<tr>
+								<td height="15"></td>
+							</tr>
+						</table>
+						<table class="identificacion" style="FONT-WEIGHT: bold" cellSpacing="0">
+							<tr>
+								<td class="cellAzulIzquierda" rowSpan="12"></td>
+								<td class="cellAzulDerecha" align="center" rowSpan="12"><img src="images/txtIdentificacion.gif" alt="" />
+								</td>
+								<td class="borde12" style="PADDING-LEFT: 50px; PADDING-TOP: 30px" colSpan="3" rowSpan="5">
+									<div>Espacio reservado para la etiqueta del sujeto pasivo.<br>
+										Si no dispone de etiquetas, consigne los datos que se solicitan<br>
+										en las lineas inferiores.</div>
+								</td>
+								<td class="borde123" align="center" width="20" bgColor="#7c9ed8" rowSpan="3"><img src="images/txtDevengo.gif" alt=""/>
+								</td>
+								<TD class="borde12" colSpan="7">&nbsp;</TD>
+							</tr>
+							<tr>
+								<TD class="borde2" align="center" colSpan="7"><span>Ejercicio .............. <img src="images/200.gif" /></span></TD>
+							</tr>
+							<tr>
+								<TD class="borde23" colSpan="7">&nbsp;</TD>
+							</tr>
+							<tr>
+								<td class="borde2" align="center" colSpan="8"><span style="FONT-SIZE: 16px">Nº DE 
+										JUSTIFICANTE</span>
+								</td>
+							</tr>
+							<tr>
+								<td class="borde2" colSpan="8"><input name="txtJustificante" type="text" id="txtJustificante" class="AzulCentroNegrita11" style="WIDTH: 100%" readOnly="" /></td>
+							</tr>
+							<tr>
+								<td class="borde3" width="90">&nbsp;</td>
+								<td class="borde3" width="100">&nbsp;</td>
+								<td class="borde23" width="205">&nbsp;</td>
+								<td class="borde3" width="20">&nbsp;</td>
+								<TD class="borde3" width="10">&nbsp;</TD>
+								<td class="borde3" width="50">&nbsp;</td>
+								<td class="borde3" width="35">&nbsp;</td>
+								<td class="borde3" width="35">&nbsp;</td>
+								<td class="borde3" width="40">&nbsp;</td>
+								<td class="borde3" width="10">&nbsp;</td>
+								<TD class="borde23">&nbsp;</TD>
+							</tr>
+							<tr>
+								<td id="lblNifCif" class="borde2" colspan="2">N.I.F. o C.I.F.</td>
+
+								<td id="lblNombreRazon" class="borde2" colspan="9">Apellidos y 
+									nombre o razón social</td>
+
+							</tr>
+							<tr>
+								<td class="borde23" colSpan="2"><input name="txtNif" type="text" id="txtNif" class="AzulIzqda9" style="WIDTH: 100%" tabIndex="1" maxlength="9" size="1" /></td>
+								<td class="borde23" colSpan="9"><input name="txtNombre" type="text" id="txtNombre" class="AzulIzqda9" style="WIDTH: 100%" tabIndex="2" maxlength="60" size="1" /></td>
+							</tr>
+							<tr>
+								<td class="borde2">Calle/Plza/Avda.</td>
+								<td class="borde2" colSpan="4">Nombre de la vía pública</td>
+								<td class="borde2">Número</td>
+								<td class="borde2">Esc.</td>
+								<td class="borde2">Piso</td>
+								<td class="borde2">Puerta</td>
+								<td class="borde2" colSpan="2">Teléfono</td>
+							</tr>
+							<tr>
+								<td class="borde23">
+                                    <select name="cmbVia" id="cmbVia" tabindex="3" class="Azul">
+	<option selected="selected" value=""></option>
+	<option value="Calle">Calle</option>
+	<option value="Plaza">Plaza</option>
+	<option value="Avda">Avda</option>
+
+</select></td>
+								<td class="borde23" colSpan="4"><input name="txtCalle" type="text" id="txtCalle" class="AzulIzqda9" onkeyup="Cambiar(this);" style="WIDTH: 100%" tabIndex="4" maxlength="60" size="1" /></td>
+								<td class="borde23"><input name="txtNumero" type="text" id="txtNumero" class="AzulIzqda9" style="WIDTH: 100%" tabIndex="5" maxlength="3" size="1" /></td>
+								<td class="borde23"><input name="txtEscalera" type="text" id="txtEscalera" class="AmarilloIzqda9" onkeyup="Cambiar(this);" style="WIDTH: 100%" tabIndex="6" maxlength="2" size="1" /></td>
+								<td class="borde23"><input name="txtPiso" type="text" id="txtPiso" class="AmarilloIzqda9" onkeyup="Cambiar(this);" style="WIDTH: 100%" tabIndex="7" maxlength="2" size="1" /></td>
+								<td class="borde23"><input name="txtPuerta" type="text" id="txtPuerta" class="AmarilloIzqda9" onkeyup="Cambiar(this);" style="WIDTH: 100%" tabIndex="8" maxlength="5" size="1" /></td>
+								<td class="borde23" colSpan="2"><input name="txtTelefono" type="text" id="txtTelefono" class="AmarilloIzqda9" style="WIDTH: 100%" tabIndex="9" maxlength="9" size="1" /></td>
+							</tr>
+							<tr>
+								<td class="borde2" colSpan="3">Municipio</td>
+								<td class="borde2" colSpan="7">Provincia</td>
+								<TD class="borde2">Cod. Postal</TD>
+							</tr>
+							<tr>
+								<td class="borde23" colSpan="3"><input name="txtMunicipio" type="text" id="txtMunicipio" class="AzulIzqda9" onkeyup="Cambiar(this);" style="WIDTH: 100%" tabIndex="10" maxlength="60" size="1" /></td>
+								<td class="borde23" colSpan="7"><select name="cmbProvincias" id="cmbProvincias" tabindex="11" class="Azul" style="width:100%;">
+	<option selected="selected" value="-1">[SELECCIONE UNA PROVINCIA]</option>
+	<option value="02">ALBACETE</option>
+	<option value="03">ALICANTE/ALACANT</option>
+	<option value="04">ALMER&#205;A</option>
+	<option value="01">ARABA/&#193;LAVA</option>
+	<option value="33">ASTURIAS</option>
+	<option value="05">&#193;VILA</option>
+	<option value="06">BADAJOZ</option>
+	<option value="08">BARCELONA</option>
+	<option value="48">BIZKAIA</option>
+	<option value="09">BURGOS</option>
+	<option value="10">C&#193;CERES</option>
+	<option value="11">C&#193;DIZ</option>
+	<option value="39">CANTABRIA</option>
+	<option value="12">CASTELL&#211;N/CASTELL&#211;</option>
+	<option value="51">CEUTA</option>
+	<option value="13">CIUDAD REAL</option>
+	<option value="14">C&#211;RDOBA</option>
+	<option value="15">CORU&#209;A (A)</option>
+	<option value="16">CUENCA</option>
+	<option value="20">GIPUZKOA</option>
+	<option value="17">GIRONA</option>
+	<option value="18">GRANADA</option>
+	<option value="19">GUADALAJARA</option>
+	<option value="21">HUELVA</option>
+	<option value="22">HUESCA</option>
+	<option value="07">ILLES BALEARS</option>
+	<option value="23">JA&#201;N</option>
+	<option value="24">LE&#211;N</option>
+	<option value="25">LLEIDA</option>
+	<option value="27">LUGO</option>
+	<option value="28">MADRID</option>
+	<option value="29">M&#193;LAGA</option>
+	<option value="52">MELILLA</option>
+	<option value="30">MURCIA</option>
+	<option value="31">NAVARRA</option>
+	<option value="32">OURENSE</option>
+	<option value="34">PALENCIA</option>
+	<option value="35">PALMAS (LAS)</option>
+	<option value="36">PONTEVEDRA</option>
+	<option value="26">RIOJA (LA)</option>
+	<option value="37">SALAMANCA</option>
+	<option value="38">SANTA CRUZ DE TENERIFE</option>
+	<option value="40">SEGOVIA</option>
+	<option value="41">SEVILLA</option>
+	<option value="42">SORIA</option>
+	<option value="43">TARRAGONA</option>
+	<option value="44">TERUEL</option>
+	<option value="45">TOLEDO</option>
+	<option value="46">VALENCIA/VAL&#200;NCIA</option>
+	<option value="47">VALLADOLID</option>
+	<option value="49">ZAMORA</option>
+	<option value="50">ZARAGOZA</option>
+
+</select></td>
+								<TD class="borde23"><input name="txtCodigoPostal" type="text" id="txtCodigoPostal" class="AzulIzqda9" style="WIDTH: 100%" tabIndex="12" maxlength="5" size="1" /></TD>
+							</tr>
+						</table>
+						<table class="contenedor">
+							<tr>
+								<td height="15"></td>
+							</tr>
+						</table>
+						<table class="expediente" style="FONT-WEIGHT: bold" cellSpacing="0">
+							<tr>
+								<td class="cellVerdeIzquierda" rowSpan="14">&nbsp;</td>
+								<td class="cellVerdeDerecha" align="center" rowSpan="14"><IMG src="images/txtLiquidacion.gif" alt=""></td>
+								<TD class="borde123" style="PADDING-TOP: 10px" colSpan="9">
+									<table cellSpacing="0" cellPadding="0" width="590" align="center" border="0">
+										<tr>
+											<td width="10" height="30"></td>
+											<td style="BORDER-RIGHT: black 2px solid; BORDER-TOP: black 2px solid; BORDER-LEFT: black 2px solid; BORDER-BOTTOM: black 2px solid"
+												bgColor="#d3d3d3" height="30"><SPAN class="txtTitulo3">EXPEDIENTE:</SPAN></td>
+											<td width="10" height="30"></td>
+										</tr>
+										<tr>
+											<TD colSpan="3"><SPAN class="txtTitulo3">TASA DE TELECOMUNICACIONES.-</SPAN><SPAN class="TextoMenorCentroNegrita">
+													Ley 11/2022, de 28 de junio, General de Telecomunicaciones, Disposición transitoria séptima</SPAN></TD>
+										</tr>
+									</table>
+									<table height="15">
+										<tr>
+											<td width="45"></td>
+											<TD align="left" width="590"><SPAN class="txtTitulo3">Cant.</SPAN></TD>
+											<TD align="left"><SPAN class="txtTitulo3">EUROS</SPAN></TD>
+										</tr>
+									</table>
+									<table height="5">
+										<tr>
+											<td></td>
+										</tr>
+									</table>
+									<table id="tblTasas" class="tblTasas">
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>1</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la expedición de certificaciones registrales</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>1</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>43.80 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>2</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la expedición de certificaciones de presentación a la administración de las telecomunicaciones del proyecto técnico de infraestructuras comunes de telecomunicaciones, el acta de replanteo, el boletín de instalación y el protocolo de pruebas y, en su caso, el certificado de fin de obra y sus anexos</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>2</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>43.80 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>3</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la expedición de certificaciones de cumplimiento de especificaciones técnicas de equipos de telecomunicación</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>3</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>345.65 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>4</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por cada acto de inspección previa o comprobación técnica efectuado</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>4</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>363.42 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>5</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la presentación de cada certificación expedida por técnico competente sustitutiva del acto de inspección previa</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>5</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>90.67 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>6</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la tramitación de concesión demanial o autorización para el uso privativo o de autorización general para el uso especial del dominio público radioeléctrico</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>6</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>70.53 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>7</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la tramitación de la autorización individual para el uso especial del dominio público radioeléctrico</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>7</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>114.36 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>8</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la presentación a los exámenes de capacitación para operar estaciones de radioaficionado</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>8</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>23.67 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>9</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por inscripción en el registro de empresas instaladoras de telecomunicación</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>9</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>107.72 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>10</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>Por la solicitud y emisión del dictamen técnico de evaluación de la conformidad de equipos de telecomunicación</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>10</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'>356.30 </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr valign="Middle">
+		<td height="30" width="30" class="numeros"><SPAN>11</SPAN></td>
+		<td width="15"><input onclick='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' type='radio' name='radTasa'></td>
+		<td width="35"><input onkeyup='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' class='AzulCentro9' id='txtCant' style='WIDTH: 100%' maxLength='4' name='txtCant' runat='server'></td>
+		<td width="485"><DIV class='TextoMenorIzqda'>REGULARIZACION del importe por cambio del importe de la tasa en la Ley de Presupuestos Generales del  Estado</DIV></td>
+		<td width="15"></td>
+		<td width="30" class="numeros"><SPAN>11</SPAN></td>
+		<td colspan="2" width="125" align="Right" class="numeros"><DIV class='TextoMenorDchaNegrita'> <input id='txtImporteReg'  onchange='radioPresionado(document.forms[0].radTasa, document.frm790conCert)' style='WIDTH: 45%' runat='server'>  </DIV></td>
+	</tr>
+	<tr>
+		<td height="5"></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td colspan="3"><DIV class='TextoMenorIzqdaNegrita'>CUOTA TOTAL TRIBUTARIA A INGRESAR EN EUROS ........................................................................................ : </DIV></td>
+		<td colspan="4" align="right"><input class='AzulDchaNegrita9' id='imptotal' style='WIDTH: 125px' readOnly type='text' maxLength='8' value='0,00' name='imptotal'></td>
+		<td><SPAN></SPAN></td>
+	</tr>
+</table>
+
+								</TD>
+							</tr>
+						</table>
+						<table class="contenedor">
+							<tr>
+								<td height="15"></td>
+							</tr>
+						</table>
+						<table class="declarante" style="FONT-WEIGHT: bold">
+							<tr height="225">
+								<td class="cellAzulIzquierda">&nbsp;</td>
+								<td class="cellAzulDerecha" align="center"><img src="images/txtDeclarante.gif" alt=""/></td>
+								<td class="borde123" vAlign="top" width="345">
+									<DIV class="TextoMenorCentroNegrita" style="PADDING-TOP: 35px" align="center">.................................... 
+										a .......... de .................................... de .............</DIV>
+									<DIV class="TextoMenorIzqdaNegrita" style="PADDING-LEFT: 90px; PADDING-TOP: 25px" align="left">Firma:</DIV>
+									<div style="DISPLAY: none"><input name="calFecha" type="text" id="calFecha" class="AzulCentroNegrita9" style="WIDTH: 80px" tabIndex="19" readOnly="" maxlength="10" size="14" value="03/05/2023" /></div>
+								</td>
+								<td class="cellAzulDerecha" align="center" width="25"><img src="images/txtIngreso.gif" alt="" /></td>
+								<TD class="borde123" vAlign="top">
+									<DIV class="TextoMenorIzqdaNegrita" style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px; LINE-HEIGHT: 20px; PADDING-TOP: 5px">Ingreso 
+										a favor del Tesoro Público, cuenta restringida de la AEAT para la recaudación 
+										de TASAS</DIV>
+									<DIV style="PADDING-TOP: 15px" align="center">
+										<table id="tblPago" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="TextoMenorCentroNegrita" width="80" height="30">Importe Euros
+												</td>
+		<td style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid" width="20">
+													<div style="FONT-WEIGHT: bold; FONT-SIZE: 12px; TEXT-ALIGN: center">|</div>
+												</td>
+		<td style="BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid" width="230">
+													<div><input name="txtImporte" type="text" id="txtImporte" class="AzulDchaNegrita9" style="WIDTH: 100%" tabIndex="18" readOnly="" maxlength="8" size="9" value="0,00" /></div>
+												</td>
+	</tr>
+	<tr>
+		<td class="TextoMenorCentroNegrita" width="80" height="30">Forma de pago:</td>
+		<td class="TextoMenorCentroNegrita" colspan="2">
+                                                    <input value="0" name="rdFormaPago" type="radio" id="rd2" onclick="javascript: FormaPago(0);" />En 
+														Efectivo &nbsp;&nbsp;
+                                                    <input value="1" name="rdFormaPago" type="radio" id="rd1" onclick="javascript: FormaPago(1);" checked="checked" />E.C.Adeudo 
+														en cuenta
+                                                </td>
+	</tr>
+</table>
+
+									</DIV>
+									<DIV style="PADDING-TOP: 55px" align="center">
+										<FIELDSET style="WIDTH: 350px"><LEGEND class="TextoMenorCentroNegrita">Código IBAN</LEGEND>
+											<TABLE id="Table9" cellSpacing="1" cellPadding="0" width="100%" align="center" border="0">
+												<TBODY>
+													<TR>
+                                                        <TD class="TextoMenorCentroNegrita" width="12%">Cod. País</TD>
+                                                        <TD class="TextoMenorCentroNegrita" width="12%">D.C.   IBAN</TD>
+														<TD class="TextoMenorCentroNegrita" width="17%">Entidad</TD>
+														<TD class="TextoMenorCentroNegrita" width="17%">Oficina</TD>
+														<TD class="TextoMenorCentroNegrita" width="12%">D.C.</TD>
+														<TD class="TextoMenorCentroNegrita" width="40%">Núm. de cuenta</TD>
+													</TR>
+													<TR>
+                                                        <TD class="negrita"><input name="txtCodigoPais" type="text" id="txtCodigoPais" class="AzulCentroNegrita9" style="WIDTH: 100%" tabIndex="21" maxlength="2" /></TD>
+                                                        <TD class="negrita"><input name="txtDCIBAN" type="text" id="txtDCIBAN" class="AzulCentroNegrita9" style="WIDTH: 100%" tabIndex="22" maxlength="2" /></TD>
+														<TD class="negrita"><input name="txtEntidad" type="text" id="txtEntidad" class="AzulCentroNegrita9" style="WIDTH: 100%" tabIndex="23" maxlength="4" /></TD>
+														<TD class="negrita"><input name="txtOficina" type="text" id="txtOficina" class="AzulCentroNegrita9" style="WIDTH: 100%" tabIndex="24" maxlength="4" /></TD>
+														<TD class="negrita"><input name="txtDC" type="text" id="txtDC" class="AzulCentroNegrita9" style="WIDTH: 100%" tabIndex="25" maxlength="2" /></TD>
+														<TD class="negrita"><input name="txtCuenta" type="text" id="txtCuenta" class="AzulCentroNegrita9" style="WIDTH: 100%" tabIndex="26" maxlength="10" /></TD>
+													</TR>
+												</TBODY>
+											</TABLE>
+										</FIELDSET>
+									</DIV>
+								</TD>
+							</tr>
+						</table>
+						<table class="contenedor">
+							<tr>
+								<td height="15"> 
+                        </td>
+							</tr>
+						</table>
+					</TD>
+				</TR>
+				<tr>
+					<td class="CeldaInferior" align="center">
+                        
+						
+                        
+                        <input type="submit" name="btnGenerar790" value="Generar 790" id="btnGenerar790" class="boton" />
+							&nbsp;&nbsp;
+						<input language="javascript" class="boton" id="btCancelar" title="Cancelar" onclick="window.close();"
+							type="button" value="Cancelar" name="btCancelar">
+                            &nbsp;&nbsp;
+                        
+					</TD>
+				</TR>
+							<tr>
+								<td height="150" class="CeldaInferior" > <div class="ministerio">
+                            <div style="float: left; width:35%" >
+                                <img src="images/FEDER_cofinanciado_generico.png" alt="" width="250"/>
+                            </div>
+                            <div id="hcard-Gobierno-de-Espa&ntilde;a.-Ministerio-de-Industria-Turismo-y-Comercio"
+                                style="float: left; text-align:center">
+                                <p style="text-align:center">
+                                <span id="lblNombreMinisterio">Ministerio de Asuntos Económicos y Transformación Digital</span>.</p>
+                                <p><span id="lblUnidad">Dirección General de Telecomunicaciones y Ordenación de los Servicios de Comunicación Audiovisual (E04796207)</span></p>
+                            </div>
+                        </div></td>
+                            </tr>              
+		
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+	    
+	
+</body>
+</html>
