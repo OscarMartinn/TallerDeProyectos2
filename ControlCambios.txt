@@ -7,9 +7,16 @@ Integrantes:
 	-> D: Daniel Sirgo
 _________________________________________________________________________
 
+----> Semana 12 10/05/2023:
+
+- D: Rendimiento de red - 2h 
+- I: Legislación - 2h 
+- O: Redacción Informe - 2h
+- M: Redacción Informe - 2
+
 ----> Semana 12 09/05/2023:
 
-- I: Rendimiento de red - 1h 
+- D: Rendimiento de red - 1h 
 - I: Legislación - 2h 
 - O: Redacción Informe - 2h
 - M: Redacción Informe - 2
