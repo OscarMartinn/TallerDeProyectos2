@@ -5,14 +5,17 @@
 \contentsline {section}{\numberline {3.1}Infraestructura}{6}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Detección de señales de tráfico}{6}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Normativa}{6}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Costes}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Rendimiento: Validación del servicio}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Anexo I: Manual del desarrollador}{9}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Infraestructura de la red}{9}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Despliegue IA}{10}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Detección y seguimiento de señales}{10}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Herramienta de etiquetado}{13}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Medición de rendimiento}{16}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Creación automática de datasets}{17}{subsection.6.2.4}%
-\contentsline {chapter}{\numberline {7}Anexo II: Planificación}{19}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Referencias}{20}{chapter.8}%
+\contentsline {subsection}{\numberline {3.3.1}Pago tasas del modelo 790}{6}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Envío de la solicitud}{7}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Pago tasas del modelo 990}{8}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Costes}{9}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Rendimiento: Validación del servicio}{10}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Anexo I: Manual del desarrollador}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Infraestructura de la red}{11}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Despliegue IA}{12}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detección y seguimiento de señales}{12}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Herramienta de etiquetado}{15}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Medición de rendimiento}{18}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Creación automática de datasets}{19}{subsection.6.2.4}%
+\contentsline {chapter}{\numberline {7}Anexo II: Planificación}{21}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Referencias}{22}{chapter.8}%

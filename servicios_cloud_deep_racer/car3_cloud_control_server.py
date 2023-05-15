@@ -5,7 +5,9 @@ import cv2
 import artemis_autonomous_car
 import time
 
-server_address = ('192.168.0.114', 20003)
+# server_address = ('192.168.0.114', 20003)
+server_address = ('192.168.72.121', 20004) #Ip donde corre el programa
+# server_address = ('127.0.0.1', 20004) #Ip donde corre el programa
 show_info=True
 
 def send_control(control_giro,control_acelerador,address):
