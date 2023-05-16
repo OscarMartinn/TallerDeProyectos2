@@ -7,6 +7,13 @@ Integrantes:
 	-> D: Daniel Sirgo
 _________________________________________________________________________
 
+----> Semana 13 11/05/2023:
+
+- D,I,M: Redacción Informe, pruebas coche - 4h 
+- O: Redacción Informe, pruebas coche, unión IA con coche en tiempo real - 4h
+
+_________________________________________________________________________
+
 ----> Semana 12 13/05/2023:
 
 - O: Redacción Informe - 2h30min
@@ -37,6 +44,7 @@ _________________________________________________________________________
 - O: Infraestructura red 4G en carretera - 3h30min
 - M: Redacción Informe
 - I: Lesgilación - 1h
+
 _________________________________________________________________________
 
 ----> Semana 11 04/05/2023:
