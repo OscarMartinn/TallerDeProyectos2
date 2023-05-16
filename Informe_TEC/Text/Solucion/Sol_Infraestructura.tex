@@ -1,1 +1,36 @@
-Hablar de manera resumida y sencilla la forma en la que se va a implementar la infraestructura
+En primera instancia, se debe decidir cómo se quiere plantear la infraestructura de red, si vamos a construir nuestras propias torres o no, si vamos a funcionar como una operadora virtual o si por el contrario vamos a comprar a instalar nuestros propios equipos. En nuestro caso, nos hemos decantado por alquilar las torres de telecomunicaciones existentes, en la cuales vamos a instalar nuestros propios componentes. De esta manera, lograremos diseñar una red que cumple con compromisos económicos y que a la vez nos proporcionan cierto control en caso de averías o problemas.\\
+
+Luego, debemos conocer dónde se encuentran las torres de telecomunicaciones existentes. Existen varias páginas web a través de las cuales podemos conocer dicha información, como Infoantenas \url{https://geoportal.minetur.gob.es/VCTEL/vcne.do}, un servicio desarrollado por parte del Ministerio de Asuntos Económicos y Transformación Digital, o AntenasGSM \url{https://antenasgsm.com}. A través de dichas páginas hemos podido conocer la localización de las torres, mostradas en la figura \ref{autovia}.\\
+
+Sin embargo, tras seleccionar el modelo de estación base y antena que vamos a utilizar, en función de sus distintas características técnicas hemos propuesto un diseño de infraestructura, en la cual no va a ser necesario utilizar todas las torres de telecomunicaciones disponibles. Existen 11 torres desplegadas y utilizaremos 7 de ellas. En origen las distintas torres pertenecían a las propias empresas operadoras que prestan el propio servicio, o empresas filiales de las mísmas. No obstante, la mayoría de ellas han vendido una gran cantidad de las torres a otras empresas, como pueden ser Cellnex Telecom, una empresa española, o American Tower Corporation, empresa estadounidense, ambas se dedican a la construcción y gestión de infraestructuras de telecomunicaciones. [Ref: Telefónica vende a ATC las torres de Telxius por 7.700 millones de euros | Empresas (elmundo.es) y Orange vende 1.500 torres a Cellnex para usarlas en régimen de alquiler | Empresas (elmundo.es)]. Se estima que el alquiler de estas torres se encuentra en torno a los 4.000 y 20.000 euros en zonas urbanas, y 1.000 y 15.000 euros en zonas rurales, costo que habrá que tener en cuenta a la hora de presupuestar la infraestructura.\\
+
+Para el diseño del proyecto se ha contactado con los principales distribuidores en España de estos componentes, como pueden ser Ericsson, Nokia, Kathrein o Moyano Telsa, con el objetivo de lograr una red lo más similar a lo que nos podemos encontrar en las grandes operadoras españolas. Sin embargo, ninguna de estas empresas nos ha respondido ni nos has facilitado un catálogo de sus productos, por ello, hemos procedido a diseñar la red con equipos de los cuales si hemos podido encontrar información. \\
+
+En primer lugar, hemos seleccionado una estación base proporcionada por una empresa china llamada Baicells, una compañía fundada en 2014 con sede en cinco continentes que ofrece productos de tecnología inalámbrica 4G y 5G. El modelo concreto es el Nova846, éste nos proporcionará una potencia de transmisión entre 0 y 37 dBm, una distancia máxima de 60km y una sensibilidad diferente en función del rango de distancias en el que se encuentra el usuario gracias a la modulación adaptativa.\\
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Esquema de modulación} & \textbf{RSRP {[}dBm{]}}            & \textbf{Distancia cubierta {[}km{]}} \\ \hline
+QPSK                           & -120 \textless RSRP \textless -110 & Entre 40 y 60                        \\ \hline
+16 QAM                         & -110 \textless RSRP \textless -100 & Entre 10 y 40                        \\ \hline
+64 QAM                         & -100 \textless RSRP \textless -85  & Entre 4 y 10                         \\ \hline
+256 QAM                        & RSRP \textgreater -85              & Menor a 4                            \\ \hline
+\end{tabular}
+\caption{Cobertura en función de la modulación.}
+\label{cobertura}
+\end{table}
+
+Dependiendo de la configuración proporcionará un rendimiento u otro, en nuestro caso nos hemos decidido por la configuración 6. Ésta nos brindará un rendimiento máximo en el enlace de subida, que nos interesa que sea máximo para que el mayor número de usuarios pueda enviar el vídeo en streaming. Lograremos tener las distintas capacidades mostradas para el enlace de downlink y uplink.\\
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|} 
+\hline
+DL 256 QAM & DL 64 QAM & DL 16 QAM & DL QPSK & UL 256 QAM & UL 64 QAM & UL 16 QAM & UL QPSK \\ \hline
+348 Mbps   & 264 Mbps  & 70 Mbps   & 53 Mbps & 92 Mbps    & 70 Mbps   & 53 Mbps   & 40 Mbps \\ \hline
+\end{tabular}
+\caption{Capacidades del enlace de subida y bajada.}
+\label{capacidad}
+\end{table}
