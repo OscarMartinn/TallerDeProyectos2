@@ -8,7 +8,8 @@ from pynput import keyboard
 import numpy as np
 import cmath, math
 
-server_address = ('192.168.0.115',20001)
+# server_address = ('192.168.0.115',20001)
+server_address = ('192.168.72.121', 20004) #Ip donde corre el programa
 
 control_acelerador=0
 control_giro=0
