@@ -4,17 +4,17 @@
 \contentsline {chapter}{\numberline {3}Solución}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Infraestructura}{7}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Detección de señales de tráfico}{8}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Normativa}{8}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Pago tasas del modelo 790}{8}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Envío de la solicitud}{9}{subsection.3.3.2}%
-\contentsline {chapter}{\numberline {4}Costes}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Rendimiento: Validación del servicio}{12}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Anexo I: Manual del desarrollador}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Infraestructura de la red}{13}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Despliegue IA}{14}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Detección y seguimiento de señales}{14}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Herramienta de etiquetado}{17}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Medición de rendimiento}{20}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Creación automática de datasets}{21}{subsection.6.2.4}%
-\contentsline {chapter}{\numberline {7}Anexo II: Planificación}{23}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Referencias}{24}{chapter.8}%
+\contentsline {section}{\numberline {3.3}Normativa}{14}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Pago tasas del modelo 790}{14}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Envío de la solicitud}{15}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Costes}{17}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Rendimiento: Validación del servicio}{18}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Anexo I: Manual del desarrollador}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Infraestructura de la red}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Despliegue IA}{20}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Detección y seguimiento de señales}{20}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Herramienta de etiquetado}{23}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}Medición de rendimiento}{26}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}Creación automática de datasets}{27}{subsection.6.2.4}%
+\contentsline {chapter}{\numberline {7}Anexo II: Planificación}{29}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Referencias}{30}{chapter.8}%
