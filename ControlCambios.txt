@@ -9,6 +9,11 @@ _________________________________________________________________________
 
 ----> Semana 13 11/05/2023:
 
+- I,D: Redacción Informe - 2h 
+- O,M: Pruebas coche - 2h
+
+----> Semana 13 11/05/2023:
+
 - D,I,M: Redacción Informe, pruebas coche - 4h 
 - O: Redacción Informe, pruebas coche, unión IA con coche en tiempo real - 4h
 
