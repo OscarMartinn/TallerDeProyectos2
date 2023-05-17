@@ -12,7 +12,7 @@ En primer lugar, hemos seleccionado una estación base proporcionada por una emp
 \centering
 \begin{tabular}{|c|c|c|}
 \hline
-\textbf{Esquema de modulación} & \textbf{RSRP {[}dBm{]}}            & \textbf{Distancia cubierta {[}km{]}} \\ \hline
+\textbf{Esquema de modulación} & \textbf{RSRP {[}dBm{]}}            & \textbf{Distancia cubierta {[}km{]}} \\ \hline \hline
 QPSK                           & -120 \textless RSRP \textless -110 & Entre 40 y 60                        \\ \hline
 16 QAM                         & -110 \textless RSRP \textless -100 & Entre 10 y 40                        \\ \hline
 64 QAM                         & -100 \textless RSRP \textless -85  & Entre 4 y 10                         \\ \hline
@@ -26,12 +26,15 @@ Dependiendo de la configuración proporcionará un rendimiento u otro, en nuestr
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|} 
+\begin{tabular}{|c||c|c|}
 \hline
-DL 256 QAM & DL 64 QAM & DL 16 QAM & DL QPSK & UL 256 QAM & UL 64 QAM & UL 16 QAM & UL QPSK \\ \hline
-348 Mbps   & 264 Mbps  & 70 Mbps   & 53 Mbps & 92 Mbps    & 70 Mbps   & 53 Mbps   & 40 Mbps \\ \hline
+\textbf{Modulación} & \textit{\textbf{DownLink}} & \textit{\textbf{UpLink}} \\ \hline \hline
+256 QAM             & 348 Mbps                   & 92 Mbps                  \\ \hline
+64 QAM              & 264 Mbps                   & 70 Mbps                  \\ \hline
+16 QAM              & 70 Mbps                    & 53 Mbps                  \\ \hline
+QPSK                & 53 Mbps                    & 53 Mbps                  \\ \hline
 \end{tabular}
-\caption{Capacidades del enlace de subida y bajada.}
+\caption{Capacidades del enlace de bajada y de subida}
 \label{capacidad}
 \end{table}
 
@@ -54,7 +57,7 @@ Un detalle muy importante del proyecto es conocer cuál es la cantidad de usuari
 \centering
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-\textbf{Distancia} & \textbf{Velocidad} & \textbf{Frames/Sec} & \textbf{Mbps} & \textbf{Cantidad Usuarios} \\ \hline
+\textbf{Distancia} & \textbf{Velocidad} & \textbf{Frames/Sec} & \textbf{Mbps} & \textbf{Cantidad Usuarios} \\ \hline \hline
 20 metros          & 80 km/h            & 12 f/s              & 2 Mbps        & 46 usuarios                \\ \hline
 20 metros          & 100 km/h           & 15 f/s              & 2,5 Mbps      & 36 usuarios                \\ \hline
 20 metros          & 120 km/h           & 18 f/s              & 3 Mbps        & 30 usuarios                \\ \hline

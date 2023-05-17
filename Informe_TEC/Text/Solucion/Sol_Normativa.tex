@@ -29,9 +29,23 @@ Por lo que se realiza el pago de la tasa 790, que se puede encontrar en la sede 
 Una vez realizado el pago de la tasa 790, se obtiene un justificante de dicho pago que se adjuntará con el paso 2, explicado a continuación.
 
 \subsection{Envío de la solicitud}
+
+
+El Reglamento de uso del dominio público radioeléctrico aprobado por el Real Decreto 123/2017, de 24 de febrero, considera usos experimentales los destinados a efectuar pruebas técnicas o ensayos sobre propagación, utilización de nuevas bandas de frecuencia o demostraciones de nuevos servicios o tecnologías. Su duración está limitada a máximo seis meses. 
+La solicitud de título habilitante (autorización individual) para el uso del dominio público radioeléctrico para la cobertura de eventos de corta duración se debe presentar ante esta Secretaría de Estado con una antelación de, al menos, diez días hábiles al comienzo del período de utilización solicitado.\\ 
+
+Junto con la solicitud, se debe presentar una memoria técnica (fichero estructurado XML) que incluirá el período de utilización, una descripción del servicio a prestar, la red radioeléctrica, con las estaciones y equipos que se pretenden utilizar, con indicación de sus características técnicas y ubicación. Dicha memoria técnica puede estar firmada por un técnico competente o en otro caso venir firmada electrónicamente por el titular responsable de la red o su representante legal. 
+
+Para generar la descripción de la red, se facilita la herramienta SM\_GenXML, se completa el fichero descriptivo de la red y se realiza el proceso de firma del mismo. \\
+
+La solicitud de título habilitante de uso de frecuencias para eventos de corta duración o para pruebas experimentales debe presentarse utilizando el procedimiento Solicitud Nuevas Redes Radioeléctricas Servicio Móvil y Fijo de banda estrecha correspondiente al conjunto de procedimientos relativos a “Redes Radioeléctricas del Servicio Móvil y Fijo de banda estrecha” disponibles en la sede electrónica:
+Respecto al punto “Anexado de documentos” del Manual indicado, en lo relativo al documento “Datos Adicionales No Estructurados del Proyecto” deberán facilitarse las fechas del evento, frecuencias alternativas a las grabadas en el fichero, rango de funcionamiento en frecuencias de los equipos y cualquier otra información necesaria o que pueda facilitar el estudio de la red por parte de la Administración 
+Durante el proceso de generación de la descripción de red mediante la herramienta SM\_GenXML se deberá adjuntar este fichero firmado electrónicamente .
+
+\subsection{Pago tasas del modelo 990}
 En el anexo I, apartado 3 de la Ley 32/2003, de 3 de noviembre, General de Telecomunicaciones:\\
 
-El artículo 3 anteriormente mencionado: Tasa por reserva del dominio público radioeléctrico presenta que,
+El artículo 3 en el que se describe la tasa por reserva del dominio público radioeléctrico presenta que,
 \begin{quote}
 \itshape
 La reserva para uso privativo de cualquier frecuencia del dominio público radioeléctrico a favor de una o varias personas o entidades se gravará con una tasa anual, en los términos que se establecen en este apartado.\\
@@ -50,15 +64,14 @@ La tasa por reserva de dominio público radioeléctrico establecida en el aparta
 
 $$T = \frac{[N \times V]}{166,386} = \frac{[S \, (\text{km}^2) \times B \, (\text{kHz}) \times F \, (C1, C2, C3, C4, C5)]}{166,386}$$
 
-En donde:\\
+Donde:\\
 T = importe de la tasa anual en euros.\\
 N = número de unidades de reserva radioeléctrica (URR) calculado como el producto de S x B, es decir, superficie en kilómetros cuadrados de la zona de servicio, por ancho de banda reservado expresado en KHz.\\
 V = valor de la URR, determinado en función de los cinco coeficientes Ci, establecidos en la Ley General de Telecomunicaciones, y cuya cuantificación, de conformidad con dicha Ley, será establecida en la Ley de Presupuestos Generales del Estado.\\
 F (C1, C2, C3, C4, C5) = esta función es el producto de los cinco coeficientes indicados anteriormente.
 \end{quote}
 
-Donde, $N\ =\ 9.1 \times 10^3$\\
-El proyecto presente se encuentra dentro de la situación descrita en el apartado 1.1.2: Servicio móvil asignación fija/frecuencia compartida/zona de alta utilización (ya que la red se encuentra en un área metropolitana)/autoprestación. Y por tanto: 
+En el presente proyecto, $N\ =\ 10 \times 10^3$\, S= 10$Km^2$, los valores de los coeficientes corresponden a los descritos dentro del escenario del apartado 1.1.2: Servicio móvil asignación fija/frecuencia compartida/zona de alta utilización (ya que la red se encuentra en un área metropolitana)/autoprestación. Y por tanto: 
 \begin{itemize}
 \item C1=1,25
 \item C2=1,25
@@ -67,5 +80,6 @@ El proyecto presente se encuentra dentro de la situación descrita en el apartad
 \item C5=0,4590
 \end{itemize}
 
+Una vez realizadas las cuentas, se obtiene un valor de importe aproximado de T = 616,3848 \euro{} anuales. Como es una red experimental, su uso está limitado a 6 meses, por lo que el pago de la tasa 990 es de 308,1924. \\
 
-Una vez realizadas las presentes cuentas, se obtiene un valor de importe aproximado de T = 616,3848 \euro{} anuales. Sin embargo, como es una red experimental, su uso está limitado a 6 meses, por lo que el pago de la tasa 990 es de 308,1924. 
+En los Anexos se adjuntan...

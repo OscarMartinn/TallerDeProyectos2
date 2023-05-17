@@ -19,17 +19,18 @@ Por defecto, viene pre-entrenado con el conjunto de datos COCO (Common Objects i
 El entrenamiento de algoritmos de detección de objetos puede ser muy costoso computacionalmente. El proceso de entrenamiento puede llevar varias horas, días o incluso semanas, dependiendo del tamaño del conjunto de datos y los recursos hardware disponibles. Por ello, decidimos partir de pesos ya pre-entrenados en detección de señales.\\
 
 Los pesos utilizados están preparados para detectar cuatro grupos de señales diferentes:\\
-
--	Prohibición: señales circulares con fondo blanco y borde rojo, como puede ser una prohibición de superar una determinada velocidad o la prohibición de entrada de un vehículo en vía.
--	Peligro: señales triangulares con fondo blanco y borde rojo, como puede ser la señal de advertencia de una curva peligrosa o peligro de desprendimientos.
--	Obligación: señales circulares azules, como puede ser la obligación de superar determinada velocidad u obligación de realizar un giro.
--	Otros: resto de señales de tráfico.\\
+\begin{itemize}
+\item Prohibición: señales circulares con fondo blanco y borde rojo, como puede ser una prohibición de superar una determinada velocidad o la prohibición de entrada de un vehículo en vía.
+\item Peligro: señales triangulares con fondo blanco y borde rojo, como puede ser la señal de advertencia de una curva peligrosa o peligro de desprendimientos.
+\item Obligación: señales circulares azules, como puede ser la obligación de superar determinada velocidad u obligación de realizar un giro.
+\item Otros: resto de señales de tráfico.
+\end{itemize}
 
 Bajo estas premisas, mediante nuestra infraestructura de red 4G podemos poner en marcha el vehículo Amazon DeepRacer que tenemos en la figura \ref{deepracer}, así podremos manejar el vehículo y acceder al contenido de su cámara.\\
 
 \begin{figure}[H]
     \centering
- 	\includegraphics[width=\textwidth]{Imagenes/IA/deepracer.pdf}
+ 	\includegraphics[width=0.6\textwidth]{Imagenes/IA/deepracer.pdf}
     \caption{Vehículo Amazon DeepRacer utilizado}
     \label{deepracer}
 \end{figure}
@@ -38,14 +39,14 @@ Gracias a que nuestra escuela, ETSIT de la Universidad de Valladolid, poseía un
 
 \begin{figure}[H]
     \centering
- 	\includegraphics[width=\textwidth]{Imagenes/IA/deteccion1.pdf}
+ 	\includegraphics[width=0.6\textwidth]{Imagenes/IA/deteccion1.pdf}
     \caption{Primer ejemplo de detección de señales miniatura en vídeo en circuito}
     \label{deteccion1}
 \end{figure}
 
 \begin{figure}[H]
     \centering
- 	\includegraphics[width=\textwidth]{Imagenes/IA/deteccion2.pdf}
+ 	\includegraphics[width=0.6\textwidth]{Imagenes/IA/deteccion2.pdf}
     \caption{Segundo ejemplo de detección de señales miniatura en vídeo en circuito}
     \label{deteccion2}
 \end{figure}
@@ -54,7 +55,7 @@ De igual forma, podemos probar con imágenes de una vía normal, podemos visuali
 
 \begin{figure}[H]
     \centering
- 	\includegraphics[width=\textwidth]{Imagenes/IA/deteccion3.pdf}
+ 	\includegraphics[width=0.6\textwidth]{Imagenes/IA/deteccion3.pdf}
     \caption{Detección de señales reales en vídeo en carretera real}
     \label{deteccion3}
 \end{figure}
@@ -66,7 +67,7 @@ Para calcular la precisión y la recuperación se hace uso de las siguientes fó
 $$\text{precisión} = \frac{\text{TP}}{\text{TP} + \text{FP}}\ \text{recuperación} = \frac{\text{TP}}{\text{TP} + \text{FN}}$$
 \\
 
-Podemos contemplar en la figura XXX (rendimiento.pdf) que para cada categoría contemplada de señales de tráfico obtenemos una precisión media (AP) diferente. Para la clase obligación se obtiene una precisión del 57,9\%, para peligro un 72,22\%, para prohibición un 84,54\% y para el resto un 62,14\%. Destacar que entre las 64 imágenes que se han analizado, se encontraban tanto imágenes de señales reales, como señales de juguete, esto es clave porque los pesos pre-entrenados no contaban con señales falsas. Por ello, podemos notar que quizás los valores de precisión obtenidos no son suficientemente altos debido a la inclusión de señales que no se asemejan con las de entrenamiento.\\
+Podemos contemplar en la figura \ref{rendimiento} que para cada categoría contemplada de señales de tráfico obtenemos una precisión media (AP) diferente. Para la clase obligación se obtiene una precisión del 57,9\%, para peligro un 72,22\%, para prohibición un 84,54\% y para el resto un 62,14\%. Destacar que entre las 64 imágenes que se han analizado, se encontraban tanto imágenes de señales reales, como señales de juguete, esto es clave porque los pesos pre-entrenados no contaban con señales falsas. Por ello, podemos notar que quizás los valores de precisión obtenidos no son suficientemente altos debido a la inclusión de señales que no se asemejan con las de entrenamiento.\\
 
 
 \begin{figure}[H]

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.2)  17 MAY 2023 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.2)  17 MAY 2023 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -562,7 +562,7 @@ LaTeX Info: Redefining \nameref on input line 69.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../OdiTech Logo.pdf, id=80, 286.78542pt x 75.79758pt>
+<../OdiTech Logo.pdf, id=84, 286.78542pt x 75.79758pt>
 File: ../OdiTech Logo.pdf Graphic file (type pdf)
 <use ../OdiTech Logo.pdf>
 Package pdftex.def Info: ../OdiTech Logo.pdf  used on input line 71.
@@ -673,7 +673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/PlanteamientoInic
 ial/torres_telefonia.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<Imagenes/PlanteamientoInicial/torres_telefonia.pdf, id=178, 1285.87396pt x 793
+<Imagenes/PlanteamientoInicial/torres_telefonia.pdf, id=183, 1285.87396pt x 793
 .00366pt>
 File: Imagenes/PlanteamientoInicial/torres_telefonia.pdf Graphic file (type pdf
 )
@@ -755,17 +755,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
-Overfull \hbox (42.02637pt too wide) in paragraph at lines 29--34
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
@@ -773,33 +768,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/Solucion/xirio.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Solucion/xirio.pdf, id=200, 1049.97273pt x 621.35335pt>
+<Imagenes/Solucion/xirio.pdf, id=205, 1049.97273pt x 621.35335pt>
 File: Imagenes/Solucion/xirio.pdf Graphic file (type pdf)
 <use Imagenes/Solucion/xirio.pdf>
-Package pdftex.def Info: Imagenes/Solucion/xirio.pdf  used on input line 46.
+Package pdftex.def Info: Imagenes/Solucion/xirio.pdf  used on input line 49.
 (pdftex.def)             Requested size: 483.69687pt x 286.23369pt.
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
 [9 <./Imagenes/Solucion/xirio.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
@@ -859,12 +854,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
@@ -872,80 +862,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/IA/deepracer.pdf)
 : PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/IA/deepracer.pdf, id=218, 194.97844pt x 146.04562pt>
+<Imagenes/IA/deepracer.pdf, id=224, 194.97844pt x 146.04562pt>
 File: Imagenes/IA/deepracer.pdf Graphic file (type pdf)
 <use Imagenes/IA/deepracer.pdf>
-Package pdftex.def Info: Imagenes/IA/deepracer.pdf  used on input line 32.
-(pdftex.def)             Requested size: 483.69687pt x 362.32082pt.
+Package pdftex.def Info: Imagenes/IA/deepracer.pdf  used on input line 33.
+(pdftex.def)             Requested size: 290.22107pt x 217.39427pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[11 <./Imagenes/IA/deepracer.pdf>]
 <Imagenes/IA/deteccion1.pdf, id=227, 1006.76125pt x 901.3675pt>
 File: Imagenes/IA/deteccion1.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion1.pdf>
-Package pdftex.def Info: Imagenes/IA/deteccion1.pdf  used on input line 41.
-(pdftex.def)             Requested size: 483.69687pt x 433.06409pt.
-<Imagenes/IA/deteccion2.pdf, id=228, 1006.76125pt x 901.3675pt>
+Package pdftex.def Info: Imagenes/IA/deteccion1.pdf  used on input line 42.
+(pdftex.def)             Requested size: 290.22107pt x 259.8357pt.
+[11 <./Imagenes/IA/deepracer.pdf>]
+<Imagenes/IA/deteccion2.pdf, id=234, 1006.76125pt x 901.3675pt>
 File: Imagenes/IA/deteccion2.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion2.pdf>
-Package pdftex.def Info: Imagenes/IA/deteccion2.pdf  used on input line 48.
-(pdftex.def)             Requested size: 483.69687pt x 433.06409pt.
- [12 <./Imagenes/IA/deteccion1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Package pdftex.def Info: Imagenes/IA/deteccion2.pdf  used on input line 49.
+(pdftex.def)             Requested size: 290.22107pt x 259.8357pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<Imagenes/IA/deteccion3.pdf, id=239, 937.5025pt x 731.73375pt>
+<Imagenes/IA/deteccion3.pdf, id=236, 937.5025pt x 731.73375pt>
 File: Imagenes/IA/deteccion3.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion3.pdf>
-Package pdftex.def Info: Imagenes/IA/deteccion3.pdf  used on input line 57.
-(pdftex.def)             Requested size: 483.69687pt x 377.5226pt.
-[13 <./Imagenes/IA/deteccion2.pdf>]
-Overfull \hbox (4.92773pt too wide) in paragraph at lines 62--63
+Package pdftex.def Info: Imagenes/IA/deteccion3.pdf  used on input line 58.
+(pdftex.def)             Requested size: 290.22107pt x 226.51132pt.
+[12 <./Imagenes/IA/deteccion1.pdf> <./Imagenes/IA/deteccion2.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/IA/deteccion2.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Overfull \hbox (4.92773pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/10 Finalmente, a trav^^Ses de un po-pu-lar re-po-si-to-rio de Gi
 tHub []$\OT1/cmtt/m/n/10 https : / / github . com / rafaelpadilla / Object-[]De
  \
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-<Imagenes/IA/rendimiento.pdf, id=249, 785.93625pt x 574.145pt>
+<Imagenes/IA/rendimiento.pdf, id=251, 785.93625pt x 574.145pt>
 File: Imagenes/IA/rendimiento.pdf Graphic file (type pdf)
 <use Imagenes/IA/rendimiento.pdf>
-Package pdftex.def Info: Imagenes/IA/rendimiento.pdf  used on input line 74.
+Package pdftex.def Info: Imagenes/IA/rendimiento.pdf  used on input line 75.
 (pdftex.def)             Requested size: 483.69687pt x 353.36429pt.
-) [14 <./Imagenes/IA/deteccion3.pdf>] (./Text/Solucion/Sol_Normativa.tex
+) [13 <./Imagenes/IA/deteccion3.pdf>] (./Text/Solucion/Sol_Normativa.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-[15 <./Imagenes/IA/rendimiento.pdf>]
+[14 <./Imagenes/IA/rendimiento.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -961,7 +955,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
@@ -970,13 +969,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-[16]) [17]
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+) [16]
 Cap\'{\i }tulo 4.
-[18
+[17
 
 ]
 Cap\'{\i }tulo 5.
-(./Text/Rendimiento/Rendimiento.tex) [19
+(./Text/Rendimiento/Rendimiento.tex) [18
 
 ]
 Cap\'{\i }tulo 6.
@@ -985,7 +994,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[20
+[19
 
 ]) (./Text/AnexoI_Manual/AA/despliegue_ia.tex
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
@@ -1006,12 +1015,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-(./Text/AnexoI_Manual/AA/deteccion.tex [21]
+(./Text/AnexoI_Manual/AA/deteccion.tex [20]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 deteccion1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion1.pdf, id=355, 1123.25397pt x 690.61548pt>
+<Imagenes/AnexoI_Manual/AA/deteccion1.pdf, id=357, 1123.25397pt x 690.61548pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion1.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion1.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion1.pdf  used on inpu
@@ -1022,30 +1031,30 @@ t line 26.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 deteccion2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion2.pdf, id=357, 1425.39827pt x 799.02605pt>
+<Imagenes/AnexoI_Manual/AA/deteccion2.pdf, id=359, 1425.39827pt x 799.02605pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion2.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion2.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion2.pdf  used on inpu
 t line 38.
 (pdftex.def)             Requested size: 483.69687pt x 271.14099pt.
-[22 <./Imagenes/AnexoI_Manual/AA/deteccion1.pdf>]
+[21 <./Imagenes/AnexoI_Manual/AA/deteccion1.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 deteccion3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion3.pdf, id=368, 1283.86217pt x 750.8436pt>
+<Imagenes/AnexoI_Manual/AA/deteccion3.pdf, id=370, 1283.86217pt x 750.8436pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion3.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion3.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion3.pdf  used on inpu
 t line 51.
 (pdftex.def)             Requested size: 483.69687pt x 282.88321pt.
-[23 <./Imagenes/AnexoI_Manual/AA/deteccion2.pdf> <./Imagenes/AnexoI_Manual/AA/d
+[22 <./Imagenes/AnexoI_Manual/AA/deteccion2.pdf> <./Imagenes/AnexoI_Manual/AA/d
 eteccion3.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 deteccion4.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion4.pdf, id=378, 1173.44403pt x 554.09848pt>
+<Imagenes/AnexoI_Manual/AA/deteccion4.pdf, id=380, 1173.44403pt x 554.09848pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion4.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion4.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion4.pdf  used on inpu
@@ -1066,12 +1075,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[24 <./Imagenes/AnexoI_Manual/AA/deteccion4.pdf>]
+[23 <./Imagenes/AnexoI_Manual/AA/deteccion4.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 etiquetado1.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado1.pdf, id=391, 719.22382pt x 452.21263pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado1.pdf, id=392, 719.22382pt x 452.21263pt>
 File: Imagenes/AnexoI_Manual/AA/etiquetado1.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado1.pdf  used on inp
@@ -1087,19 +1096,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 etiquetado2.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado2.pdf, id=393, 1443.46663pt x 801.03368pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado2.pdf, id=394, 1443.46663pt x 801.03368pt>
 
 File: Imagenes/AnexoI_Manual/AA/etiquetado2.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado2.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado2.pdf  used on inp
 ut line 26.
 (pdftex.def)             Requested size: 483.69687pt x 268.42433pt.
-[25 <./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>]
+[24 <./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 etiquetado3.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado3.pdf, id=402, 1441.45914pt x 802.03748pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado3.pdf, id=404, 1441.45914pt x 802.03748pt>
 
 File: Imagenes/AnexoI_Manual/AA/etiquetado3.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado3.pdf>
@@ -1111,13 +1120,13 @@ ut line 36.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 etiquetado4.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado4.pdf, id=404, 698.6459pt x 77.29272pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado4.pdf, id=406, 698.6459pt x 77.29272pt>
 File: Imagenes/AnexoI_Manual/AA/etiquetado4.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado4.pdf  used on inp
 ut line 45.
 (pdftex.def)             Requested size: 483.69687pt x 53.51366pt.
-[26 <./Imagenes/AnexoI_Manual/AA/etiquetado2.pdf> <./Imagenes/AnexoI_Manual/AA/
+[25 <./Imagenes/AnexoI_Manual/AA/etiquetado2.pdf> <./Imagenes/AnexoI_Manual/AA/
 etiquetado3.pdf>]) (./Text/AnexoI_Manual/AA/rendimiento.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1128,13 +1137,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<Imagenes/AnexoI_Manual/AA/rendimiento.pdf, id=418, 785.93625pt x 574.145pt>
+<Imagenes/AnexoI_Manual/AA/rendimiento.pdf, id=420, 785.93625pt x 574.145pt>
 File: Imagenes/AnexoI_Manual/AA/rendimiento.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/rendimiento.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/rendimiento.pdf  used on inp
 ut line 14.
 (pdftex.def)             Requested size: 483.69687pt x 353.36429pt.
-[27 <./Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>])
+[26 <./Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>])
 (./Text/AnexoI_Manual/AA/dataset.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1145,24 +1154,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Imagenes/AnexoI_Manual/AA/
 dataset.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<Imagenes/AnexoI_Manual/AA/dataset.pdf, id=434, 748.83597pt x 427.61946pt>
+<Imagenes/AnexoI_Manual/AA/dataset.pdf, id=436, 748.83597pt x 427.61946pt>
 File: Imagenes/AnexoI_Manual/AA/dataset.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/dataset.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/dataset.pdf  used on input l
 ine 13.
 (pdftex.def)             Requested size: 483.69687pt x 276.22025pt.
-[28 <./Imagenes/AnexoI_Manual/AA/rendimiento.pdf>]
+[27 <./Imagenes/AnexoI_Manual/AA/rendimiento.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-)) [29 <./Imagenes/AnexoI_Manual/AA/dataset.pdf>]
+)) [28 <./Imagenes/AnexoI_Manual/AA/dataset.pdf>]
 Cap\'{\i }tulo 7.
-[30
+[29
 
 ]
 Cap\'{\i }tulo 8.
-[31
+[30
 
 ] (./main.aux
 LaTeX Info: Redefining \. on input line 26.
@@ -1172,33 +1181,34 @@ LaTeX Info: Redefining \% on input line 26.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D9B87AE30AE1D8FDC36627A57E9DA5EC;3147.
+(rerunfilecheck)             Checksum: 24F4974AF9181F554E35E05CF11B0CC0;3346.
  ) 
 Here is how much of TeX's memory you used:
  15595 strings out of 478994
- 230861 string characters out of 5858184
+ 230876 string characters out of 5858184
  827693 words of memory out of 5000000
- 32641 multiletter control sequences out of 15000+600000
- 414732 words of font info for 71 fonts, out of 8000000 for 9000
+ 32640 multiletter control sequences out of 15000+600000
+ 415091 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,9n,74p,1293b,1316s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb>
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local
-/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on main.pdf (32 pages, 26447206 bytes).
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb
+></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/loca
+l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on main.pdf (31 pages, 26458634 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 453 compressed objects within 5 object streams
+ 547 PDF objects out of 1000 (max. 8388607)
+ 458 compressed objects within 5 object streams
  147 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
 
