@@ -7,12 +7,17 @@ Integrantes:
 	-> D: Daniel Sirgo
 _________________________________________________________________________
 
-----> Semana 13 11/05/2023:
+----> Semana 13 18/05/2023:
+
+- I,D: Tabla de costes, revisión informe - 4h 
+- O,M: Pruebas coche, mejora IA - 4h
+
+----> Semana 13 17/05/2023:
 
 - I,D: Redacción Informe - 2h 
 - O,M: Pruebas coche - 2h
 
-----> Semana 13 11/05/2023:
+----> Semana 13 16/05/2023:
 
 - D,I,M: Redacción Informe, pruebas coche - 4h 
 - O: Redacción Informe, pruebas coche, unión IA con coche en tiempo real - 4h
