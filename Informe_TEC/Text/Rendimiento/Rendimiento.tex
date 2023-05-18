@@ -1,14 +1,14 @@
-Antes de comenzar con el rendimiento de la red, es necesario saber cómo está dispuesta nuestra red y cuáles son las direcciones IP de las interfaces:
+Antes de comenzar con el rendimiento de la red, es necesario saber cómo está dispuesta nuestra red y cuáles son las direcciones IP tanto de las interfaces interiores de la red 4G como de las interfaces correspondientes al usuario y al router. Esto se observa en la figura \ref{fig:EsquemaRed}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.99\textwidth]{Imagenes/Rendimiento/red.jpeg}
+    \includegraphics[width=0.99\textwidth]{Imagenes/Rendimiento/red.pdf}
     \caption{Esquema de la red. (Se ha usado \textit{iproute} para saber las direcciones IP de las diferentes interfaces)}
     \label{fig:EsquemaRed}
 \end{figure}
 
 Una de las formas más simples de calcular el rendimiento de la red \textbf{extremo a extremo} es usando la herramienta \textit{ping}. Esta herramienta mide la latencia enviando un paquete de datos desde un dispositivo a otro y midiendo el tiempo que tarda en ser recibido y respondido. La latencia se refiere al tiempo que tarda un paquete de datos en viajar desde un dispositivo a otro en una red.\\
-Haciendo \textit{ping} desde nuestro equipo de usuario \footnote{Se ha hecho uso de la app “Ping IP”} (UE) (176.16.0.3), que corresponde a un dispositivo móvil  que se encuentra en la misma sala y red que el ordenador de sobremesa en el que corre el eNodeB y el core obtenemos: 
+Haciendo \textit{ping} desde nuestro equipo de usuario \footnote{Se ha hecho uso de la app “Ping IP”} (UE), con dirección IP 176.16.0.3, que corresponde a un dispositivo móvil  que se encuentra en la misma sala y red que el ordenador de sobremesa en el que corre el eNodeB y el core obtenemos \ref{fig:ping} 
 
  \begin{figure}[H]
     \centering
@@ -17,16 +17,15 @@ Haciendo \textit{ping} desde nuestro equipo de usuario \footnote{Se ha hecho uso
     \label{fig:ping}
 \end{figure}
 
-Aunque la latencia se puede ver afectada por la calidad de la red, la carga de tráfico, la distancia a la estación base, y otros factores, los valores obtenidos son bastante buenos. Se puede considerar que un buen valor para el valor de la latencia en una red 4G se encuentra en el rango de 30 a 50 ms.\\
-En lo que respecta al streaming de video (lo que se busca en este proyecto para que los videos sean recibidos y procesados con la menor latencia posible ), una latencia inferior a 150 ms es adecuada para una experiencia de streaming fluida, mientras que una latencia superior a 200 ms puede causar retrasos en el video y una latencia superior a 300 ms puede generar interrupciones frecuentes o una experiencia de usuario negativa. En condiciones de laboratorio estas condiciones se cumplen satisfactoriamente. 
+Aunque la latencia se puede ver afectada por la calidad de la red, la carga de tráfico, la distancia a la estación base, y otros factores, los valores obtenidos que se aprecian son bastante buenos. Se puede considerar que un buen valor de latencia en una red 4G se encuentra en el rango de 30 a 50 ms.\\
+En lo que respecta al streaming de video (lo que se busca en este proyecto para que los videos sean recibidos y procesados con la menor latencia posible), una latencia inferior a 150 ms es adecuada para una experiencia de streaming fluida, mientras que una latencia superior a 200 ms puede causar retrasos en el video y una latencia superior a 300 ms puede generar interrupciones frecuentes o una experiencia de usuario negativa. En condiciones de laboratorio estas condiciones se cumplen satisfactoriamente. 
 
-Para seguir con el cálculo del rendimiento de nuestra red utilizamos la herramienta IPERF3 para calcular el rendimiento extremo a extremo.  
+Para seguir con el cálculo del rendimiento de nuestra red utilizamos la herramienta \textit{Iperf3} para calcular el rendimiento extremo a extremo.  
 
-Iperf es una herramienta de línea de comandos que se utiliza para medir el rendimiento de la red, en términos de ancho de banda y calidad de servicio (QoS), entre dos dispositivos.
-Iperf mide la tasa de transferencia de datos entre dos dispositivos, y puede proporcionar información detallada sobre el rendimiento de la red, incluyendo la tasa de transferencia de datos, la latencia y la pérdida de paquetes. Iperf utiliza un modelo cliente-servidor para medir el rendimiento de la red.
-El cliente envía datos al servidor, y el servidor devuelve una respuesta al cliente. Durante esta comunicación, Iperf mide la tasa de transferencia de datos en ambas direcciones.
+\textit{Iperf3} es una herramienta de línea de comandos que se utiliza para medir el rendimiento de la red, en términos de ancho de banda y calidad de servicio (QoS), entre dos dispositivos. En definitiva, \textit{Iperf} mide la tasa de transferencia de datos entre dos dispositivos, y puede proporcionar información detallada sobre el rendimiento de la red, incluyendo la tasa de transferencia de datos, la latencia y la pérdida de paquetes. Además, utiliza un modelo cliente-servidor para dichas tareas.
+El cliente envía datos al servidor, y el servidor devuelve una respuesta al cliente. Durante esta comunicación, \textit{Iperf} mide la tasa de transferencia de datos en ambas direcciones.
 
-Realizamos un iperf3 con el ordenador como servidor y el móvil (UE) con la sim como cliente \footnote{Haciendo uso de la app "Aruba Utilities"}
+Esta comunicación se realiza haciendo uso del comando \textit{iperf3} con el ordenador como servidor y el móvil (UE) con la sim como cliente \footnote{Haciendo uso de la app \textit{Aruba Utilities}}
 
 \begin{verbatim}
 iperf3 -s -p 5001
@@ -60,10 +59,10 @@ iperf3 -c 172.16.0.1 -P 50 -p 5001 -f m -t5
 [SUM]  10.00-10.63  sec   718 KBytes  9.28 Mbits/sec 
 \end{lstlisting}
 
-La salida de Iperf depende de muchos factores, como la calidad de la señal, la carga de la red, la capacidad de los dispositivos involucrados, entre otros.
+La salida de \textit{Iperf} depende de muchos factores, como la calidad de la señal, la carga de la red, la capacidad de los dispositivos involucrados, entre otros.
 En una red 4G, una salida razonable dependería de la configuración y las características específicas de la red y de los dispositivos utilizados. Sin embargo, como referencia general, en una red 4G se pueden esperar tasas de transferencia de datos de al menos 10-20 Mbps, y en algunos casos incluso mayores, dependiendo de la calidad de la señal y la configuración de la red. Por lo que los resultados obtenidos son buenos. 
 
-Continuando con el análisis del rendimiento de la red punto a punto, creamos un programa en python que utiliza el protocolo NTP para calcular el delay, el jitter y la latencia, utlizando como servidor NTP la dirección 130.206.3.166. En el Anexo \ref{} se observa el código empleado.
+Continuando con el análisis del rendimiento de la red punto a punto, creamos un programa en python que utiliza el protocolo NTP para calcular el delay, el jitter y la latencia, utlizando como servidor NTP la dirección 130.206.3.166, que corresponde al servidor hora.rediris.es. En el Anexo \ref{} se observa el código empleado.
 
 El protocolo NTP calcula la latencia y los otros parámetros midiendo el tiempo que tarda una petición de tiempo en ser enviada desde un cliente a un servidor NTP y la respuesta del servidor en ser recibida por el cliente, siendo los clientes las diferentes interfaces de nuestra red.
 
@@ -114,7 +113,9 @@ Obtenemos una velocidad de descarga de 44.5 Mb/s y de subida de 21.1 Mb/s. Para 
 \section{Kernel de Baja Latencia}
 
 Para mejorar los resultados de rendimiento de la red instalamos el kernel de baja latencia de Linux y cambiamos las prioridades para que el núcleo tenga prioridad. Para ello utilizamos el comando:
+\begin{verbatim}
 sudo apt-get install -y linux-lowlatency.
+\end{verbatim}
 Por último, reiniciamos el ordenador y elegimos al arrancar el Linux de baja latencia.
 
 En general los resultados obtenidos son bastante parecidos a los obtenidos con el kernel normal, con alguna excepción en el que mejora dicha latencia y ''Jitter''. 
