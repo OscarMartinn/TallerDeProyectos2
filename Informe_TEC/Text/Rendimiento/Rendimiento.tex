@@ -1,9 +1,9 @@
-Antes de comenzar con el rendimiento de la red, es necesario saber cómo está dispuesta nuestra red y cuáles son las direcciones IP tanto de las interfaces interiores de la red 4G como de las interfaces correspondientes al usuario y al router. Esto se observa en la figura \ref{fig:EsquemaRed}
+Antes de comenzar con el rendimiento de la red, es necesario saber cómo esta está dispuesta  y cuáles son las direcciones IP tanto de las interfaces interiores de la red 4G como de las interfaces correspondientes al usuario y al router. Esto se puede observar en la figura \ref{fig:EsquemaRed}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.99\textwidth]{Imagenes/Rendimiento/red.pdf}
-    \caption{Esquema de la red. (Se ha usado \textit{iproute} para saber las direcciones IP de las diferentes interfaces)}
+    \caption{Esquema de la red. (Se ha usado \textit{iproute} para saber las direcciones IP de las diferentes interfaces).}
     \label{fig:EsquemaRed}
 \end{figure}
 
@@ -25,7 +25,7 @@ Para seguir con el cálculo del rendimiento de nuestra red utilizamos la herrami
 \textit{Iperf3} es una herramienta de línea de comandos que se utiliza para medir el rendimiento de la red, en términos de ancho de banda y calidad de servicio (QoS), entre dos dispositivos. En definitiva, \textit{Iperf} mide la tasa de transferencia de datos entre dos dispositivos, y puede proporcionar información detallada sobre el rendimiento de la red, incluyendo la tasa de transferencia de datos, la latencia y la pérdida de paquetes. Además, utiliza un modelo cliente-servidor para dichas tareas.
 El cliente envía datos al servidor, y el servidor devuelve una respuesta al cliente. Durante esta comunicación, \textit{Iperf} mide la tasa de transferencia de datos en ambas direcciones.
 
-Esta comunicación se realiza haciendo uso del comando \textit{iperf3} con el ordenador como servidor y el móvil (UE) con la sim como cliente \footnote{Haciendo uso de la app \textit{Aruba Utilities}}
+Esta comunicación se realiza haciendo uso del comando \textit{iperf3} con el ordenador como servidor y el móvil (UE) con la Sim como cliente \footnote{Haciendo uso de la app \textit{Aruba Utilities}}
 
 \begin{verbatim}
 iperf3 -s -p 5001
