@@ -5,7 +5,22 @@ Integrantes:
 	-> I: Inés Varona
 	-> O: Oscar Martín	
 	-> D: Daniel Sirgo
+
 _________________________________________________________________________
+
+----> Semana 14 22/05/2023:
+
+- D: revisión informe - 2h 
+- I: presentación ppp - 2h
+- M: Informe - 2h
+- O: IA - 2h
+_________________________________________________________________________
+
+----> Semana 13 18/05/2023:
+
+- I,D: Tabla de costes, revisión informe - 2h 
+- M: Pruebas coche, mejora IA - 2h
+- O: IA - 4h30min
 
 ----> Semana 13 18/05/2023:
 
