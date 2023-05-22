@@ -61,4 +61,46 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
 
 \item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor cloud e instalamos el servidor \textbf{MQTT Mosquitto}.
 
+\item Modificamos el fichero de configuración /etc/mosquitto/mosquitto.conf con las siguientes líneas:
+\begin{lstlisting}
+	persistence true
+	persistence_location /var/lib/mosquitto/
+	allow_anonymous true
+	listener 1883 10.0.128.176
+	bind_interface enp0s25
+	log_type information
+	log_type warning
+	log_type error
+\end{lstlisting}
+
+\item Para el correcto funcionamiento del servidor \textbf{MQTT Mosquitto} hay que suscribirse a los tópicos cada vez que lo ejecutamos con el siguiente comando:
+\begin{lstlisting}
+	mosquitto_sub -h localhost -t 1\#
+\end{lstlisting}
+
+
+\item Para el correcto funcionamiento del servidor \textbf{MQTT Mosquitto} hay que suscribirse a los tópicos cada vez que lo ejecutamos con el siguiente comando:
+\begin{lstlisting}
+	mosquitto_sub -h localhost -t 1\#
+\end{lstlisting}
+
+\item Por otra parte, en el dispositivo utilizado como cliente \textbf{MQTT Mosquitto} hay que suscribirse a los diferentes tópicos del vehículo, mostrando uno como ejemplo:
+\begin{lstlisting}
+	1/AM-Cloud
+\end{lstlisting}
+Y, publicarlos:
+\begin{lstlisting}
+	Topic: 1/command
+	Message: AM-Cloud
+\end{lstlisting}
+
+
+\item Por último, para lanzar el servicio \textbf{MQTT Mosquitto} y otras acciones como relanzarlo, ver su estado o pararlo utilizamos los siguientes comandos:
+\begin{lstlisting}
+	sudo systemctl start mosquitto
+	sudo systemctl status mosquitto
+	sudo systemctl restart mosquitto
+	sudo systemctl stop mosquitto
+\end{lstlisting}
+
 \end{enumerate}
