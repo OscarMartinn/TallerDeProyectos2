@@ -45,7 +45,7 @@ iperf3 -c 172.16.0.1 -P 50 -p 5001 -f m -t5
     \caption{Salida del comando ''iperf'' en el lado cliente.}
 \end{figure}
 
-\begin{lstlisting}[caption={Salida del comando ''iperf'' en el lado cliente.}]
+\begin{lstlisting}[caption={Salida del comando ''iperf'' en el lado servidor.}]
 [SUM]   0.00-1.00   sec   684 KBytes  5.61 Mbits/sec 
 [SUM]   1.00-2.00   sec   766 KBytes  6.28 Mbits/sec 
 [SUM]   2.00-3.00   sec  1.07 MBytes  9.01 Mbits/sec     
@@ -61,6 +61,12 @@ iperf3 -c 172.16.0.1 -P 50 -p 5001 -f m -t5
 
 La salida de \textit{Iperf} depende de muchos factores, como la calidad de la señal, la carga de la red, la capacidad de los dispositivos involucrados, entre otros.
 En una red 4G, una salida razonable dependería de la configuración y las características específicas de la red y de los dispositivos utilizados. Sin embargo, como referencia general, en una red 4G se pueden esperar tasas de transferencia de datos de al menos 10-20 Mbps, y en algunos casos incluso mayores, dependiendo de la calidad de la señal y la configuración de la red. Por lo que los resultados obtenidos son buenos. 
+
+En cuanto al rendimiento de la red, según \cite{Rendimiento}, para un valor de 100 prb de download, obtenemos 7,5 bits/Hz. Extrapolando a nuestra situación donde prb tiene un valor de 25, obtenemos una tasa binaria de 18,75Mbits de forma teórica. Sin embargo, en las capturas, sólo obtenemos un valor máximo de 9,28, esto puede ser debido a varias causas, entre las que encontramos: 
+
+Sobrecarga de red: la velocidad de la red 4G puede variar según la cantidad de usuarios conectados simultáneamente en una determinada celda. Si la celda está congestionada debido a un alto número de usuarios, la velocidad de transferencia puede disminuir. Esto afecta en gran medida a  nuestro caso, ya que en la misma sala están montadas 4 redes 4G a la vez. 
+
+Interferencia electromagnética: La interferencia de otros dispositivos electrónicos o estructuras físicas puede afectar la calidad de la señal y, por lo tanto, disminuir la velocidad de transferencia. Al encontrarnos en un laboratorio de docencia entre los que encontramos elementos como routers, antenas, ordenadores, etc. eso afecta considerablemente.
 
 Continuando con el análisis del rendimiento de la red punto a punto, creamos un programa en python que utiliza el protocolo NTP para calcular el delay, el jitter y la latencia, utlizando como servidor NTP la dirección 130.206.3.166, que corresponde al servidor hora.rediris.es. En el Anexo \ref{} se observa el código empleado.
 

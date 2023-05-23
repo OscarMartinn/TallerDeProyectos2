@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  22 MAY 2023 10:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  23 MAY 2023 12:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -594,7 +594,7 @@ Package hyperref Info: Link coloring OFF on input line 73.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../OdiTech Logo.pdf, id=91, 286.78542pt x 75.79758pt>
+<../OdiTech Logo.pdf, id=83, 286.78542pt x 75.79758pt>
 File: ../OdiTech Logo.pdf Graphic file (type pdf)
 <use ../OdiTech Logo.pdf>
 Package pdftex.def Info: ../OdiTech Logo.pdf  used on input line 75.
@@ -706,7 +706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 pdfTeX warning: pdflatex (file ./Imagenes/PlanteamientoInicial/torres_telefonia
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<Imagenes/PlanteamientoInicial/torres_telefonia.pdf, id=200, 1285.87396pt x 793
+<Imagenes/PlanteamientoInicial/torres_telefonia.pdf, id=190, 1285.87396pt x 793
 .00366pt>
 File: Imagenes/PlanteamientoInicial/torres_telefonia.pdf Graphic file (type pdf
 )
@@ -802,7 +802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 pdfTeX warning: pdflatex (file ./Imagenes/Solucion/xirio.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Solucion/xirio.pdf, id=222, 1049.97273pt x 621.35335pt>
+<Imagenes/Solucion/xirio.pdf, id=212, 1049.97273pt x 621.35335pt>
 File: Imagenes/Solucion/xirio.pdf Graphic file (type pdf)
 <use Imagenes/Solucion/xirio.pdf>
 Package pdftex.def Info: Imagenes/Solucion/xirio.pdf  used on input line 49.
@@ -896,7 +896,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 pdfTeX warning: pdflatex (file ./Imagenes/IA/deepracer.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/IA/deepracer.pdf, id=241, 194.97844pt x 146.04562pt>
+<Imagenes/IA/deepracer.pdf, id=231, 194.97844pt x 146.04562pt>
 File: Imagenes/IA/deepracer.pdf Graphic file (type pdf)
 <use Imagenes/IA/deepracer.pdf>
 Package pdftex.def Info: Imagenes/IA/deepracer.pdf  used on input line 33.
@@ -906,13 +906,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<Imagenes/IA/deteccion1.pdf, id=244, 1006.76125pt x 901.3675pt>
+<Imagenes/IA/deteccion1.pdf, id=234, 1006.76125pt x 901.3675pt>
 File: Imagenes/IA/deteccion1.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion1.pdf>
 Package pdftex.def Info: Imagenes/IA/deteccion1.pdf  used on input line 42.
 (pdftex.def)             Requested size: 290.22107pt x 259.8357pt.
 [11 <./Imagenes/IA/deepracer.pdf>]
-<Imagenes/IA/deteccion2.pdf, id=251, 1006.76125pt x 901.3675pt>
+<Imagenes/IA/deteccion2.pdf, id=241, 1006.76125pt x 901.3675pt>
 File: Imagenes/IA/deteccion2.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion2.pdf>
 Package pdftex.def Info: Imagenes/IA/deteccion2.pdf  used on input line 49.
@@ -922,7 +922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<Imagenes/IA/deteccion3.pdf, id=253, 937.5025pt x 731.73375pt>
+<Imagenes/IA/deteccion3.pdf, id=243, 937.5025pt x 731.73375pt>
 File: Imagenes/IA/deteccion3.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion3.pdf>
 Package pdftex.def Info: Imagenes/IA/deteccion3.pdf  used on input line 58.
@@ -963,7 +963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-<Imagenes/IA/rendimiento.pdf, id=268, 785.93625pt x 574.145pt>
+<Imagenes/IA/rendimiento.pdf, id=258, 785.93625pt x 574.145pt>
 File: Imagenes/IA/rendimiento.pdf Graphic file (type pdf)
 <use Imagenes/IA/rendimiento.pdf>
 Package pdftex.def Info: Imagenes/IA/rendimiento.pdf  used on input line 75.
@@ -1029,7 +1029,7 @@ Cap\'{\i }tulo 4.
 
 pdfTeX warning: pdflatex (file ./Imagenes/Costes/costes.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Costes/costes.pdf, id=302, 845.19763pt x 597.19112pt>
+<Imagenes/Costes/costes.pdf, id=292, 845.19763pt x 597.19112pt>
 File: Imagenes/Costes/costes.pdf Graphic file (type pdf)
 <use Imagenes/Costes/costes.pdf>
 Package pdftex.def Info: Imagenes/Costes/costes.pdf  used on input line 3.
@@ -1042,12 +1042,12 @@ Cap\'{\i }tulo 5.
 
 pdfTeX warning: pdflatex (file ./Imagenes/Rendimiento/red.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Rendimiento/red.pdf, id=329, 577.19638pt x 300.1614pt>
+<Imagenes/Rendimiento/red.pdf, id=319, 577.19638pt x 300.1614pt>
 File: Imagenes/Rendimiento/red.pdf Graphic file (type pdf)
 <use Imagenes/Rendimiento/red.pdf>
 Package pdftex.def Info: Imagenes/Rendimiento/red.pdf  used on input line 5.
 (pdftex.def)             Requested size: 478.86255pt x 249.02397pt.
-<Imagenes/Rendimiento/ping.jpeg, id=332, 1084.05pt x 708.6475pt>
+<Imagenes/Rendimiento/ping.jpeg, id=322, 1084.05pt x 708.6475pt>
 File: Imagenes/Rendimiento/ping.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/ping.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/ping.jpeg  used on input line 15.
@@ -1056,13 +1056,13 @@ Package pdftex.def Info: Imagenes/Rendimiento/ping.jpeg  used on input line 15.
 [19
 
  <./Imagenes/Rendimiento/red.pdf>]
-<Imagenes/Rendimiento/iperf3_2.jpeg, id=353, 924.45375pt x 2055.68pt>
+<Imagenes/Rendimiento/iperf3_2.jpeg, id=343, 924.45375pt x 2055.68pt>
 File: Imagenes/Rendimiento/iperf3_2.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/iperf3_2.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/iperf3_2.jpeg  used on input line
  42.
 (pdftex.def)             Requested size: 169.29684pt x 376.43669pt.
-<Imagenes/Rendimiento/iperf3_1.jpeg, id=354, 924.45375pt x 2055.68pt>
+<Imagenes/Rendimiento/iperf3_1.jpeg, id=344, 924.45375pt x 2055.68pt>
 File: Imagenes/Rendimiento/iperf3_1.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/iperf3_1.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/iperf3_1.jpeg  used on input line
@@ -1073,23 +1073,26 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 48.
 
 
-LaTeX Warning: Reference `' on page 21 undefined on input line 65.
+LaTeX Warning: Citation `Rendimiento' on page 21 undefined on input line 65.
 
 [21 <./Imagenes/Rendimiento/iperf3_2.jpeg> <./Imagenes/Rendimiento/iperf3_1.jpe
 g>]
+
+LaTeX Warning: Reference `' on page 22 undefined on input line 71.
+
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
-78.
- (C:\Users\dani_\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+84.
+(C:\Users\dani_\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-))
-[22]
+)
+[22]) [23]
 Cap\'{\i }tulo 6.
 (Text/AnexoI_Manual/Infraestructura/Infraestructura.tex
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-[23
+[24
 
 ]) (Text/AnexoI_Manual/AA/despliegue_ia.tex
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
@@ -1110,32 +1113,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[24] (Text/AnexoI_Manual/AA/deteccion.tex
+[25] (Text/AnexoI_Manual/AA/deteccion.tex
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion1.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion1.pdf, id=496, 1123.25397pt x 690.61548pt>
+<Imagenes/AnexoI_Manual/AA/deteccion1.pdf, id=490, 1123.25397pt x 690.61548pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion1.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion1.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion1.pdf  used on inpu
 t line 26.
 (pdftex.def)             Requested size: 483.69687pt x 297.39093pt.
-[25]
+[26]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion2.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion2.pdf, id=517, 1425.39827pt x 799.02605pt>
+<Imagenes/AnexoI_Manual/AA/deteccion2.pdf, id=511, 1425.39827pt x 799.02605pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion2.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion2.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion2.pdf  used on inpu
 t line 38.
 (pdftex.def)             Requested size: 483.69687pt x 271.14099pt.
-[26 <./Imagenes/AnexoI_Manual/AA/deteccion1.pdf> <./Imagenes/AnexoI_Manual/AA/d
+[27 <./Imagenes/AnexoI_Manual/AA/deteccion1.pdf> <./Imagenes/AnexoI_Manual/AA/d
 eteccion2.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion3.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion3.pdf, id=527, 1283.86217pt x 750.8436pt>
+<Imagenes/AnexoI_Manual/AA/deteccion3.pdf, id=521, 1283.86217pt x 750.8436pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion3.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion3.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion3.pdf  used on inpu
@@ -1145,13 +1148,13 @@ t line 51.
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion4.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion4.pdf, id=529, 1173.44403pt x 554.09848pt>
+<Imagenes/AnexoI_Manual/AA/deteccion4.pdf, id=523, 1173.44403pt x 554.09848pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion4.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion4.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion4.pdf  used on inpu
 t line 78.
 (pdftex.def)             Requested size: 483.69687pt x 228.39934pt.
-[27 <./Imagenes/AnexoI_Manual/AA/deteccion3.pdf>])
+[28 <./Imagenes/AnexoI_Manual/AA/deteccion3.pdf>])
 (Text/AnexoI_Manual/AA/etiquetado.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1171,13 +1174,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado1.pdf, id=540, 719.22382pt x 452.21263pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado1.pdf, id=534, 719.22382pt x 452.21263pt>
 File: Imagenes/AnexoI_Manual/AA/etiquetado1.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado1.pdf  used on inp
 ut line 17.
 (pdftex.def)             Requested size: 483.69687pt x 304.11942pt.
-[28 <./Imagenes/AnexoI_Manual/AA/deteccion4.pdf>]
+[29 <./Imagenes/AnexoI_Manual/AA/deteccion4.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
@@ -1186,7 +1189,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado2.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado2.pdf, id=550, 1443.46663pt x 801.03368pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado2.pdf, id=544, 1443.46663pt x 801.03368pt>
 
 File: Imagenes/AnexoI_Manual/AA/etiquetado2.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado2.pdf>
@@ -1197,19 +1200,19 @@ ut line 26.
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado3.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado3.pdf, id=552, 1441.45914pt x 802.03748pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado3.pdf, id=546, 1441.45914pt x 802.03748pt>
 
 File: Imagenes/AnexoI_Manual/AA/etiquetado3.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado3.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado3.pdf  used on inp
 ut line 36.
 (pdftex.def)             Requested size: 483.69687pt x 269.12784pt.
-[29 <./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf> <./Imagenes/AnexoI_Manual/AA/
+[30 <./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf> <./Imagenes/AnexoI_Manual/AA/
 etiquetado2.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado4.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado4.pdf, id=564, 698.6459pt x 77.29272pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado4.pdf, id=559, 698.6459pt x 77.29272pt>
 File: Imagenes/AnexoI_Manual/AA/etiquetado4.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado4.pdf  used on inp
@@ -1225,9 +1228,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[30 <./Imagenes/AnexoI_Manual/AA/etiquetado3.pdf> <./Imagenes/AnexoI_Manual/AA/
+[31 <./Imagenes/AnexoI_Manual/AA/etiquetado3.pdf> <./Imagenes/AnexoI_Manual/AA/
 etiquetado4.pdf>]
-<Imagenes/AnexoI_Manual/AA/rendimiento.pdf, id=582, 785.93625pt x 574.145pt>
+<Imagenes/AnexoI_Manual/AA/rendimiento.pdf, id=576, 785.93625pt x 574.145pt>
 File: Imagenes/AnexoI_Manual/AA/rendimiento.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/rendimiento.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/rendimiento.pdf  used on inp
@@ -1242,558 +1245,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/dataset.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/dataset.pdf, id=585, 748.83597pt x 427.61946pt>
+<Imagenes/AnexoI_Manual/AA/dataset.pdf, id=579, 748.83597pt x 427.61946pt>
 File: Imagenes/AnexoI_Manual/AA/dataset.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/dataset.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/dataset.pdf  used on input l
 ine 13.
 (pdftex.def)             Requested size: 483.69687pt x 276.22025pt.
-[31 <./Imagenes/AnexoI_Manual/AA/rendimiento.pdf>]
+[32 <./Imagenes/AnexoI_Manual/AA/rendimiento.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-))
-
-! LaTeX Error: Can be used only in preamble.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.107 	\begin{document}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[32 <./Imagenes/AnexoI_Manual/AA/dataset.pdf>]
+)) [33 <./Imagenes/AnexoI_Manual/AA/dataset.pdf>]
 Cap\'{\i }tulo 7.
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+(Text/Resumen/Resumen.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+ []
 
 
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
-pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/dataset.pdf): PDF in
-clusion: found PDF version <1.7>, but at most version <1.5> allowed
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+ []
 
 
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+ []
 
-
-
-pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/dataset.pdf): PDF in
-clusion: found PDF version <1.7>, but at most version <1.5> allowed
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Arithmetic overflow.
-<recently read> \calc@Acount 
-                             
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-! Arithmetic overflow.
-<recently read> \calc@Acount 
-                             
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I can't carry out that multiplication or division,
-since the result is out of range.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[33
+) [34
 
 ]
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+Cap\'{\i }tulo 8.
+(Text/Conclusion/Conclusion.tex) [35
 
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+]
+Cap\'{\i }tulo 9.
+[36
 
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+]
+Cap\'{\i }tulo 10.
+[37
 
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
+]
+Cap\'{\i }tulo 11.
+[38
 
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-! Missing endcsname inserted.
-<to be read again> 
-                   voidb@x 
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Use of ??? doesn't match its definition.
-<argument> ???  
-                ! LaTeX Error: voidb@x invalid in file name. Lost: protect p...
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-If you say, e.g., `\def\a1{...}', then you must always
-put `1' after `\a', since control sequence names are
-made up of letters only. The macro here has not been
-followed by the required stuff, so I'm ignoring it.
-
-
-! LaTeX Error: File `Text/AnexoI\unhbox\voidb@x \penalty\@M \hskip \z@skip \unh
-box \voidb@x \kern .06em\vbox {\hrule width.3em}\discretionary{\char \hyphencha
-r \font }{}{}\penalty\@M \hskip \z@skip Manual/Legislacion/SOLICITUD.pdf' not f
-ound.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109 ...AnexoI\_Manual/Legislacion/SOLICITUD.pdf}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[34] (main.aux
+] (main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
@@ -1809,52 +1312,40 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 52BBBB6F07E7F4B95049679FFD966B2B;3683
-(rerunfilecheck)             After:  4D53A088F2BB20A87EBEEED23904A7B0;3416.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 107 (\begingroup)
-### bottom level 
+(rerunfilecheck)             Before: 4D53A088F2BB20A87EBEEED23904A7B0;3416
+(rerunfilecheck)             After:  D4035747C7A57C0561C89935CD2892F9;3868.
+ ) 
 Here is how much of TeX's memory you used:
- 17505 strings out of 476361
- 287291 string characters out of 5788046
- 2148993 words of memory out of 5000000
- 37338 multiletter control sequences out of 15000+600000
+ 17473 strings out of 476361
+ 286998 string characters out of 5788046
+ 2106993 words of memory out of 5000000
+ 37307 multiletter control sequences out of 15000+600000
  524597 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,87p,1304b,1439s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{chapter.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.8} has been referenced but does not exist, 
-replaced by a fixed one
-
- <C:\Users\dani_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt08
-00.pk><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbsy10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/dani_/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/dani_/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dani_
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
-rs/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/dani_/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/dani_/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/dani_/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/dani
-_/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on main.pdf (35 pages, 27404526 bytes).
+ 75i,9n,76p,1304b,2078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\dani_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
+0800.pk><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbsy10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/dani_/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/dani_/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/dani_/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dan
+i_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+sers/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr6.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr7.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/dani_/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/dani_/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/dani_/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/da
+ni_/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb>
+Output written on main.pdf (39 pages, 27410570 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 231 named destinations out of 1000 (max. 500000)
- 302 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 757 PDF objects out of 1000 (max. 8388607)
+ 237 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 
