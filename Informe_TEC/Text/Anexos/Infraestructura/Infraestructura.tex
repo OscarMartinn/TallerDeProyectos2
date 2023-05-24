@@ -35,7 +35,7 @@ srsran_4g_install_configs.sh user
 	\item user_db.csv
 \end{itemize}
 
-En el archivo \textbf{enb.conf} se cambiaron los valores de \textbf{MCC} y \textbf{MNC} que están disponibles en la SIM, y se establecieron los valores correspondientes al \textbf{MCC} y \textbf{MNC} utilizados en el proyecto (\textbf{901-70}) para que se correspondan con el IMSI de las SIM. También se modificó el \textbf{dl_earfcn} utilizando una página web y se estableció el ancho de banda \textbf{n_prb} en \textbf{50}.\\
+En el archivo \textbf{enb.conf} se cambiaron los valores de \textbf{MCC} y \textbf{MNC} que están disponibles en la SIM, y se establecieron los valores correspondientes al \textbf{MCC} y \textbf{MNC} utilizados en el proyecto (\textbf{901-70}) para que se correspondan con el IMSI de las SIM. También se modificó el \textbf{dl_earfcn} utilizando \cite{earn} y se estableció el ancho de banda \textbf{n_prb} en \textbf{50}.\\
 
 En el archivo \textbf{epc.conf} se modificaron los valores de \textbf{MCC} y \textbf{MNC} y se añadieron los nombres de la red con:
 \begin{lstlisting}
@@ -59,7 +59,12 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
     srsenb enb.conf
 \end{lstlisting}
 
-\item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor cloud e instalamos el servidor \textbf{MQTT Mosquitto}.
+\item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor cloud e instalamos el servidor \textbf{MQTT Mosquitto} con los siguientes comandos:
+
+\begin{lstlisting}
+	sudo apt-get update
+	sudo apt-get install mosquitto
+\end{lstlisting}
 
 \item Modificamos el fichero de configuración /etc/mosquitto/mosquitto.conf con las siguientes líneas:
 \begin{lstlisting}
@@ -72,12 +77,6 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
 	log_type warning
 	log_type error
 \end{lstlisting}
-
-\item Para el correcto funcionamiento del servidor \textbf{MQTT Mosquitto} hay que suscribirse a los tópicos cada vez que lo ejecutamos con el siguiente comando:
-\begin{lstlisting}
-	mosquitto_sub -h localhost -t 1\#
-\end{lstlisting}
-
 
 \item Para el correcto funcionamiento del servidor \textbf{MQTT Mosquitto} hay que suscribirse a los tópicos cada vez que lo ejecutamos con el siguiente comando:
 \begin{lstlisting}

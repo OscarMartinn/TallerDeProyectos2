@@ -1,5 +1,5 @@
 Accediendo a la primera carpeta \textbf{1_YOLOV3} nos encontraremos con todos los scripts encargados de ejecutar el algoritmo. A su vez lo tenemos dividido en dos secciones: \textbf{OnlyYolo} y \textbf{YoloAndCNN}. \\
-En la primera,\textbf{OnlyYolo}, tenemos cinco ficheros \textbf{Python}:
+En la primera,\textbf{OnlyYolo}, tenemos cinco ficheros Python:
 
 \begin{enumerate}
 \item \textbf{imagen_yolov3.py}: script encargado de detección de señales en una imagen individual.
@@ -10,13 +10,26 @@ En la primera,\textbf{OnlyYolo}, tenemos cinco ficheros \textbf{Python}:
 \end{enumerate}
 
 En la segunda sección denominada \textbf{YoloAndCNN} tendremos todos los ficheros más complejos que se han desarrollado para detectar cada señal de manera específica. Estos aplican al algoritmo de la primera sección una CNN (Red Neuronal Convolucional) para, por ejemplo, precisar que la señal de otros se trata de una señal de stop. Nos encontramos con los siguientes ficheros:
+
+\begin{enumerate}
+\item \textbf{imagen_yolov3.py}: script encargado de detección de señales en una imagen individual.
+\item \textbf{video_yolov3.py}: script encargado de detección de señales en un video.
+\item \textbf{camara_yolov3.py}: script encargado de detección de señales a través de la cámara frontal o webcam del ordenador.
+\item \textbf{artemis_autonomous_car.py}: script encargado de la conducción autónoma del coche.
+\item \textbf{trainingCNN_byClasses.py}:script encargado de entrenar cada una de las CNN que utiliza el algoritmo de detección. Genera cuatro ficheros model.h5 que contienen la estructura y los pesos aprendidos tras el proceso de entrenamiento.
+\item \textbf{cocheRealtimeDemo.py}:script encargado de manejar el vehículo de forma manual, en el cual hará detección de clases específicas de señales de tráfico y tomará decisiones en función de cada una de ellas. Este script está preparado para hacer unas operaciones concretas para realizar una demo en la presentación del trabajo. Se podría modificar para hacer lo que uno desee en función de cada señal.
+\end{enumerate}
+
+Por la propia estructura de YOLOV3, todos los scripts encargados de la detección de señales se nutren de tres ficheros básicos, los que se encuentran dentro de la carpeta \textbf{yolo_data}:
 \begin{itemize}
 \item \textbf{imagen_yolov3.py}: fichero que contiene todas las clases de señales con las que ha sido entrenado el modelo y que va a ser capaz de detectar.
 \item \textbf{yolov3_ts_test.cfg}: fichero que contiene la configuración de \textbf{YOLO}.
 \item \textbf{yolov3_ts.weights}: fichero que contiene los pesos obtenidos como resultado del entrenamiento del modelo.
+\item Directorio \textbf{models}: directorio que contiene los ficheros en formato h5 con la estructura de entrenamiento de la CNN para las clases obligación, prohibición, peligro y otros.
+\item \textbf{classes.txt}: diversos ficheros en formato txt contienen la descomposición específica de cada grupo de señales.
 \end{itemize}
 
-En el script \textbf{imagen_yolov3.py} deberemos modificar la variable \textit{imageName} con el nombre de la imagen en formato JPG, que ha de encontrarse dentro del directorio destinado a las imágenes \textit{images}. Con el siguiente comando podemos visualizar un ejemplo, figura \ref{detecc1} 
+A modo de manual, se puede comenzar poniendo en marcha los scripts encargados de utilizar únicamente YOLO, es decir, ejecución de \textbf{OnlyYolo}. En el script \textbf{imagen_yolov3.py} deberemos modificar la variable \textit{imageName} con el nombre de la imagen en formato JPG, que ha de encontrarse dentro del directorio destinado a las imágenes \textit{images}. Con el siguiente comando podemos visualizar un ejemplo, figura \ref{detecc1} 
 
 \begin{lstlisting}
 python3 imagen_yolov3.py
@@ -81,4 +94,31 @@ Si además tuviéramos la opción de \textit{medirRendimientoRed} establecida a 
 	\label{detecc4}
 \end{figure}
 
+De igual forma que hemos puesto en marcha los ficheros encargados de procesar imágenes, video y la cámara frontal, podríamos hacerlo para los scripts responsables de ejecutar el algoritmo de YOLO junto con la CNN, es decir, los ficheros \textbf{imagen_yolov3CNN.py}, \textbf{video_yolov3CNN.py} y \textbf{camara_yolov3CNN.py} del directorio \textbf{‘YoloAndCNN’}. A continuación, podemos visualizar un ejemplo de la ejecución sobre el propio vehículo \ref{yolocoche}:
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf}
+	\caption{Ejemplo de ejecución sobre el propio coche}
+	\label{yolocoche}
+\end{figure}
+
+Y un ejemplo sobre la cámara frontal del ordenador en el que se muestra la detección de varias señales \ref{yolocamara}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf}
+	\caption{Ejemplo sobre la cámara frontal del ordenador}
+	\label{yolocamara}
+\end{figure}
+
+El script encargado de entrenar las cuatro CNNs que utilizamos en nuestro esquema de inteligencia artificial es \textbf{trainingCNN_byClasses.py}. Mediante un dataset estructurado por grupos y preparado con numerosas imágenes de cada una de las señales de tráfico de juguete con las que contamos en el laboratorio, podremos entrenar las CNNs. Obtendremos los mencionados ficheros model.h5 que se utilizan en el almacenamiento de modelos de aprendizaje automático con la biblioteca Keras de Tensorflow. Asimismo, podremos visualizar las matrices de confusión resultado de cada uno de los entrenamientos, tal y como podemos observar en la siguiente imagen \ref{matriz}:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/AA/ejemplo_matrizConfusion.pdf}
+	\caption{Matrices de confusión}
+	\label{matriz}
+\end{figure}
+
+Finalmente nos encontramos con el fichero encargado de manejar el vehículo \textbf{cocheRealtimeDemo.py}. Dicho script no ha sido desarrollado íntegramente por nosotros, sino que se nos ha proporcionado por parte del profesorado, por lo que nosotros lo hemos adaptado a nuestras necesidades. Este script requiere en primer lugar especificar la dirección IP y puerto con el que se ha va a conectar uno al vehículo, por ello, uno cuando proceda a ejecutar este código debe prestar atención a la variable server_address y modificarla según le convenga. Está preparado para la presentación de una demo del proyecto el día de la presentación, así pues, se podría configurar una acción a realizar por el coche según la detección de una señal.
