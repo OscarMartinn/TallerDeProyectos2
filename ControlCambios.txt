@@ -8,6 +8,20 @@ Integrantes:
 
 _________________________________________________________________________
 
+----> Semana 14 25/05/2023:
+
+- D: Informe - 2h 
+- I: Preparación demo presentación, informe y solución problemas - 4h
+- M: Preparación demo presentación, informe y solución problemas - 4h
+- O: Preparación demo presentación, solución problemas y completar información IA - 4h
+
+----> Semana 14 24/05/2023:
+
+- D: Informe - 2h 
+- I: Informe - 2h
+- M: Informe - 2h
+- O: IA - 2h
+
 ----> Semana 14 23/05/2023:
 
 - D: Informe - 2h 
@@ -23,7 +37,7 @@ _________________________________________________________________________
 - O: IA - 2h
 _________________________________________________________________________
 
-----> Semana 13 18/05/2023:
+----> Semana 13 19/05/2023:
 
 - I,D: Tabla de costes, revisión informe - 2h 
 - M: Pruebas coche, mejora IA - 2h
