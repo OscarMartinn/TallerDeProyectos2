@@ -72,10 +72,15 @@ Inés Varona Peña, David Manso Fernández, Óscar Martín Casares y Daniel Sirg
 
 \begin{document}
 \maketitle
+
+	
 \tableofcontents
 \listoffigures
 \listoftables
 
+\chapter{Resumen}
+	\input{Text/Resumen/Resumen.tex}
+	
 \chapter{Introducción}
 	\input{Text/Introduccion/Introduccion.tex}
 
@@ -97,24 +102,23 @@ Inés Varona Peña, David Manso Fernández, Óscar Martín Casares y Daniel Sirg
 
 \chapter{Rendimiento: Validación del servicio}
 	\input{Text/Rendimiento/Rendimiento.tex}
-\chapter{Anexo I: Manual del desarrollador}
-	\section{Infraestructura de la red}
-		\input{Text/AnexoI_Manual/Infraestructura/Infraestructura.tex}
-	
-	\section{Despliegue IA}
-		\input{Text/AnexoI_Manual/AA/despliegue_ia.tex}
-		
-\chapter{Resumen}
-	\input{Text/Resumen/Resumen.tex}
 	
 \chapter{Conclusiones}
 	\input{Text/Conclusion/Conclusion.tex}
+	
+\chapter{Anexo I: Manual del desarrollador}
+	\section{Infraestructura de la red}
+		\input{Text/Anexos/Infraestructura/Infraestructura.tex}
+	
+	\section{Despliegue IA}
+		\input{Text/Anexos/AA/despliegue_ia.tex}
 		
-\chapter{Anexo II: Legislación}	
-	hfjy\cite{Rendimiento}
-
-	
-	
+\chapter{Anexo II: Legislación}
+	\includepdf[pages=1]{Text/Anexos/Legislacion/solicitud.pdf}
+	\includepdf[pages=1]{Text/Anexos/Legislacion/declaracion.pdf}
+	\includepdf[pages=-]{Text/Anexos/Legislacion/datosadicionales.pdf}
+	\includepdf[pages=1]{Text/Anexos/Legislacion/informedefinitivo.pdf}
+		
 \chapter{Anexo II: Planificación}
 
 \bibliographystyle{apalike}
