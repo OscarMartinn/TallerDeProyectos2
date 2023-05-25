@@ -35,9 +35,9 @@ srsran_4g_install_configs.sh user
 	\item user_db.csv
 \end{itemize}
 
-En el archivo \textbf{enb.conf} se cambiaron los valores de \textbf{MCC} y \textbf{MNC} que están disponibles en la SIM, y se establecieron los valores correspondientes al \textbf{MCC} y \textbf{MNC} utilizados en el proyecto (\textbf{901-70}) para que se correspondan con el IMSI de las SIM. También se modificó el \textbf{dl_earfcn} utilizando \cite{earn} y se estableció el ancho de banda \textbf{n_prb} en \textbf{50}.\\
+En el archivo \textbf{enb.conf} se cambiaron los valores de \textbf{MCC} y \textbf{MNC} que están disponibles en las hojas de datos de las SIMs (y en la propia tarjeta SIM), y se establecieron sus valores correspondientes (\textbf{901-70}) para que correspondan con el IMSI. También se modificó el valor de la frecuencia central. cambiando el valor de \textbf{dl_earfcn}, para ello se utilizó \cite{earn}, estableciéndolo este valor 3050, lo que corresponde a un valor de frecuencia central \textit{downlink} de 2650.  Por último, se estableció el ancho de banda en 5MHz cambiando el valor de \textbf{n_prb} a \textbf{25}. Para mejorar el alcance de la red, se aumentó la ganancia de transmisor, cambiando el valor de \textbf{tx_gain a 90.
 
-En el archivo \textbf{epc.conf} se modificaron los valores de \textbf{MCC} y \textbf{MNC} y se añadieron los nombres de la red con:
+En el archivo \textbf{epc.conf} se modificaron los valores de \textbf{MCC} y \textbf{MNC} (igual que en el caso anterior) y se añadieron los nombres de la red con:
 \begin{lstlisting}
     full_net_name= NOMBRE
     short_net_name= NOMBRE
@@ -48,13 +48,18 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
     nombre, mil (Auth), IMSI (aparece en las hojas de las sims),
     KEY (aparece en las hojas de las sims), opc,
     OPC(aparece en las hojas de las sims), 9000,
-    sqn (se pone automáticamente, pero pon números, por ejemplo todo a 0),
+    sqn (poner todo a ceros, aunque cada vez que se levanta la red cambia automáticamente),
     7 (QCI), dynamic (IP_alloc)
 \end{lstlisting}
 
-\item Para crear la red y que funcione, se siguieron los siguientes pasos:
+\item Ahora que tenemos conectividad entre el enb y el epc, necesitamos que estos la tengan para el exterior, para eso ejecutamos el siguiente comando.
+
 \begin{lstlisting}
     srepc_if_masq.sh enp0s25
+\end{lstlisting}
+
+\item Para levantar la red ejecutamos:
+\begin{lstlisting}
     srsepc epc.conf
     srsenb enb.conf
 \end{lstlisting}
@@ -78,21 +83,32 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
 	log_type error
 \end{lstlisting}
 
-\item Para el correcto funcionamiento del servidor \textbf{MQTT Mosquitto} hay que suscribirse a los tópicos cada vez que lo ejecutamos con el siguiente comando:
-\begin{lstlisting}
-	mosquitto_sub -h localhost -t 1\#
-\end{lstlisting}
+\item Para comprobar el correcto funcionamiento del servidor \textbf{MQTT Mosquitto} nos  suscribimos a los tópicos básicos que se especifican en el manual de usuario del coche. Para ello, hacemos uso de la aplicación MyMQTT, si todo sale bien, se debería observar algo similar a la imagen \ref{mosquitto3}:
 
-\item Por otra parte, en el dispositivo utilizado como cliente \textbf{MQTT Mosquitto} hay que suscribirse a los diferentes tópicos del vehículo, mostrando uno como ejemplo:
-\begin{lstlisting}
-	1/AM-Cloud
-\end{lstlisting}
-Y, publicarlos:
-\begin{lstlisting}
-	Topic: 1/command
-	Message: AM-Cloud
-\end{lstlisting}
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.53\textwidth]{Imagenes/Rendimiento/mosquitto3.jpeg}
+    \caption{Información mostrada al iniciar la conexión}
+    \label{mosquitto3}
+\end{figure}
 
+\item Por otra parte, en el dispositivo utilizado como cliente \textbf{MQTT Mosquitto} hay que suscribirse a los diferentes tópicos del vehículo, como podemos ver en la imagen \ref{mosquitto1}:
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.53\textwidth]{Imagenes/Rendimiento/mosquitto1.jpeg}
+    \caption{Suscripciones a los tópicos desde el móvil}
+    \label{mosquitto1}
+\end{figure}
+
+Y, posteriormente, publicarlos como podemos ver en la imagen \ref{mosquitto2}
+
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=0.53\textwidth]{Imagenes/Rendimiento/mosquitto1.jpeg}
+    \caption{Publicación de comandos desde el móvil}
+    \label{mosquitto2}
+\end{figure}
 
 \item Por último, para lanzar el servicio \textbf{MQTT Mosquitto} y otras acciones como relanzarlo, ver su estado o pararlo utilizamos los siguientes comandos:
 \begin{lstlisting}
