@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  25 MAY 2023 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.16)  30 MAY 2023 12:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,7 +730,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 pdfTeX warning: pdflatex (file ./Imagenes/PlanteamientoInicial/torres_telefonia
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<Imagenes/PlanteamientoInicial/torres_telefonia.pdf, id=219, 1285.87396pt x 793
+<Imagenes/PlanteamientoInicial/torres_telefonia.pdf, id=245, 1285.87396pt x 793
 .00366pt>
 File: Imagenes/PlanteamientoInicial/torres_telefonia.pdf Graphic file (type pdf
 )
@@ -826,7 +826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
 pdfTeX warning: pdflatex (file ./Imagenes/Solucion/xirio.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Solucion/xirio.pdf, id=241, 1049.97273pt x 621.35335pt>
+<Imagenes/Solucion/xirio.pdf, id=267, 1049.97273pt x 621.35335pt>
 File: Imagenes/Solucion/xirio.pdf Graphic file (type pdf)
 <use Imagenes/Solucion/xirio.pdf>
 Package pdftex.def Info: Imagenes/Solucion/xirio.pdf  used on input line 49.
@@ -857,6 +857,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
  []
 
 ) (Text/Solucion/Sol_Deteccion.tex
+
+LaTeX Warning: Citation `yolo1' on page 11 undefined on input line 1.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -875,6 +879,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
+
+
+LaTeX Warning: Citation `yolo2' on page 11 undefined on input line 9.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -896,12 +903,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-
+[11]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -920,7 +927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 pdfTeX warning: pdflatex (file ./Imagenes/IA/deepracer.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/IA/deepracer.pdf, id=260, 194.97844pt x 146.04562pt>
+<Imagenes/IA/deepracer.pdf, id=286, 194.97844pt x 146.04562pt>
 File: Imagenes/IA/deepracer.pdf Graphic file (type pdf)
 <use Imagenes/IA/deepracer.pdf>
 Package pdftex.def Info: Imagenes/IA/deepracer.pdf  used on input line 33.
@@ -930,13 +937,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<Imagenes/IA/deteccion1.pdf, id=263, 1006.76125pt x 901.3675pt>
+<Imagenes/IA/deteccion1.pdf, id=289, 1006.76125pt x 901.3675pt>
 File: Imagenes/IA/deteccion1.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion1.pdf>
 Package pdftex.def Info: Imagenes/IA/deteccion1.pdf  used on input line 42.
 (pdftex.def)             Requested size: 290.22107pt x 259.8357pt.
 [12 <./Imagenes/IA/deepracer.pdf>]
-<Imagenes/IA/deteccion2.pdf, id=271, 1006.76125pt x 901.3675pt>
+<Imagenes/IA/deteccion2.pdf, id=297, 1006.76125pt x 901.3675pt>
 File: Imagenes/IA/deteccion2.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion2.pdf>
 Package pdftex.def Info: Imagenes/IA/deteccion2.pdf  used on input line 49.
@@ -946,7 +953,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-<Imagenes/IA/deteccion3.pdf, id=273, 937.5025pt x 731.73375pt>
+<Imagenes/IA/deteccion3.pdf, id=299, 937.5025pt x 731.73375pt>
 File: Imagenes/IA/deteccion3.pdf Graphic file (type pdf)
 <use Imagenes/IA/deteccion3.pdf>
 Package pdftex.def Info: Imagenes/IA/deteccion3.pdf  used on input line 58.
@@ -987,12 +994,206 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-<Imagenes/IA/rendimiento.pdf, id=287, 785.93625pt x 574.145pt>
+<Imagenes/IA/rendimiento.pdf, id=313, 785.93625pt x 574.145pt>
 File: Imagenes/IA/rendimiento.pdf Graphic file (type pdf)
 <use Imagenes/IA/rendimiento.pdf>
-Package pdftex.def Info: Imagenes/IA/rendimiento.pdf  used on input line 75.
+Package pdftex.def Info: Imagenes/IA/rendimiento.pdf  used on input line 74.
 (pdftex.def)             Requested size: 483.69687pt x 353.36429pt.
-) [14 <./Imagenes/IA/deteccion3.pdf>] (Text/Solucion/Sol_Normativa.tex
+[14 <./Imagenes/IA/deteccion3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+[15 <./Imagenes/IA/rendimiento.pdf>]
+<Imagenes/IA/EsquemaIA.pdf, id=333, 696.68275pt x 448.5558pt>
+File: Imagenes/IA/EsquemaIA.pdf Graphic file (type pdf)
+<use Imagenes/IA/EsquemaIA.pdf>
+Package pdftex.def Info: Imagenes/IA/EsquemaIA.pdf  used on input line 99.
+(pdftex.def)             Requested size: 483.69687pt x 311.43394pt.
+
+
+LaTeX Warning: Citation `cm' on page 16 undefined on input line 104.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/general_confusion.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/general_confusion.pdf, id=335, 508.92735pt x 270.02281pt>
+File: Imagenes/IA/general_confusion.pdf Graphic file (type pdf)
+<use Imagenes/IA/general_confusion.pdf>
+Package pdftex.def Info: Imagenes/IA/general_confusion.pdf  used on input line 
+108.
+(pdftex.def)             Requested size: 483.69687pt x 256.64381pt.
+[16 <./Imagenes/IA/EsquemaIA.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/formulas_confusion.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/formulas_confusion.pdf, id=397, 296.12132pt x 489.85509pt>
+File: Imagenes/IA/formulas_confusion.pdf Graphic file (type pdf)
+<use Imagenes/IA/formulas_confusion.pdf>
+Package pdftex.def Info: Imagenes/IA/formulas_confusion.pdf  used on input line
+ 117.
+(pdftex.def)             Requested size: 96.73788pt x 160.02321pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/peligro_confusion.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/peligro_confusion.pdf, id=399, 1040.68805pt x 624.4138pt>
+File: Imagenes/IA/peligro_confusion.pdf Graphic file (type pdf)
+<use Imagenes/IA/peligro_confusion.pdf>
+Package pdftex.def Info: Imagenes/IA/peligro_confusion.pdf  used on input line 
+126.
+(pdftex.def)             Requested size: 483.69687pt x 290.22556pt.
+[17 <./Imagenes/IA/general_confusion.pdf> <./Imagenes/IA/formulas_confusion.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/obligacion_confusion.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/obligacion_confusion.pdf, id=409, 1040.68805pt x 624.4138pt>
+File: Imagenes/IA/obligacion_confusion.pdf Graphic file (type pdf)
+<use Imagenes/IA/obligacion_confusion.pdf>
+Package pdftex.def Info: Imagenes/IA/obligacion_confusion.pdf  used on input li
+ne 135.
+(pdftex.def)             Requested size: 483.69687pt x 290.22556pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+[18 <./Imagenes/IA/peligro_confusion.pdf> <./Imagenes/IA/obligacion_confusion.p
+df>]
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/prohibicion_confusion.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/prohibicion_confusion.pdf, id=420, 1040.68805pt x 624.4138pt>
+File: Imagenes/IA/prohibicion_confusion.pdf Graphic file (type pdf)
+<use Imagenes/IA/prohibicion_confusion.pdf>
+Package pdftex.def Info: Imagenes/IA/prohibicion_confusion.pdf  used on input l
+ine 144.
+(pdftex.def)             Requested size: 483.69687pt x 290.22556pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/otros_confusion.pdf): PDF inclusio
+n: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/otros_confusion.pdf, id=422, 1040.68805pt x 624.4138pt>
+File: Imagenes/IA/otros_confusion.pdf Graphic file (type pdf)
+<use Imagenes/IA/otros_confusion.pdf>
+Package pdftex.def Info: Imagenes/IA/otros_confusion.pdf  used on input line 15
+3.
+(pdftex.def)             Requested size: 483.69687pt x 290.22556pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+[19 <./Imagenes/IA/prohibicion_confusion.pdf> <./Imagenes/IA/otros_confusion.pd
+f>]
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/YoloCNN_coche.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/YoloCNN_coche.pdf, id=435, 1001.79372pt x 896.39494pt>
+File: Imagenes/IA/YoloCNN_coche.pdf Graphic file (type pdf)
+<use Imagenes/IA/YoloCNN_coche.pdf>
+Package pdftex.def Info: Imagenes/IA/YoloCNN_coche.pdf  used on input line 163.
+
+(pdftex.def)             Requested size: 483.69687pt x 432.80878pt.
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/YoloCNN_coche2.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/YoloCNN_coche2.pdf, id=436, 1139.31653pt x 903.42119pt>
+File: Imagenes/IA/YoloCNN_coche2.pdf Graphic file (type pdf)
+<use Imagenes/IA/YoloCNN_coche2.pdf>
+Package pdftex.def Info: Imagenes/IA/YoloCNN_coche2.pdf  used on input line 171
+.
+(pdftex.def)             Requested size: 483.69687pt x 383.54227pt.
+[20 <./Imagenes/IA/YoloCNN_coche.pdf>]
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/YoloCNN_coche3.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/YoloCNN_coche3.pdf, id=443, 1139.31653pt x 903.42119pt>
+File: Imagenes/IA/YoloCNN_coche3.pdf Graphic file (type pdf)
+<use Imagenes/IA/YoloCNN_coche3.pdf>
+Package pdftex.def Info: Imagenes/IA/YoloCNN_coche3.pdf  used on input line 178
+.
+(pdftex.def)             Requested size: 483.69687pt x 383.54227pt.
+[21 <./Imagenes/IA/YoloCNN_coche2.pdf>]
+File: Imagenes/IA/YoloCNN_coche3.pdf Graphic file (type pdf)
+<use Imagenes/IA/YoloCNN_coche3.pdf>
+Package pdftex.def Info: Imagenes/IA/YoloCNN_coche3.pdf  used on input line 185
+.
+(pdftex.def)             Requested size: 483.69687pt x 383.54227pt.
+ [22 <./Imagenes/IA/YoloCNN_coche3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Imagenes/IA/ejemplo_fallo.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<Imagenes/IA/ejemplo_fallo.pdf, id=457, 1284.87021pt x 751.84692pt>
+File: Imagenes/IA/ejemplo_fallo.pdf Graphic file (type pdf)
+<use Imagenes/IA/ejemplo_fallo.pdf>
+Package pdftex.def Info: Imagenes/IA/ejemplo_fallo.pdf  used on input line 194.
+
+(pdftex.def)             Requested size: 483.69687pt x 283.03177pt.
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+) (Text/Solucion/Sol_Normativa.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -1007,7 +1208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-[15 <./Imagenes/IA/rendimiento.pdf>]
+[24 <./Imagenes/IA/ejemplo_fallo.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -1032,7 +1233,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-[16]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
@@ -1042,23 +1243,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
-
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-[17]) [18]
+) [27]
 Cap\'{\i }tulo 5.
 (Text/Costes/Costes.tex
 
 pdfTeX warning: pdflatex (file ./Imagenes/Costes/costes.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Costes/costes.pdf, id=322, 845.19763pt x 597.19112pt>
+<Imagenes/Costes/costes.pdf, id=485, 845.19763pt x 597.19112pt>
 File: Imagenes/Costes/costes.pdf Graphic file (type pdf)
 <use Imagenes/Costes/costes.pdf>
 Package pdftex.def Info: Imagenes/Costes/costes.pdf  used on input line 3.
 (pdftex.def)             Requested size: 478.86255pt x 338.35219pt.
-) [19
+) [28
 
  <./Imagenes/Costes/costes.pdf>]
 Cap\'{\i }tulo 6.
@@ -1066,50 +1267,50 @@ Cap\'{\i }tulo 6.
 
 pdfTeX warning: pdflatex (file ./Imagenes/Rendimiento/red.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/Rendimiento/red.pdf, id=348, 577.19638pt x 300.1614pt>
+<Imagenes/Rendimiento/red.pdf, id=511, 577.19638pt x 300.1614pt>
 File: Imagenes/Rendimiento/red.pdf Graphic file (type pdf)
 <use Imagenes/Rendimiento/red.pdf>
 Package pdftex.def Info: Imagenes/Rendimiento/red.pdf  used on input line 5.
 (pdftex.def)             Requested size: 478.86255pt x 249.02397pt.
-<Imagenes/Rendimiento/ping.jpeg, id=351, 1084.05pt x 708.6475pt>
+<Imagenes/Rendimiento/ping.jpeg, id=514, 1084.05pt x 708.6475pt>
 File: Imagenes/Rendimiento/ping.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/ping.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/ping.jpeg  used on input line 15.
 
 (pdftex.def)             Requested size: 256.35875pt x 167.58105pt.
-[20
+[29
 
  <./Imagenes/Rendimiento/red.pdf>]
-<Imagenes/Rendimiento/iperf3_2.jpeg, id=372, 924.45375pt x 2055.68pt>
+<Imagenes/Rendimiento/iperf3_2.jpeg, id=535, 924.45375pt x 2055.68pt>
 File: Imagenes/Rendimiento/iperf3_2.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/iperf3_2.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/iperf3_2.jpeg  used on input line
  42.
 (pdftex.def)             Requested size: 169.29684pt x 376.43669pt.
-<Imagenes/Rendimiento/iperf3_1.jpeg, id=373, 924.45375pt x 2055.68pt>
+<Imagenes/Rendimiento/iperf3_1.jpeg, id=536, 924.45375pt x 2055.68pt>
 File: Imagenes/Rendimiento/iperf3_1.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/iperf3_1.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/iperf3_1.jpeg  used on input line
  44.
 (pdftex.def)             Requested size: 169.29684pt x 376.43669pt.
- [21 <./Imagenes/Rendimiento/ping.jpeg>]
+ [30 <./Imagenes/Rendimiento/ping.jpeg>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 48.
 
 
-LaTeX Warning: Citation `Rendimiento' on page 22 undefined on input line 65.
+LaTeX Warning: Citation `Rendimiento' on page 31 undefined on input line 65.
 
-[22 <./Imagenes/Rendimiento/iperf3_2.jpeg> <./Imagenes/Rendimiento/iperf3_1.jpe
+[31 <./Imagenes/Rendimiento/iperf3_2.jpeg> <./Imagenes/Rendimiento/iperf3_1.jpe
 g>]
 
-LaTeX Warning: Reference `' on page 23 undefined on input line 71.
+LaTeX Warning: Reference `' on page 32 undefined on input line 71.
 
 LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
 84.
 (C:\Users\dani_\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
 File: ts1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-[23]) [24]
+[32]) [33]
 Cap\'{\i }tulo 7.
 (Text/Conclusion/Conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
@@ -1131,36 +1332,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [25
+) [34
 
 ]
 Cap\'{\i }tulo 8.
 (Text/Anexos/Infraestructura/Infraestructura.tex
 
-LaTeX Warning: Citation `earn' on page 26 undefined on input line 38.
+LaTeX Warning: Citation `earn' on page 35 undefined on input line 38.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-[26
+[35
 
 ]
-<Imagenes/Rendimiento/mosquitto1.jpeg, id=480, 924.45375pt x 2055.68pt>
-File: Imagenes/Rendimiento/mosquitto1.jpeg Graphic file (type jpg)
-<use Imagenes/Rendimiento/mosquitto1.jpeg>
-Package pdftex.def Info: Imagenes/Rendimiento/mosquitto1.jpeg  used on input li
+<Imagenes/Rendimiento/mosquitto3.jpeg, id=637, 924.45375pt x 2055.68pt>
+File: Imagenes/Rendimiento/mosquitto3.jpeg Graphic file (type jpg)
+<use Imagenes/Rendimiento/mosquitto3.jpeg>
+Package pdftex.def Info: Imagenes/Rendimiento/mosquitto3.jpeg  used on input li
 ne 90.
 (pdftex.def)             Requested size: 256.35875pt x 570.0345pt.
- [27]
+ [36]
+<Imagenes/Rendimiento/mosquitto1.jpeg, id=672, 924.45375pt x 2055.68pt>
 File: Imagenes/Rendimiento/mosquitto1.jpeg Graphic file (type jpg)
 <use Imagenes/Rendimiento/mosquitto1.jpeg>
 Package pdftex.def Info: Imagenes/Rendimiento/mosquitto1.jpeg  used on input li
 ne 99.
 (pdftex.def)             Requested size: 256.35875pt x 570.0345pt.
- [28 <./Imagenes/Rendimiento/mosquitto1.jpeg>])
-(Text/Anexos/AA/despliegue_ia.tex
+ [37 <./Imagenes/Rendimiento/mosquitto3.jpeg>]
+File: Imagenes/Rendimiento/mosquitto1.jpeg Graphic file (type jpg)
+<use Imagenes/Rendimiento/mosquitto1.jpeg>
+Package pdftex.def Info: Imagenes/Rendimiento/mosquitto1.jpeg  used on input li
+ne 108.
+(pdftex.def)             Requested size: 256.35875pt x 570.0345pt.
+ [38 <./Imagenes/Rendimiento/mosquitto1.jpeg>]) (Text/Anexos/AA/despliegue_ia.t
+ex
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
 .
 
@@ -1174,16 +1377,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[29]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-(Text/Anexos/AA/deteccion.tex [30]
+(Text/Anexos/AA/deteccion.tex [40]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion1.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion1.pdf, id=548, 1123.25397pt x 690.61548pt>
+<Imagenes/AnexoI_Manual/AA/deteccion1.pdf, id=717, 1123.25397pt x 690.61548pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion1.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion1.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion1.pdf  used on inpu
@@ -1193,28 +1396,28 @@ t line 40.
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion2.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion2.pdf, id=550, 1425.39827pt x 799.02605pt>
+<Imagenes/AnexoI_Manual/AA/deteccion2.pdf, id=719, 1425.39827pt x 799.02605pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion2.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion2.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion2.pdf  used on inpu
 t line 52.
 (pdftex.def)             Requested size: 483.69687pt x 271.14099pt.
-[31 <./Imagenes/AnexoI_Manual/AA/deteccion1.pdf>]
+[41 <./Imagenes/AnexoI_Manual/AA/deteccion1.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion3.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion3.pdf, id=562, 1283.86217pt x 750.8436pt>
+<Imagenes/AnexoI_Manual/AA/deteccion3.pdf, id=731, 1283.86217pt x 750.8436pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion3.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion3.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion3.pdf  used on inpu
 t line 65.
 (pdftex.def)             Requested size: 483.69687pt x 282.88321pt.
-[32 <./Imagenes/AnexoI_Manual/AA/deteccion2.pdf> <./Imagenes/AnexoI_Manual/AA/d
+[42 <./Imagenes/AnexoI_Manual/AA/deteccion2.pdf> <./Imagenes/AnexoI_Manual/AA/d
 eteccion3.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/deteccion4.pdf): PDF
  inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/deteccion4.pdf, id=574, 1173.44403pt x 554.09848pt>
+<Imagenes/AnexoI_Manual/AA/deteccion4.pdf, id=744, 1173.44403pt x 554.09848pt>
 File: Imagenes/AnexoI_Manual/AA/deteccion4.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/deteccion4.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/deteccion4.pdf  used on inpu
@@ -1224,30 +1427,30 @@ t line 92.
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf, id=576, 1001.79372pt x 896.39494p
+<Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf, id=746, 1001.79372pt x 896.39494p
 t>
 File: Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf  used on i
 nput line 101.
 (pdftex.def)             Requested size: 483.69687pt x 432.80878pt.
-[33 <./Imagenes/AnexoI_Manual/AA/deteccion4.pdf>]
+[43 <./Imagenes/AnexoI_Manual/AA/deteccion4.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf, id=585, 1281.85896pt x 751.84692
+<Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf, id=755, 1281.85896pt x 751.84692
 pt>
 File: Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf  used on 
 input line 110.
 (pdftex.def)             Requested size: 483.69687pt x 283.69716pt.
-[34 <./Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf>]
+[44 <./Imagenes/AnexoI_Manual/AA/YoloCNN_coche.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/ejemplo_matrizConfus
 ion.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<Imagenes/AnexoI_Manual/AA/ejemplo_matrizConfusion.pdf, id=593, 1040.68805pt x 
+<Imagenes/AnexoI_Manual/AA/ejemplo_matrizConfusion.pdf, id=763, 1040.68805pt x 
 624.4138pt>
 File: Imagenes/AnexoI_Manual/AA/ejemplo_matrizConfusion.pdf Graphic file (type 
 pdf)
@@ -1255,7 +1458,7 @@ pdf)
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/ejemplo_matrizConfusion.pdf 
  used on input line 119.
 (pdftex.def)             Requested size: 483.69687pt x 290.22556pt.
-) [35 <./Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf> <./Imagenes/AnexoI_Manua
+) [45 <./Imagenes/AnexoI_Manual/AA/YoloCNN_camara.pdf> <./Imagenes/AnexoI_Manua
 l/AA/ejemplo_matrizConfusion.pdf>] (Text/Anexos/AA/etiquetado.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1275,7 +1478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado1.pdf, id=603, 719.22382pt x 452.21263pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado1.pdf, id=773, 719.22382pt x 452.21263pt>
 File: Imagenes/AnexoI_Manual/AA/etiquetado1.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado1.pdf  used on inp
@@ -1286,11 +1489,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[36 <./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>]
+[46 <./Imagenes/AnexoI_Manual/AA/etiquetado1.pdf>]
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado2.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado2.pdf, id=616, 1443.46663pt x 801.03368pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado2.pdf, id=785, 1443.46663pt x 801.03368pt>
 
 File: Imagenes/AnexoI_Manual/AA/etiquetado2.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado2.pdf>
@@ -1301,7 +1504,7 @@ ut line 26.
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado3.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado3.pdf, id=618, 1441.45914pt x 802.03748pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado3.pdf, id=787, 1441.45914pt x 802.03748pt>
 
 File: Imagenes/AnexoI_Manual/AA/etiquetado3.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado3.pdf>
@@ -1312,13 +1515,13 @@ ut line 36.
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/etiquetado4.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/etiquetado4.pdf, id=620, 698.6459pt x 77.29272pt>
+<Imagenes/AnexoI_Manual/AA/etiquetado4.pdf, id=789, 698.6459pt x 77.29272pt>
 File: Imagenes/AnexoI_Manual/AA/etiquetado4.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/etiquetado4.pdf  used on inp
 ut line 45.
 (pdftex.def)             Requested size: 483.69687pt x 53.51366pt.
-[37 <./Imagenes/AnexoI_Manual/AA/etiquetado2.pdf> <./Imagenes/AnexoI_Manual/AA/
+[47 <./Imagenes/AnexoI_Manual/AA/etiquetado2.pdf> <./Imagenes/AnexoI_Manual/AA/
 etiquetado3.pdf>]) (Text/Anexos/AA/rendimiento.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1329,13 +1532,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<Imagenes/AnexoI_Manual/AA/rendimiento.pdf, id=633, 785.93625pt x 574.145pt>
+<Imagenes/AnexoI_Manual/AA/rendimiento.pdf, id=802, 785.93625pt x 574.145pt>
 File: Imagenes/AnexoI_Manual/AA/rendimiento.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/rendimiento.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/rendimiento.pdf  used on inp
 ut line 14.
 (pdftex.def)             Requested size: 483.69687pt x 353.36429pt.
-[38 <./Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>]) (Text/Anexos/AA/dataset.tex
+[48 <./Imagenes/AnexoI_Manual/AA/etiquetado4.pdf>]) (Text/Anexos/AA/dataset.tex
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
@@ -1345,24 +1548,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
 pdfTeX warning: pdflatex (file ./Imagenes/AnexoI_Manual/AA/dataset.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Imagenes/AnexoI_Manual/AA/dataset.pdf, id=649, 748.83597pt x 427.61946pt>
+<Imagenes/AnexoI_Manual/AA/dataset.pdf, id=819, 748.83597pt x 427.61946pt>
 File: Imagenes/AnexoI_Manual/AA/dataset.pdf Graphic file (type pdf)
 <use Imagenes/AnexoI_Manual/AA/dataset.pdf>
 Package pdftex.def Info: Imagenes/AnexoI_Manual/AA/dataset.pdf  used on input l
 ine 13.
 (pdftex.def)             Requested size: 483.69687pt x 276.22025pt.
-[39 <./Imagenes/AnexoI_Manual/AA/rendimiento.pdf>]
+[49 <./Imagenes/AnexoI_Manual/AA/rendimiento.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-)) [40 <./Imagenes/AnexoI_Manual/AA/dataset.pdf>]
+)) [50 <./Imagenes/AnexoI_Manual/AA/dataset.pdf>]
 Cap\'{\i }tulo 9.
 
 
 pdfTeX warning: pdflatex (file ./Text/Anexos/Legislacion/solicitud.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Text/Anexos/Legislacion/solicitud.pdf, id=672, 597.50829pt x 845.0471pt>
+<Text/Anexos/Legislacion/solicitud.pdf, id=842, 597.50829pt x 845.0471pt>
 File: Text/Anexos/Legislacion/solicitud.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/solicitud.pdf>
 Package pdftex.def Info: Text/Anexos/Legislacion/solicitud.pdf  used on input l
@@ -1385,7 +1588,7 @@ clusion: found PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ./Text/Anexos/Legislacion/solicitud.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<Text/Anexos/Legislacion/solicitud.pdf, id=675, page=1, 597.50829pt x 845.0471p
+<Text/Anexos/Legislacion/solicitud.pdf, id=845, page=1, 597.50829pt x 845.0471p
 t>
 File: Text/Anexos/Legislacion/solicitud.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/solicitud.pdf, page 1>
@@ -1397,7 +1600,7 @@ File: Text/Anexos/Legislacion/solicitud.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/solicitud.pdf , page1 used on 
 input line 117.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
-[41
+[51
 
 ]
 File: Text/Anexos/Legislacion/solicitud.pdf Graphic file (type pdf)
@@ -1415,8 +1618,8 @@ File: Text/Anexos/Legislacion/solicitud.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/solicitud.pdf , page1 used on 
 input line 117.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [42 <./Text/Anexos/Legislacion/solicitud.pdf>]
-<Text/Anexos/Legislacion/declaracion.pdf, id=748, 597.23125pt x 845.1575pt>
+ [52 <./Text/Anexos/Legislacion/solicitud.pdf>]
+<Text/Anexos/Legislacion/declaracion.pdf, id=917, 597.23125pt x 845.1575pt>
 File: Text/Anexos/Legislacion/declaracion.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/declaracion.pdf>
 Package pdftex.def Info: Text/Anexos/Legislacion/declaracion.pdf  used on input
@@ -1427,7 +1630,7 @@ File: Text/Anexos/Legislacion/declaracion.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/declaracion.pdf  used on input
  line 118.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Text/Anexos/Legislacion/declaracion.pdf, id=751, page=1, 597.23125pt x 845.157
+<Text/Anexos/Legislacion/declaracion.pdf, id=920, page=1, 597.23125pt x 845.157
 5pt>
 File: Text/Anexos/Legislacion/declaracion.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/declaracion.pdf, page 1>
@@ -1454,8 +1657,8 @@ File: Text/Anexos/Legislacion/declaracion.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/declaracion.pdf , page1 used o
 n input line 118.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [43 <./Text/Anexos/Legislacion/declaracion.pdf>]
-<Text/Anexos/Legislacion/datosadicionales.pdf, id=796, 597.23125pt x 845.1575pt
+ [53 <./Text/Anexos/Legislacion/declaracion.pdf>]
+<Text/Anexos/Legislacion/datosadicionales.pdf, id=965, 597.23125pt x 845.1575pt
 >
 File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/datosadicionales.pdf>
@@ -1467,7 +1670,7 @@ File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/datosadicionales.pdf  used on 
 input line 119.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-<Text/Anexos/Legislacion/datosadicionales.pdf, id=799, page=1, 597.23125pt x 84
+<Text/Anexos/Legislacion/datosadicionales.pdf, id=968, page=1, 597.23125pt x 84
 5.1575pt>
 File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/datosadicionales.pdf, page 1>
@@ -1494,9 +1697,9 @@ File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/datosadicionales.pdf , page1 u
 sed on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [44 <./Text/Anexos/Legislacion/datosadicionales.pdf>]
-<Text/Anexos/Legislacion/datosadicionales.pdf, id=845, page=2, 597.23125pt x 84
-5.1575pt>
+ [54 <./Text/Anexos/Legislacion/datosadicionales.pdf>]
+<Text/Anexos/Legislacion/datosadicionales.pdf, id=1015, page=2, 597.23125pt x 8
+45.1575pt>
 File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/datosadicionales.pdf, page 2>
 Package pdftex.def Info: Text/Anexos/Legislacion/datosadicionales.pdf , page2 u
@@ -1513,9 +1716,9 @@ Package pdftex.def Info: Text/Anexos/Legislacion/datosadicionales.pdf , page2 u
 sed on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 
-[45 <./Text/Anexos/Legislacion/datosadicionales.pdf>]
-<Text/Anexos/Legislacion/datosadicionales.pdf, id=862, page=3, 597.23125pt x 84
-5.1575pt>
+[55 <./Text/Anexos/Legislacion/datosadicionales.pdf>]
+<Text/Anexos/Legislacion/datosadicionales.pdf, id=1032, page=3, 597.23125pt x 8
+45.1575pt>
 File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/datosadicionales.pdf, page 3>
 Package pdftex.def Info: Text/Anexos/Legislacion/datosadicionales.pdf , page3 u
@@ -1531,9 +1734,9 @@ File: Text/Anexos/Legislacion/datosadicionales.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/datosadicionales.pdf , page3 u
 sed on input line 119.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
- [46 <./Text/Anexos/Legislacion/datosadicionales.pdf>]
-<Text/Anexos/Legislacion/informedefinitivo.pdf, id=877, 597.19106pt x 845.07718
-pt>
+ [56 <./Text/Anexos/Legislacion/datosadicionales.pdf>]
+<Text/Anexos/Legislacion/informedefinitivo.pdf, id=1047, 597.19106pt x 845.0771
+8pt>
 File: Text/Anexos/Legislacion/informedefinitivo.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/informedefinitivo.pdf>
 Package pdftex.def Info: Text/Anexos/Legislacion/informedefinitivo.pdf  used on
@@ -1544,8 +1747,8 @@ File: Text/Anexos/Legislacion/informedefinitivo.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/informedefinitivo.pdf  used on
  input line 120.
 (pdftex.def)             Requested size: 597.1896pt x 845.07512pt.
-<Text/Anexos/Legislacion/informedefinitivo.pdf, id=880, page=1, 597.19106pt x 8
-45.07718pt>
+<Text/Anexos/Legislacion/informedefinitivo.pdf, id=1050, page=1, 597.19106pt x 
+845.07718pt>
 File: Text/Anexos/Legislacion/informedefinitivo.pdf Graphic file (type pdf)
 <use Text/Anexos/Legislacion/informedefinitivo.pdf, page 1>
 Package pdftex.def Info: Text/Anexos/Legislacion/informedefinitivo.pdf , page1 
@@ -1571,10 +1774,10 @@ File: Text/Anexos/Legislacion/informedefinitivo.pdf Graphic file (type pdf)
 Package pdftex.def Info: Text/Anexos/Legislacion/informedefinitivo.pdf , page1 
 used on input line 120.
 (pdftex.def)             Requested size: 597.21693pt x 845.1138pt.
- [47 <./Text/Anexos/Legislacion/informedefinitivo.pdf>]
+ [57 <./Text/Anexos/Legislacion/informedefinitivo.pdf>]
 Cap\'{\i }tulo 10.
 No file main.bbl.
-[48
+[58
 
 ] (main.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -1590,13 +1793,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 66DF62B83C68702419ECCA8FCF533D3C;3768.
  ) 
 Here is how much of TeX's memory you used:
- 17582 strings out of 476361
- 291488 string characters out of 5788046
- 2105993 words of memory out of 5000000
- 37389 multiletter control sequences out of 15000+600000
+ 17712 strings out of 476361
+ 295545 string characters out of 5788046
+ 2106993 words of memory out of 5000000
+ 37485 multiletter control sequences out of 15000+600000
  524597 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,76p,1304b,2078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,76p,1304b,2154s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\dani_\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt
 0800.pk><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbsy10.pfb><C:/Users/dani_/AppData/Local/Programs/MiKTeX/fonts/type1/pub
@@ -1617,9 +1820,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Users/dani_/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/dani_/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/da
 ni_/AppData/Local/Programs/MiKTeX/fonts/type1/public/eurosym/feymr10.pfb>
-Output written on main.pdf (49 pages, 32011371 bytes).
+Output written on main.pdf (59 pages, 32787377 bytes).
 PDF statistics:
- 1052 PDF objects out of 1200 (max. 8388607)
- 250 named destinations out of 1000 (max. 500000)
- 410 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1226 PDF objects out of 1440 (max. 8388607)
+ 273 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 
