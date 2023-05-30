@@ -1,6 +1,80 @@
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.99\textwidth]{Imagenes/Costes/costes.pdf}
-    \caption{Tabla de costes y amortizaciones del proyecto.}
-    \label{fig:Costes}
-\end{figure}
+\begin{table}[H]
+\centering
+\begin{tabular}{|lrcr|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Costes Fijos / CAPEX}}                                                                                                                                           \\ \hline
+\multicolumn{1}{|c|}{\textbf{DESCRIPCIÓN}}                       & \multicolumn{1}{c|}{\textbf{PRECIO}} & \multicolumn{1}{c|}{\textbf{Cantidad}} & \multicolumn{1}{c|}{\textbf{PRECIO TOTAL}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{ALQUILER TORRES TELEFONÍA (1 AÑO)}} & \multicolumn{1}{r|}{15.000,00 \euro}     & \multicolumn{1}{c|}{7}                 & 105.000,00 \euro                               \\ \hline
+\multicolumn{1}{|l|}{\textbf{ESTACIONES BASE}}                   & \multicolumn{1}{r|}{8.319,15 \euro}      & \multicolumn{1}{c|}{7}                 & 58.234,05 \euro                                \\ \hline
+\multicolumn{1}{|l|}{\textbf{ANTENAS}}                           & \multicolumn{1}{r|}{1.571,39 \euro}      & \multicolumn{1}{c|}{7}                 & 10.999,73 \euro                                \\ \hline
+\multicolumn{1}{|l|}{\textbf{CORE}}                              & \multicolumn{1}{r|}{3.697,40 \euro}      & \multicolumn{1}{c|}{1}                 & 3.697,40 \euro                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{FIBRA}}                             & \multicolumn{1}{r|}{6,00 \euro}          & \multicolumn{1}{c|}{1288}              & 7.728,00 \euro                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{SOBRECOSTES}}                       & \multicolumn{2}{r|}{20\%}                                                     & 37.131,84 \euro                                \\ \hline
+\multicolumn{1}{|l|}{\textbf{PRECIO TOTAL CAPEX}}                & \multicolumn{3}{r|}{\textbf{222.791,02 \euro}}                                                                                 \\ \hline
+\end{tabular}
+\caption{Costes Fijos}
+\label{capex}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|lrcr|}
+\hline
+\multicolumn{4}{|c|}{\textbf{Alquiler de Servicios / OPEX}}                                                                                                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{DESCRIPCIÓN}}       & \multicolumn{1}{c|}{\textbf{EUROS/h}} & \multicolumn{1}{c|}{\textbf{HORAS}} & \multicolumn{1}{c|}{\textbf{PRECIO TOTAL}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{AWS (32vGPU)}}      & \multicolumn{1}{r|}{0,71 \euro}        & \multicolumn{1}{c|}{4320}           & 3.067,20 \euro                              \\ \hline
+\multicolumn{1}{|l|}{\textbf{INGENIEROS}}        & \multicolumn{1}{r|}{15,65 \euro}       & \multicolumn{1}{c|}{345}            & 5.399,25 \euro                              \\ \hline
+\multicolumn{1}{|l|}{\textbf{PRECIO TOTAL OPEX}} & \multicolumn{3}{r|}{8.466,45 \euro}                                                                                       \\ \hline
+\end{tabular}
+\caption{Costes mensuales}
+\label{hopee}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Máximo vehículos por km al año} & \textbf{km por tramo} & \textbf{Vehículos por tramo al año} & \textbf{Vehículos por km al día} & \textbf{Máximo vehículos simultáneos por ENB} \\ \hline
+10593226                                & 10                    & 105932260                           & 290225,3699                      & \textbf{1209}                                 \\ \hline
+\textbf{Mínimo vehículos por km al año} & \textbf{km por tramo} & \textbf{Vehículos por tramo al año} & \textbf{Vehículos por km al día} & \textbf{Mínimo vehículos simultáneos por ENB} \\ \hline
+2.406.816                               & 10                    & 24068160                            & 65940,16438                      & \textbf{275}                                  \\ \hline
+\textbf{Media vehículos por km al año}  & \textbf{km por tramo} & \textbf{Vehículos por tramo al año} & \textbf{Vehículos por km al día} & \textbf{Media vehículos simultáneos por ENB}  \\ \hline
+6500021                                 & 10                    & 65000210                            & 178082,7671                      & \textbf{742}                                  \\ \hline
+\end{tabular}%
+}
+\caption{Medida de vehículos que circulan por el tramo }
+\label{medida}
+\end{table}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|r|c|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Tarifa}} & \multicolumn{1}{c|}{\textbf{Precio}} & \textbf{Porcentaje de Usuarios} \\ \hline
+\textbf{Detección}                    & 5,00 \euro                               & 60                              \\ \hline
+\textbf{Detección + Control}          & 10,00 \euro                              & 40                              \\ \hline
+\end{tabular}
+\caption{Tarifas y porcentaje de usuarios estimados}
+\label{tarifas}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|l|c|c|c|r|r|r|}
+\hline
+\textbf{Estimación} & \multicolumn{1}{c|}{\textbf{Descripción}} & \textbf{Clientes Totales} & \textbf{Clientes Tarifa Detección} & \textbf{Clientes Tarifa Fetección+Control} & \multicolumn{1}{c|}{\textbf{Ingresos Tarfia Detección}} & \multicolumn{1}{c|}{\textbf{Ingresos Tarfia Detección+Control}} & \multicolumn{1}{c|}{\textbf{Ingresos Totales}} \\ \hline
+\textbf{1}          & \textbf{Máximo de vehículos}              & 1209                      & 726                                & 484                                        & 3.627,82 \euro                                              & 4.837,09 \euro                                                      & \textbf{8.464,91 \euro}                            \\ \hline
+\textbf{2}          & \textbf{Media de vehículos}               & 742                       & 445                                & 297                                        & 2.226,03 \euro                                              & 2.968,05 \euro                                                      & \textbf{5.194,08 \euro}                            \\ \hline
+\textbf{3}          & \textbf{Mitad de la media de vehículos}   & 371                       & 223                                & 148                                        & 1.113,02 \euro                                              & 1.484,02 \euro                                                      & \textbf{2.597,04 \euro}                            \\ \hline
+\textbf{4}          & \textbf{Mínimo de vehículos}              & 275                       & 165                                & 110                                        & 824,25 \euro                                                & 1.099,00 \euro                                                      & \textbf{1.923,25 \euro}                            \\ \hline
+\end{tabular}%
+}
+\caption{Ingresos en función de las estimaciones}
+\label{ingresos}
+\end{table}
