@@ -101,6 +101,44 @@ La consecución de ambas tecnologías, tal y como se ejemplifica en la figura \r
     \label{esquema}
 \end{figure}
 
+El modelo CNN definido consta de varias capas. La estructura de capas que contiene el modelo son las siguientes:\\
+
+\begin{itemize}
+\item 1.	Capa de convolución 2D con 16 filtros y tamaño de kernel 3x3, con función de activación ReLU.
+\item 2.	Capa de convolución 2D con 32 filtros y tamaño de kernel 3x3, con función de activación ReLU.
+\item 3.	Capa de MaxPooling 2D con tamaño de pool 2x2.
+\item 4.	Capa de normalización por lotes (Batch Normalization).
+\item 5.	Capa de convolución 2D con 64 filtros y tamaño de kernel 3x3, con función de activación ReLU.
+\item 6.	Capa de convolución 2D con 128 filtros y tamaño de kernel 3x3, con función de activación ReLU.
+\item 7.	Capa de MaxPooling 2D con tamaño de pool 2x2.
+\item 8.	Capa de normalización por lotes (Batch Normalization).
+\item 9.	Capa de aplanamiento (Flatten).
+\item 10.Capa densa (fully connected) con 512 neuronas y función de activación ReLU.
+\item 11.Capa de normalización por lotes (Batch Normalization).
+\item 12.Capa de Dropout con una tasa de dropout de 0.5.
+\item 13.Capa densa (fully connected) con 2 neuronas y función de activación softmax.
+\end{itemize}
+
+
+En total, las CNNs están formadas 13 capas, incluyendo las capas de convolución, capas de pooling, capas de normalización por lotes, capas densas y capas de dropout. Cada una de estas capas realiza las siguientes funciones:\\
+
+\begin{itemize}
+\item 1.	Capa de convolución 2D: Realiza la convolución de la imagen de entrada con un conjunto de filtros para extraer características importantes de la imagen. Utiliza una función de activación ReLU para introducir no linealidad en la red.
+\item 2.	Capa de convolución 2D: Similar a la capa anterior, realiza otra convolución con un conjunto de filtros diferentes para extraer más características de la imagen. También utiliza la función de activación ReLU.
+\item 3.	Capa de MaxPooling 2D: Reduce la dimensión espacial de la salida de las capas anteriores mediante la reducción de la resolución espacial. Ayuda a disminuir la cantidad de parámetros y a aprender características más generales.
+\item 4.	Capa de normalización por lotes (Batch Normalization): Normaliza los valores de activación de la capa anterior para acelerar el entrenamiento y mejorar la estabilidad de la red.
+\item 5.	Capa de convolución 2D: Realiza otra convolución con más filtros para extraer características más complejas de la imagen.
+\item 6.	Capa de convolución 2D: Realiza otra convolución con aún más filtros para capturar características más específicas de la imagen.
+\item 7.	Capa de MaxPooling 2D: Reduce la dimensión espacial de la salida de las capas anteriores.
+\item 8.	Capa de normalización por lotes (Batch Normalization): Normaliza los valores de activación de la capa anterior.
+\item 9.	Capa de aplanamiento (Flatten): Transforma la salida de la capa anterior en un vector unidimensional, preparándola para la entrada a las capas densas.
+\item 10.Capa densa (fully connected): Capa de neuronas completamente conectadas donde cada neurona está conectada a todas las neuronas de la capa anterior. Utiliza la función de activación ReLU.
+\item 11.Capa de normalización por lotes (Batch Normalization): Normaliza los valores de activación de la capa anterior.
+\item 12.Capa de Dropout: Apaga aleatoriamente un porcentaje de las neuronas durante el entrenamiento para evitar el sobreajuste y mejorar la generalización del modelo.
+\item 13.Capa densa (fully connected): Capa final de clasificación con 2 neuronas y función de activación softmax. Produce las probabilidades de pertenencia a cada una de las subclases.
+\end{itemize}
+
+
 Fruto del entrenamiento hemos obtenido las matrices de confusión de cada CNN, en una matriz de confusión las filas representan las clases reales y las columnas representan las clases predichas por el modelo, donde cada celda de la matriz muestra la cantidad de ejemplos que pertenecen a una clase específica. La estructura general de este tipo de matrices es la siguiente \ref{genconf} \cite{cm}\\
 
 \begin{figure}[H]
