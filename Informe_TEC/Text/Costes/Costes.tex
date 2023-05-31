@@ -30,20 +30,30 @@
 \label{hopee}
 \end{table}
 
+Nuestro diseño asegura una capacidad de dar servicio completo a 30 usuarios de manera simultánea por cada ENB. Esta cifra es tan reducida debido a las limitaciones del 4G en el canal de subida y además, nos ha sido imposible obtener especificaciones de otras estaciones base de otras empresas que tengan una capacidad mayor. Por este motivo se van a realizar varias estimaciones de usuarios, la primera se hace con cifra real de usuarios que somos capaces de dar servicios y el resto se harán en función del número de vehículos que recorren la autovía.\\
+
+Las estimaciones se han calculado con estos parámetros:
+\begin{itemize}
+\item Velocidad media:	100 km/h
+\item Kilómetros entre ENB:	 10 km
+\item Minutos en cada ENB:	6 minutos
+\item Minutos en un día: 1440 minutos
+\end{itemize}
+
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[H]
 \centering
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|}
 \hline
-\textbf{Máximo vehículos por km al año} & \textbf{km por tramo} & \textbf{Vehículos por tramo al año} & \textbf{Vehículos por km al día} & \textbf{Máximo vehículos simultáneos por ENB} \\ \hline
-10593226                                & 10                    & 105932260                           & 290225,3699                      & \textbf{1209}                                 \\ \hline
-\textbf{Mínimo vehículos por km al año} & \textbf{km por tramo} & \textbf{Vehículos por tramo al año} & \textbf{Vehículos por km al día} & \textbf{Mínimo vehículos simultáneos por ENB} \\ \hline
-2.406.816                               & 10                    & 24068160                            & 65940,16438                      & \textbf{275}                                  \\ \hline
-\textbf{Media vehículos por km al año}  & \textbf{km por tramo} & \textbf{Vehículos por tramo al año} & \textbf{Vehículos por km al día} & \textbf{Media vehículos simultáneos por ENB}  \\ \hline
-6500021                                 & 10                    & 65000210                            & 178082,7671                      & \textbf{742}                                  \\ \hline
-\end{tabular}%
+\textbf{Máximo (vehículos · km/año)} & \textbf{(vehículos · tramo/año)} & \textbf{(vehículos · tramo/día)} & \textbf{Vehículos por ENB} \\ \hline
+10593226                             & 105932260                        & 290225,3699                      & 1209                       \\ \hline
+\textbf{Mínimo (vehículos · km/año)} & \textbf{(vehículos · tramo/año)} & \textbf{(vehículos · tramo/día)} & \textbf{Vehículos por ENB} \\ \hline
+2.406.816                            & 24068160                         & 65940,16438                      & 275                        \\ \hline
+\textbf{Media (vehículos · km/año)}  & \textbf{(vehículos · tramo/año)} & \textbf{(vehículos · tramo/día)} & \textbf{Vehículos por ENB} \\ \hline
+6500021                              & 65000210                         & 178082,7671                      & 742                        \\ \hline
+\end{tabular}
 }
 \caption{Medida de vehículos que circulan por el tramo }
 \label{medida}
@@ -54,8 +64,8 @@
 \begin{tabular}{|l|r|c|}
 \hline
 \multicolumn{1}{|c|}{\textbf{Tarifa}} & \multicolumn{1}{c|}{\textbf{Precio}} & \textbf{Porcentaje de Usuarios} \\ \hline
-\textbf{Detección}                    & 5,00 \euro                               & 60                              \\ \hline
-\textbf{Detección + Control}          & 10,00 \euro                              & 40                              \\ \hline
+\textbf{Detección}                    & 15,00 \euro                               & 30                              \\ \hline
+\textbf{Detección + Control}          & 40,00 \euro                              & 70                              \\ \hline
 \end{tabular}
 \caption{Tarifas y porcentaje de usuarios estimados}
 \label{tarifas}
@@ -66,15 +76,36 @@
 \begin{table}[H]
 \centering
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{|c|l|c|c|c|r|r|r|}
+\begin{tabular}{|c|l|c|r|}
 \hline
-\textbf{Estimación} & \multicolumn{1}{c|}{\textbf{Descripción}} & \textbf{Clientes Totales} & \textbf{Clientes Tarifa Detección} & \textbf{Clientes Tarifa Fetección+Control} & \multicolumn{1}{c|}{\textbf{Ingresos Tarfia Detección}} & \multicolumn{1}{c|}{\textbf{Ingresos Tarfia Detección+Control}} & \multicolumn{1}{c|}{\textbf{Ingresos Totales}} \\ \hline
-\textbf{1}          & \textbf{Máximo de vehículos}              & 1209                      & 726                                & 484                                        & 3.627,82 \euro                                              & 4.837,09 \euro                                                      & \textbf{8.464,91 \euro}                            \\ \hline
-\textbf{2}          & \textbf{Media de vehículos}               & 742                       & 445                                & 297                                        & 2.226,03 \euro                                              & 2.968,05 \euro                                                      & \textbf{5.194,08 \euro}                            \\ \hline
-\textbf{3}          & \textbf{Mitad de la media de vehículos}   & 371                       & 223                                & 148                                        & 1.113,02 \euro                                              & 1.484,02 \euro                                                      & \textbf{2.597,04 \euro}                            \\ \hline
-\textbf{4}          & \textbf{Mínimo de vehículos}              & 275                       & 165                                & 110                                        & 824,25 \euro                                                & 1.099,00 \euro                                                      & \textbf{1.923,25 \euro}                            \\ \hline
+\textbf{Estimación} & \multicolumn{1}{c|}{\textbf{Descripción}} & \textbf{Clientes Totales} & \multicolumn{1}{c|}{\textbf{Ingresos Totales}} \\ \hline
+1                   & Máximo vehículos reales                   & 30                        & 975,00 \euro                                       \\ \hline
+2                   & Máximo de vehículos                       & 1209                      & 39.301,35 \euro                                    \\ \hline
+3                   & Media de vehículos                        & 742                       & 24.115,37 \euro                                    \\ \hline
+4                   & Mitad de la media de vehículos            & 371                       & 12.057,69 \euro                                    \\ \hline
+5                   & Mínimo de vehículos                       & 275                       & 8.929,40 \euro                                     \\ \hline
 \end{tabular}%
 }
 \caption{Ingresos en función de las estimaciones}
 \label{ingresos}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|lrrrrr|}
+\hline
+\multicolumn{6}{|c|}{\textbf{AMORTIZACIÓN}}                                                                                                                                                                                                                                          \\ \hline
+\multicolumn{1}{|c|}{\textbf{PARTIDA}}              & \multicolumn{1}{c|}{\textbf{ESTIMACIÓN 1}} & \multicolumn{1}{c|}{\textbf{ESTIMACIÓN 2}} & \multicolumn{1}{c|}{\textbf{ESTIMACIÓN 3}} & \multicolumn{1}{c|}{\textbf{ESTIMACIÓN 4}} & \multicolumn{1}{c|}{\textbf{ESTIMACIÓN 5}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{CAPEX}}                & \multicolumn{1}{r|}{222.791,02 \euro}          & \multicolumn{1}{r|}{222.791,02 \euro}          & \multicolumn{1}{r|}{222.791,02 \euro}          & \multicolumn{1}{r|}{222.791,02 \euro}          & 222.791,02 \euro                               \\ \hline
+\multicolumn{1}{|l|}{\textbf{OPEX}}                 & \multicolumn{1}{r|}{8.466,45 \euro}            & \multicolumn{1}{r|}{8.466,45 \euro}            & \multicolumn{1}{r|}{8.466,45 \euro}            & \multicolumn{1}{r|}{8.466,45 \euro}            & 8.466,45 \euro                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{INGRESOS MENSUALES}}   & \multicolumn{1}{r|}{975,00 \euro}              & \multicolumn{1}{r|}{39.301,35 \euro}           & \multicolumn{1}{r|}{24.115,37 \euro}           & \multicolumn{1}{r|}{12.057,69 \euro}           & 8.929,40 \euro                                 \\ \hline
+\multicolumn{1}{|l|}{\textbf{BENEFICIOS MENSUALES}} & \multicolumn{1}{r|}{- 7.491,45 \euro}          & \multicolumn{1}{r|}{30.834,90 \euro}           & \multicolumn{1}{r|}{15.648,92 \euro}           & \multicolumn{1}{r|}{3.591,24 \euro}            & 462,95 \euro                                   \\ \hline
+\multicolumn{1}{|l|}{\textbf{AMORTIZACIÓN TOTAL}}   & \multicolumn{1}{r|}{\textbf{-}}    & \multicolumn{1}{r|}{\textbf{8 MESES}}      & \multicolumn{1}{r|}{\textbf{15 MESES}}     & \multicolumn{1}{r|}{\textbf{63 MESES}}     & \textbf{482 MESES}                         \\ \hline
+\end{tabular}%
+}
+\caption{Amortizaciones en función de las estimaciones}
+\label{amortizaciones}
 \end{table}
