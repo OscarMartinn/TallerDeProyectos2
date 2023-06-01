@@ -1,0 +1,40 @@
+\begin{thebibliography}{}
+
+\bibitem[ear, ]{earn}
+{4G LTE EARFCN Calculator}.
+\newblock \url{https://5g-tools.com/4g-lte-earfcn-calculator/}.
+\newblock Accedido el 24 de mayo de 2023.
+
+\bibitem[cm, ]{cm}
+Generalized confusion matrix for multiple classes, garillos-manliguez, c.a.
+  cgmanliguez@up.edu.ph november 25, 2016.
+
+\bibitem[yol, a]{yolo2}
+A review of yolo algorithm developments a review of yolo algorithm
+  developments, peiyuan jiang, daji ergu*, fangyao liu, ying cai, bo ma, 2022.
+
+\bibitem[yol, b]{yolo1}
+Yolov3: An incremental improvement, joseph redmon, ali farhadi university of
+  washington.
+
+\bibitem[Fernández, 2021]{elmundo2021}
+Fernández, E. (2021).
+\newblock Telefónica vende a atc las torres de telxius por 7.700 millones de
+  euros.
+\newblock {\em El Mundo}.
+
+\bibitem[LEDO, 2019]{heraldodiariodesoria2019}
+LEDO, S. (2019).
+\newblock Cellnex compra 1.500 torres y antenas a orange por 260 millones.
+\newblock {\em Heraldo Diario de Soria}.
+
+\bibitem[Royuela et~al., 2022]{Rendimiento}
+Royuela, I., Aguado, J.~C., de~Miguel, I., Merayo, N., Barroso, R. J.~D.,
+  Hortelano, D., Ruiz, L., Fern{\'a}ndez, P., Lorenzo, R.~M., and Abril, E.~J.
+  (2022).
+\newblock A testbed for ccam services supported by edge computing, and use case
+  of computation offloading.
+\newblock In {\em NOMS 2022-2022 IEEE/IFIP Network Operations and Management
+  Symposium}, pages 1--6. IEEE.
+
+\end{thebibliography}
