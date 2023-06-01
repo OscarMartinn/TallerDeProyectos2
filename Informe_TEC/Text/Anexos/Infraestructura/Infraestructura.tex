@@ -1,4 +1,4 @@
-Para el proceso de creación de la red 4G, se usó el \textit{software} srsRAN, una implementación de código abierto de una red de acceso radio (RAN) utilizando \textit{hardware} SDR.
+Para el proceso de creación de la red 4G, se usó el \textit{software} srsRAN, una implementación de código abierto de una red de acceso radio (RAN) que utiliza \textit{hardware} SDR. En nuestro caso, se ha utilizado una BladeRF 2.0 micro xA9 de Nuand con dos canales rx y tx MIMO.
 
 Para ello, se siguieron los siguientes pasos:
 
@@ -14,6 +14,15 @@ sudo add-apt-repository ppa:nuandllc/bladerf
 sudo apt-get update
 sudo apt-get install bladerf
 \end{lstlisting}
+
+\item Conexión de la Blade: Las antenas se deben conectar en los puertos tx1 y rx1 (configuración por defecto, sin embargo se podrían conectar a tx2 y rx2 haciendo los cambios correspondientes en los ficheros de configuración) con un grado de 90º entre ellas para evitar el efecto de \textit{crosstalk}, como se muestra en la figura \ref{blade}. La Blade se debe conectar a un puerto USB 3.0 que presente el ordenador ya que en un puerto USB 2.0 no se detectaría correctamente.\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Imagenes/AnexoI_Manual/RED/blade.jpeg}
+	\caption{Dataset descargado con los ficheros TXT}
+	\label{blade}
+\end{figure}
 
 \item Instalación de \textbf{srsran} siguiendo el manual de GitHub y las librerías \textbf{boost} y \textbf{libboost}:\\
 \url{https://docs.srsran.com/projects/4g/en/latest/general/source/1_installation.html}\\
@@ -31,7 +40,7 @@ sudo make install
 srsran_4g_install_configs.sh user
 \end{lstlisting}
 
-\item Modificación de los archivos de configuración que se encuentran en la ruta \textit{root/.config/srsran/}:
+\item Modificación de los archivos de configuración que se encuentran en la ruta \textit{root/.config/srsran/}. Los cambios se deben hacer como superusuario:
 \begin{itemize}
 	\item epc.conf: contiene la configuración específica de un controlador de paquetes Evolved Packet Core (EPC) en una arquitectura de red LTE 
 	\item enb.conf: cotiene la configuración específica de un nodo de banda base (eNodeB).
@@ -67,7 +76,7 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
     srsenb enb.conf
 \end{lstlisting}
 
-\item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor \textit{cloud} e instalamos el servidor \textbf{MQTT Mosquitto}, \item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor \textit{cloud} e instalamos el servidor \textbf{MQTT Mosquitto}, diseñado para facilitar la comunicación entre dispositivos (en nuestro caso la SDR y el coche) itercambiando mensajes MQTT. Este servidor \textbf{MQTT Mosquitto} facilita la integración del proyecto, facilitando el monitoreo y control remoto del coche durante su funcionamiento.
+\item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor \textit{cloud} e instalamos el servidor \textbf{MQTT Mosquitto}, diseñado para facilitar la comunicación entre dispositivos (en nuestro caso la SDR y el coche) itercambiando mensajes MQTT. Este servidor facilita la integración del proyecto, facilitando el monitoreo y control remoto del coche durante su funcionamiento.
 Para su instalación en el ordenador (que actuará como servidor), se ejecutan los siguientes comandos:
 
 \begin{lstlisting}
