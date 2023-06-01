@@ -13,6 +13,7 @@
 \usepackage{pdfpages}
 \usepackage{subcaption}
 
+
 %\captionsetup[table]{name=Tabla}
 
 \usepackage{subcaption}
@@ -114,7 +115,11 @@ Inés Varona Peña, David Manso Fernández, Óscar Martín Casares y Daniel Sirg
 		\input{Text/Anexos/AA/despliegue_ia.tex}
 		
 \chapter*{Anexo II: Legislación}
-	\includepdf[pages=1]{Text/Anexos/Legislacion/solicitud.pdf}
+  	\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{Text/Anexos/Legislacion/solicitud.png}
+	\label{solicitud}
+	\end{figure}
 	\includepdf[pages=1]{Text/Anexos/Legislacion/declaracion.pdf}
 	\includepdf[pages=-]{Text/Anexos/Legislacion/datosadicionales.pdf}
 	\includepdf[pages=1]{Text/Anexos/Legislacion/informedefinitivo.pdf}
