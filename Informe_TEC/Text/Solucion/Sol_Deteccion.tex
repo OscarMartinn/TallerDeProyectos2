@@ -1,6 +1,14 @@
+La seguridad en las carreteras es uno de los temas más importantes en el mundo actual. Una de las medidas para garantizar la seguridad es la señalización vial, la cual indica a los conductores las condiciones y normas de circulación. Sin embargo, a menudo las señales pueden ser difíciles de identificar debido a factores como su ubicación, desconocimiento de la misma o la distracción del conductor.\\
+
+Para resolver este problema, se puede utilizar el aprendizaje automático para diseñar modelos capaces de detectar de manera precisa y eficiente las señales de tráfico. Estos modelos pueden ayudar a mejorar la seguridad en las carreteras permitiendo que los conductores reciban información clara y precisa en todo momento.\\
+
+En este contexto, nuestra empresa ha sido encargada de diseñar e implementar un modelo de aprendizaje automático para la detección de señales de tráfico. Para eso, debemos utilizar técnicas avanzadas de procesamiento de imágenes. El objetivo final es contribuir a la seguridad en las carreteras y ofrecer soluciones innovadoras y eficaces.\\
+
+Con el objetivo de poder prestar dicho servicio, se debe elegir qué modelo de inteligencia artificial se va a seleccionar para llevarlo a cabo. En el campo de la detección de objetos en imágenes y vídeos, existen varios modelos de aprendizaje automático que se pueden utilizar. Uno de los más avanzados y precisos es YOLO. Lo que le distingue de otros modelos es su capacidad para detectar múltiples objetos en una sola imagen de manera eficiente y precisa, utilizando redes neuronales convolucionales (CNN) y técnicas de filtrado de cajas delimitadoras. \\
+
 YOLO significa \textit{You Only Look Onc}e\  \url{https://pjreddie.com/darknet/yolo/}. Se le puso ese nombre debido a que la red neuronal solo se aplica una vez a la imagen completa, lo que permite una detección rápida y precisa de objetos. Una de las ventajas clave de YOLO es que puede detectar múltiples objetos en una sola imagen, prediciendo las etiquetas de clase y las ubicaciones de los objetos al mismo tiempo. La red neuronal divide la imagen en regiones, predice cajas delimitadoras o \textit{bounding boxes} y probabilidades para cada una de ellas, y filtra las cajas delimitadoras con una técnica llamada supresión no máxima para eliminar aquellas con baja confianza o superpuestas con otras de mayor confianza \cite{yolo1}.\\
 
-El origen de YOLO se remonta al año 2015, fue desarrollado por Joseph Redmon, Santosh Divvala, Ross Girshick y Ali Farhadi mientras trabajaban en la Universidad de Washington. La primera versión de YOLO se presentó en un artículo titulado "\textit{You Only Look Once: Unified, Real-Time Object Detection}" en la conferencia de visión por ordenador CVPR (Computer Vision and Pattern Recognition) en 2016. \\
+El origen de YOLO se remonta al año 2015, fue desarrollado por Joseph Redmon, Santosh Divvala, Ross Girshick y Ali Farhadi mientras trabajaban en la Universidad de Washington. La primera versión de YOLO se presentó en un artículo titulado \textit{You Only Look Once: Unified, Real-Time Object Detection} en la conferencia de visión por ordenador CVPR (Computer Vision and Pattern Recognition) en 2016. \\
 
 El éxito de YOLO se debió en gran parte a su capacidad para detectar objetos en tiempo real, con una velocidad de procesamiento mucho más rápida que otros algoritmos. Además, su precisión en la detección de objetos en imágenes fue muy alta en comparación en comparación con otros.\\
 
@@ -40,14 +48,14 @@ Gracias a que nuestra escuela, ETSIT de la Universidad de Valladolid, poseía un
 \begin{figure}[H]
     \centering
  	\includegraphics[width=0.6\textwidth]{Imagenes/IA/deteccion1.pdf}
-    \caption{Primer ejemplo de detección de señales miniatura en vídeo en circuito}
+    \caption{Primer ejemplo de detección de señales miniatura en vídeo}
     \label{deteccion1}
 \end{figure}
 
 \begin{figure}[H]
     \centering
  	\includegraphics[width=0.6\textwidth]{Imagenes/IA/deteccion2.pdf}
-    \caption{Segundo ejemplo de detección de señales miniatura en vídeo en circuito}
+    \caption{Segundo ejemplo de detección de señales miniatura en vídeo}
     \label{deteccion2}
 \end{figure}
 
@@ -67,7 +75,7 @@ Para calcular la precisión y la recuperación se hace uso de las siguientes fó
 $$\text{precisión} = \frac{\text{TP}}{\text{TP} + \text{FP}}\ \text{recuperación} = \frac{\text{TP}}{\text{TP} + \text{FN}}$$
 \\
 
-Podemos contemplar en la figura \ref{rendimiento} que para cada categoría contemplada de señales de tráfico obtenemos una precisión media (AP) diferente. . Establecida una probabilidad mínima de detección de 0,5 y threshold de 0,3, tenemos para la clase obligación se obtiene una precisión del 57,9\%, para peligro un 72,22\%, para prohibición un 84,54\% y para el resto un 62,14\%. Destacar que entre las 64 imágenes que se han analizado, se encontraban tanto imágenes de señales reales, como señales de juguete, esto es clave porque los pesos pre-entrenados no contaban con señales falsas. Por ello, podemos notar que quizás los valores de precisión obtenidos no son suficientemente altos debido a la inclusión de señales que no se asemejan con las de entrenamiento.\\
+Podemos contemplar en la figura \ref{rendimiento} que para cada categoría contemplada de señales de tráfico obtenemos una precisión media (AP) diferente. Establecida una probabilidad mínima de detección de 0,5 y threshold de 0,3, para la clase obligación se obtiene una precisión del 57,9\%, para peligro un 72,22\%, para prohibición un 84,54\% y para el resto un 62,14\%. Destacar que entre las 64 imágenes que se han analizado, se encontraban tanto imágenes de señales reales, como señales de juguete, esto es clave porque los pesos pre-entrenados no contaban con señales falsas. Por ello, podemos notar que quizás los valores de precisión obtenidos no son suficientemente altos debido a la inclusión de señales que no se asemejan con las de entrenamiento.\\
 
 \begin{figure}[H]
     \centering
@@ -76,7 +84,7 @@ Podemos contemplar en la figura \ref{rendimiento} que para cada categoría conte
     \label{rendimiento}
 \end{figure}
 
-En primer lugar, en conocimiento de que la mayor precisión la hemos obtenido para la clase prohibición con una probabilidad de casi el 85\%, podemos ver que está cerca de parecerse a la curva ideal. La curva ideal que desearíamos sería una curva que se acerque lo máximo posible a la esquina superior derecha, es decir, alta precisión y alto recall. Asimismo, podemos relacionar la curva ideal con el área bajo la curva de precisión, el valor de precisión media obtenido representa el área bajo dicha curva, por lo que si la curva fuese ideal sería claro que al área sería del 100\%.\\
+En primer lugar, en conocimiento de que la mayor precisión la hemos obtenido para la clase prohibición con una probabilidad de casi el 85\%, podemos ver que está cerca de parecerse a la curva ideal. La curva ideal que desearíamos sería una curva que se acerque lo máximo posible a la esquina superior derecha, es decir, alta precisión y alto recall. Asimismo, podemos relacionar la curva ideal con el área bajo la curva de precisión, el valor de precisión media obtenido representa el área bajo dicha curva, por lo que si la curva fuese ideal sería claro que el área sería del 100\%.\\
 
 Podemos concluir entonces que la mejor precisión se ha obtenido en la detección de señales de prohibición. Además, destacar el resultado obtenido para la clase peligro, el cual puede llamar la atención por resultar una línea recta en todo momento. Esto se debe a que para todas las imágenes que se han contemplado para medir el rendimiento, el algoritmo ha sido capaz de detectar todas las señales que se han procesado. Este resultado quizás no sea del todo realista, por lo que se podrían añadir un mayor número de imágenes de cada clase para lograr objetivos más fehacientes con la realidad.\\
 
@@ -236,6 +244,6 @@ Sin embargo, a pesar de quedar satisfechos con los resultados obtenidos, hemos e
 
 Esto puede ser debido a que las condiciones de calidad de imagen que se obtienen de la cámara del propio vehículo no son exactamente las mismas que las imágenes con las que ha sido entrenado. De cara a líneas futuras sería interesante que el conjunto de imágenes creado para el entrenamiento, se diseñara a partir de vídeos grabados por coche.\\
 
-En último lugar, según se puede constatar en el Anexo I apartado 6.2, también hemos utilizado una herramienta de etiquetado denominada LabelIMG \url{https://github.com/heartexlabs/labelImg}. Sería recomendable atender al manual de desarrollador incluido en dicho anexo para aprender a manejar o conocer más detalles acerca del sistema de inteligencia artificial.
+En último lugar, según se puede constatar en el Anexo I apartado 6.2, también hemos utilizado una herramienta de etiquetado denominada LabelIMG \url{https://github.com/heartexlabs/labelImg}. Sería recomendable atender al manual de desarrollador incluido en el Anexo I para aprender a manejar o conocer más detalles acerca del sistema de inteligencia artificial.
 
 
