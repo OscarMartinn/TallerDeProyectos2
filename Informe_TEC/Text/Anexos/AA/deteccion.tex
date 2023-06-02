@@ -9,27 +9,32 @@ En la primera,\textbf{OnlyYolo}, tenemos cinco ficheros Python:
 \item \textbf{automatizacion_imagenes.py}: script encargado de leer todas las imágenes de un directorio y mandárselas a través de línea de comandos al fichero \textit{automatic_imagen_yolov3.py} para poder procesar varias imágenes ininterrumpidamente.
 \end{enumerate}
 
-En la segunda sección denominada \textbf{YoloAndCNN} tendremos todos los ficheros más complejos que se han desarrollado para detectar cada señal de manera específica. Estos aplican al algoritmo de la primera sección una CNN (Red Neuronal Convolucional) para, por ejemplo, precisar que la señal de otros se trata de una señal de stop. Nos encontramos con los siguientes ficheros:
+En la segunda sección denominada \textbf{YoloAndCNN} tendremos todos los ficheros más complejos que se han desarrollado para detectar cada señal de manera específica. Estos aplican al algoritmo de la primera sección una segunda etapa formada por CNNs (Red Neuronal Convolucional) para, por ejemplo, precisar que la señal de otros se trata de una señal de stop. Nos encontramos con los siguientes ficheros:
 
 \begin{enumerate}
 \item \textbf{imagen_yolov3.py}: script encargado de detección de señales en una imagen individual.
 \item \textbf{video_yolov3.py}: script encargado de detección de señales en un video.
 \item \textbf{camara_yolov3.py}: script encargado de detección de señales a través de la cámara frontal o webcam del ordenador.
 \item \textbf{artemis_autonomous_car.py}: script encargado de la conducción autónoma del coche.
-\item \textbf{trainingCNN_byClasses.py}:script encargado de entrenar cada una de las CNN que utiliza el algoritmo de detección. Genera cuatro ficheros model.h5 que contienen la estructura y los pesos aprendidos tras el proceso de entrenamiento.
-\item \textbf{cocheRealtimeDemo.py}:script encargado de manejar el vehículo de forma manual, en el cual hará detección de clases específicas de señales de tráfico y tomará decisiones en función de cada una de ellas. Este script está preparado para hacer unas operaciones concretas para realizar una demo en la presentación del trabajo. Se podría modificar para hacer lo que uno desee en función de cada señal.
+\item \textbf{trainingCNN_byClasses.py}: script encargado de entrenar cada una de las CNN que utiliza el algoritmo de detección. Genera cuatro ficheros model.h5 que contienen la estructura y los pesos aprendidos tras el proceso de entrenamiento.
+\item \textbf{cocheRealtimeDemo.py}: script encargado de manejar el vehículo de forma manual, encargado de la detección de clases específicas de señales de tráfico y tomará decisiones en función de cada una de ellas. Este script está preparado para hacer unas operaciones concretas para realizar una demo durante la presentación del trabajo. Se podría modificar para hacer lo que uno desee en función de cada señal.
 \end{enumerate}
 
 Por la propia estructura de YOLOV3, todos los scripts encargados de la detección de señales se nutren de tres ficheros básicos, los que se encuentran dentro de la carpeta \textbf{yolo_data}:
 \begin{itemize}
 \item \textbf{imagen_yolov3.py}: fichero que contiene todas las clases de señales con las que ha sido entrenado el modelo y que va a ser capaz de detectar.
 \item \textbf{yolov3_ts_test.cfg}: fichero que contiene la configuración de \textbf{YOLO}.
-\item \textbf{yolov3_ts.weights}: fichero que contiene los pesos obtenidos como resultado del entrenamiento del modelo.
+\item \textbf{yolov3_ts.weights}: fichero que contiene los pesos obtenidos como resultado del entrenamiento del modelo.\\
+\end{itemize}
+
+Además, en dicho directorio nos encontramos con otros ficheros esenciales:
+
+\begin{itemize}
 \item Directorio \textbf{models}: directorio que contiene los ficheros en formato h5 con la estructura de entrenamiento de la CNN para las clases obligación, prohibición, peligro y otros.
 \item \textbf{classes.txt}: diversos ficheros en formato txt contienen la descomposición específica de cada grupo de señales.
 \end{itemize}
 
-A modo de manual, se puede comenzar poniendo en marcha los scripts encargados de utilizar únicamente YOLO, es decir, ejecución de \textbf{OnlyYolo}. En el script \textbf{imagen_yolov3.py} deberemos modificar la variable \textit{imageName} con el nombre de la imagen en formato JPG, que ha de encontrarse dentro del directorio destinado a las imágenes \textit{images}. Con el siguiente comando podemos visualizar un ejemplo, figura \ref{detecc1} 
+A modo de manual, se puede comenzar poniendo en marcha los scripts encargados de ejecutar únicamente YOLO, es decir, ejecución de \textbf{OnlyYolo}. En el script \textbf{imagen_yolov3.py} deberemos modificar la variable \textit{imageName} con el nombre de la imagen en formato JPG, que ha de encontrarse dentro del directorio destinado a las imágenes \textit{images}. Con el siguiente comando podemos visualizar un ejemplo, figura \ref{detecc1} 
 
 \begin{lstlisting}
 python3 imagen_yolov3.py
@@ -67,9 +72,9 @@ python3 camara_yolov3.py
 	\label{detecc3}
 \end{figure}
 
-Puede ser de utilidad poder procesar muchas imágenes de manera conjunta, por ejemplo, si quisiéramos medir el rendimiento de la red. Para ello, disponemos de dos scripts que funcionan de manera conjunta, estos son \textbf{automatic_imagen_yolov3.py} y \textbf{automatizacion_imagenes.py}. 
+Puede ser de utilidad procesar muchas imágenes de manera conjunta, por ejemplo, si quisiéramos medir el rendimiento de la red. Para ello, disponemos de dos scripts que funcionan de manera conjunta, estos son \textbf{automatic_imagen_yolov3.py} y \textbf{automatizacion_imagenes.py}.\\
 
-El script que deberemos ejecutar es \textbf{automatizacion_imagenes.py}, el cual leerá cuáles son las imágenes que se encuentran en el directorio especificado en la variable \textit{directorioAutomatic} y ejecutará individualmente \textbf{automatic_imagen_yolov3.py} con el nombre de cada imagen como parámetro de entrada.
+El script que deberemos ejecutar es \textbf{automatizacion_imagenes.py}, el cual leerá cuáles son las imágenes que se encuentran en el directorio especificado en la variable \textit{directorioAutomatic} y ejecutará individualmente \textbf{automatic_imagen_yolov3.py} con el nombre de cada imagen como parámetro de entrada.\\
 
 Dado que nosotros hemos utilizado dichos scripts para hacernos más sencilla la tarea de medición de rendimiento de la red, tendremos la posibilidad de crear un fichero \textbf{nombre_imagen.txt} por cada imagen, que contendrá las coordenadas del cuadro delimitador del objeto detectado y la precisión obtenida. Mediante la variable que se encuentra al comiendo del fichero \textbf{automatic_imagen_yolov3.py} llamada \textit{medirRendimientoRed} podremos controlar dos modos de operación:
 
@@ -112,7 +117,7 @@ Y un ejemplo sobre la cámara frontal del ordenador en el que se muestra la dete
 	\label{yolocamara}
 \end{figure}
 
-El script encargado de entrenar las cuatro CNNs que utilizamos en nuestro esquema de inteligencia artificial es \textbf{trainingCNN_byClasses.py}. Mediante un dataset estructurado por grupos y preparado con numerosas imágenes de cada una de las señales de tráfico de juguete con las que contamos en el laboratorio, podremos entrenar las CNNs. Obtendremos los mencionados ficheros model.h5 que se utilizan en el almacenamiento de modelos de aprendizaje automático con la biblioteca Keras de Tensorflow. Asimismo, podremos visualizar las matrices de confusión resultado de cada uno de los entrenamientos, tal y como podemos observar en la siguiente imagen \ref{matriz}:
+El script encargado de entrenar las cuatro CNNs que utilizamos en nuestro esquema de inteligencia artificial es \textbf{trainingCNN_byClasses.py}. Mediante un dataset estructurado por grupos y preparado con numerosas imágenes de cada una de las señales de tráfico de juguete con las que contamos en el laboratorio, podremos entrenar las CNNs. Obtendremos los mencionados ficheros model.h5, que se utilizan en almacenamiento de modelos de aprendizaje automático hechos a través la biblioteca Keras de Tensorflow. Asimismo, podremos visualizar las matrices de confusión resultado de cada uno de los entrenamientos, tal y como podemos observar en la siguiente imagen \ref{matriz}:
 
 \begin{figure}[H]
 	\centering

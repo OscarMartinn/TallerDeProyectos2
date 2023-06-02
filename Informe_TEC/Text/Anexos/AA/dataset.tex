@@ -1,4 +1,4 @@
-Debido a la tarea de creación de datasets es muy tedioso, sobre todo por la tarea de etiquetado, aparte de buscar en Internet datasets realizados por terceros, podemos utilizar una herramienta que nos permite moldear uno a nuestro gusto. Esta herramienta se llama \textbf{OIDv4_ToolKit} \url{https://github.com/EscVM/OIDv4_ToolKit.git} y se encuentra en la cuarta carpeta \textit{4_Crear_Dataset}.\\
+Debido a que la tarea de creación de datasets es muy tediosa, sobre todo por la tarea de etiquetado, aparte de buscar en Internet datasets realizados por terceros, podemos utilizar una herramienta que nos permite moldear uno a nuestro gusto. Esta herramienta se llama \textbf{OIDv4_ToolKit} \url{https://github.com/EscVM/OIDv4_ToolKit.git} y se encuentra en la cuarta carpeta \textit{4_Crear_Dataset}.\\
 
 En el propio \textit{README.md} de la herramienta se nos explica su funcionamiento, si por ejemplo quisiéramos descargar un dataset que estuviera formado por 8 imágenes de coches y autobuses podríamos hacer:
 
@@ -25,4 +25,4 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 print(current_dir)
 \end{lstlisting}
 
-Tras ejecutar el \textit{script} podremos observar como en el directorio en el que se encuentran las imágenes se han creado cada uno de los ficheros TXT con el mismo nombre con la información de etiquetado \textbf{YOLO}. Podríamos comprobar además si se ha realizado con éxito la transformación abriendo dicho directorio con la herramienta de etiquetado \textbf{LabelImg}.
+Tras ejecutar el \textit{script} podremos observar como en el directorio en el que se encuentran las imágenes, se han creado cada uno de los ficheros TXT con el mismo nombre con la información de etiquetado \textbf{YOLO}. Podríamos comprobar además si se ha realizado con éxito la transformación abriendo dicho directorio con la herramienta de etiquetado \textbf{LabelImg}.

@@ -1,7 +1,6 @@
-Para el proceso de creación de la red 4G, se usó el \textit{software} srsRAN, una implementación de código abierto de una red de acceso radio (RAN) que utiliza \textit{hardware} SDR. En nuestro caso, se ha utilizado una BladeRF 2.0 micro xA9 de Nuand con dos canales rx y tx MIMO.
+Para el proceso de creación de la red 4G, se usó el \textit{software} srsRAN, una implementación de código abierto de una red de acceso radio (RAN) que utiliza \textit{hardware} SDR. En nuestro caso, se ha utilizado una BladeRF 2.0 micro xA9 de Nuand con dos canales rx y tx MIMO.\\
 
 Para ello, se siguieron los siguientes pasos:
-
 
 \begin{enumerate}
 \item Descarga de la última versión de \textbf{Ubuntu}, \textbf{22.04 LTS}.
@@ -47,7 +46,7 @@ srsran_4g_install_configs.sh user
 	\item user_db.csv: que contiene una base de datos de usuarios en formato tabular.
 \end{itemize}
 
-En el archivo \textbf{enb.conf} se cambiaron los valores de \textbf{MCC} y \textbf{MNC} que están disponibles en las hojas de datos de las SIMs (y en la propia tarjeta SIM), y se establecieron sus valores correspondientes (\textbf{901-70}) para que correspondan con el IMSI. También se modificó el valor de la frecuencia central. cambiando el valor de \textbf{dl_earfcn}, para ello se utilizó \cite{earn}, estableciéndolo este valor 3050, lo que corresponde a un valor de frecuencia central \textit{downlink} de 2650.  Por último, se estableció el ancho de banda en 5MHz cambiando el valor de \textbf{n_prb} a \textbf{25}. Para mejorar el alcance de la red, se aumentó la ganancia de transmisor, cambiando el valor de \textbf{tx_gain} a 90.
+En el archivo \textbf{enb.conf} se cambiaron los valores de \textbf{MCC} y \textbf{MNC} que están disponibles en las hojas de datos de las SIMs (y en la propia tarjeta SIM), y se establecieron sus valores correspondientes (\textbf{901-70}) para que correspondan con el IMSI. También se modificó el valor de la frecuencia central, cambiando el valor de \textbf{dl_earfcn}. Para ello se utilizó \cite{earn}, estableciéndolo este valor 3050, lo que corresponde a un valor de frecuencia central \textit{downlink} de 2650.  Por último, se estableció el ancho de banda en 5MHz cambiando el valor de \textbf{n_prb} a \textbf{25}. Para mejorar el alcance de la red, se aumentó la ganancia de transmisor, cambiando el valor de \textbf{tx_gain} a 90.
 
 En el archivo \textbf{epc.conf} se modificaron los valores de \textbf{MCC} y \textbf{MNC} (igual que en el caso anterior) y se añadieron los nombres de la red con:
 \begin{lstlisting}
@@ -64,7 +63,7 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
     7 (QCI), dynamic (IP_alloc)
 \end{lstlisting}
 
-\item Ahora que tenemos conectividad entre el enb y el epc, necesitamos que estos la tengan para el exterior, por lo que necesitamos configurar el ordenador (que ejecuta el núcleo) para que reencamine los paquetes a través de la interfaz de red. Para eso ejecutamos el siguiente comando.
+\item Ahora que tenemos conectividad entre el \textbf{ENB} y el \textbf{EPC}, necesitamos que estos la tengan hacia el exterior, por lo que necesitamos configurar el ordenador (que ejecuta el núcleo) para que reencamine los paquetes a través de la interfaz de red. Para eso ejecutamos el siguiente comando.
 
 \begin{lstlisting}
     srepc_if_masq.sh enp0s25
@@ -76,7 +75,7 @@ En el archivo \textbf{user_db.csv} se creó un usuario nuevo con la siguiente in
     srsenb enb.conf
 \end{lstlisting}
 
-\item Una vez obtenida la conexión a internet con la red 4G, nos bajamos los ficheros \textit{python} de control del coche para crear el servidor \textit{cloud} e instalamos el servidor \textbf{MQTT Mosquitto}, diseñado para facilitar la comunicación entre dispositivos (en nuestro caso la SDR y el coche) itercambiando mensajes MQTT. Este servidor facilita la integración del proyecto, facilitando el monitoreo y control remoto del coche durante su funcionamiento.
+\item Una vez obtenida la conexión a internet con la red 4G, nos descargamos los ficheros \textit{python} de control del coche para crear el servidor \textit{cloud} e instalamos el servidor \textbf{MQTT Mosquitto}, diseñado para facilitar la comunicación entre dispositivos (en nuestro caso la SDR y el coche) itercambiando mensajes \textbf{MQTT}. Este servidor facilita la integración del proyecto, facilitando el monitoreo y control remoto del coche durante su funcionamiento.
 Para su instalación en el ordenador (que actuará como servidor), se ejecutan los siguientes comandos:
 
 \begin{lstlisting}
@@ -101,7 +100,7 @@ Para su instalación en el ordenador (que actuará como servidor), se ejecutan l
 	sudo systemctl restart mosquitto
 \end{lstlisting}
 
-\item Para instalar el servicio en el móvil (que actuará como cliente) usamos la aplicación MyMQTT. Para comprobar el tránsito de mensajes que el coche envía nos suscribimos a los tópicos básicos que se especifican en el manual de usuario del coche. Para ello, habrá que poner el ID del vehículo y el tópico al que nos queramos suscribir (Ver figura \ref{fig:mosq1}). Si la comunicación es exitosa, se debería observar algo similar a la imagen \ref{fig:mosq3}:
+\item Para instalar el servicio en el móvil (que actuará como cliente) usamos la aplicación MyMQTT. Para comprobar el tránsito de mensajes que el coche envía, nos suscribimos a los tópicos básicos que se especifican en el manual de usuario del coche. Para ello, habrá que poner el ID del vehículo y el tópico al que nos queramos suscribir (Ver figura \ref{fig:mosq1}). Si la comunicación es exitosa, se debería observar algo similar a la imagen \ref{fig:mosq3}:
 
  \begin{figure}[H]
     \centering
